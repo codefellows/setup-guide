@@ -25,3 +25,6 @@ git version 2.22.0
 [True](git-config.md)
 
 [False](../../error/error.md)
+
+---
+### [⇐ Previous](../vs-code/open-vscode.md)

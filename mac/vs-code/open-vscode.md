@@ -2,11 +2,11 @@
 
 Open VS Code application
 
-At top left in Code menu > find View > Command Palette > search 'shell command' > click on `Shell Command: Install 'code' command in PATH`
+In menu bar> find View > Command Palette > search `shell command` > click on `Shell Command: Install 'code' command in PATH`
 
-Close VS Code and your terminal.
+**Close** VS Code and your terminal.
 
-Open new terminal and **run:**
+**Open** new terminal and **run:**
 
  `code`
 
@@ -14,7 +14,7 @@ Did this open a new instance of VS Code?
 
 [Yes](../git/install-git.md)
 
-[No]()
+[No](../../error/error.md)
 
 ---
 ### [⇐ Previous](../vs-code/install.md)
