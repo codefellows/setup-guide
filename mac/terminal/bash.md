@@ -1,4 +1,4 @@
-# Homebrew
+#  Check Homebrew
 
 Run:
 
@@ -21,7 +21,7 @@ Your system is ready to brew
 -bash: brew: command not found
 ```
  
- **then** [Click here to install Homebrew](../homebrew/no-homebrew.md)
+ **then** [click here to install Homebrew](../homebrew/homebrew.md)
 
 ---
 ### [⇐ Previous](setup.md)
