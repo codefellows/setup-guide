@@ -10,8 +10,12 @@ This setup should be done in a single session.  Please allow up to an hour or mo
 
 Go to apple icon in top left > system preferences > click on General > Look for Default web browser > select Google Chrome 
 
-## Notes
+### Note: To **run** a command means to type a `command` in the terminal and press the **enter** key.
 
-To **run** a command means to type a `command` in the terminal and press the **enter** key.
+## Select your operating system:
 
-## [Click Here to Start](terminal/01_start.md)
+[MacOS](mac/terminal/setup.md)
+
+[Windows 10](windows/terminal/setup.md)
+
+[Ubuntu Linux](ubuntu_linux/terminal/setup.md)

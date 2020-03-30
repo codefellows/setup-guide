@@ -2,7 +2,9 @@
 
 Open your terminal by pressing **command  + space-bar** > type **terminal** > click **Terminal** 
 
-Run `echo $0`
+Run:
+
+ `echo $0`
 
 What was the result?
 
@@ -11,4 +13,4 @@ What was the result?
 [None of above](preferences.md)
 
 ---
-### [⇐ Previous](../README.md)
+### [⇐ Previous](../../README.md)
