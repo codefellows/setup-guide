@@ -12,7 +12,7 @@ Go to apple icon in top left > system preferences > click on General > Look for 
 
 ### Note: To **run** a command means to type a `command` in the terminal and press the **enter** key.
 
-## Select your operating system:
+## Select your operating system to get started:
 
 [MacOS](mac/terminal/setup.md)
 

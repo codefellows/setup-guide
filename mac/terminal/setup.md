@@ -1,14 +1,20 @@
 # Set up the Terminal 
 
-Open your terminal by pressing **command  + space-bar** > type **terminal** > click **Terminal** 
+Open your terminal by simultaneously pressing **command** + **space-bar** > type **terminal** > click **Terminal** 
 
-Run:
+A terminal window should open:
+
+<!-- Add image maybe? -->
+
+Disregard any messages and **run:**
 
  `echo $0`
 
-What was the result?
+Click the resulting output.
 
-[-bash](bash.md) or [-zsh](zsh.md)
+[-bash](bash.md) 
+
+[-zsh](zsh.md)
 
 [None of above](preferences.md)
 
