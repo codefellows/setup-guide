@@ -1,0 +1,11 @@
+# Homebrew
+
+Run command   `brew doctor`
+
+**If** output is `Your system is ready to brew`
+
+- then run `brew update` then [continue to next step](../tree/tree.md)
+
+**Else** output is `-bash: brew: command not found`
+
+- then [click here to install Homebrew](../homebrew/no-homebrew.md)
