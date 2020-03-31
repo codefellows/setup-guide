@@ -62,7 +62,7 @@ function parse_git_dirty {
 export PS1="\[\e[31m\]\u\[\e[m\]\[\e[35m\]\w\[\e[m\]\[\e[33m\]\`parse_git_branch\`\[\e[m\]\[\e[32m\]\\$\[\e[m\] "
 export BASH_SILENCE_DEPRECATION_WARNING=1
 
-echo "Welcome `whoami`. Time to become a badass developer! Self-defeat is not an option. Small wins, everyday!"
+echo "Welcome `whoami`. Time to become a bad-ass developer! Self-defeat is not an option. Small wins, everyday!"
 
 alias profile="nano ~/.bash_profile"
 
@@ -108,16 +108,16 @@ verify(){
 
 **Hit** `return` to exit Nano editor.
 
-Now close the terminal and open a new terminal window for changes to take effect. 
+### **Now close the terminal and open a new terminal window for changes to take effect.** 
 
 Do you have a new colored prompt that looks similar to:
 
 ```
 YourMacUsername~$ 
 ```
-[True]()
+[True](../vs-code/extensions.md)
 
-[False]()
+[False](../../error/error.md)
 
 ---
 ### [⇐ Previous](../git/git-config.md)
