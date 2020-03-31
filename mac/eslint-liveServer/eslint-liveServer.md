@@ -4,21 +4,34 @@ Run:
 
 `npm -g i eslint git-open live-server`
 
-You should a lot of feedback as it installs.
+You should see a lot of feedback as it installs.
 
-After it has completed run:
+After it has completed,  **run:**
 
 `eslint --version`
 
+Expected output:
+
+```
+v6.7.2
+```
+
+**run:**
+
 `live-server --version`
 
-You should see something similar:
+Expected output:
 
+```
+live-server 1.2.1
+```
 
-[True]()
+Did you receive both expected outputs?
 
-[False]()
+[Yes](../git/install-git.md)
+
+[No](../../error/error.md)
 
 ---
 
-### [⇐ Previous](../README.md)
+### [⇐ Previous](../eslint-liveServer/eslint-liveServer.md)

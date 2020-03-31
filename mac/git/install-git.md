@@ -12,19 +12,24 @@ Choose an option below,  download and install git according to your version of O
 
 [Click here for 10.9 - Mavericks](http://sourceforge.net/projects/git-osx-installer/files/git-2.5.3-intel-universal-mavericks.dmg/download)
 
-**If** 10.10 or higher - Yosemite, Catalina run `brew install git`
+**If** version 10.10 or higher - Yosemite or Catalina **run:**
 
-After installation is complete run `git --version`
+`brew install git`
 
-The return output should look similar to:
+After installation for your version is complete **run:**
+
+`git --version`
+
+You might have a different version, but expected output should be similar to:
 
 ```
 git version 2.22.0
 ```
+Did you get the expected output?
 
-[True](git-config.md)
+[Yes](git-config.md)
 
-[False](../../error/error.md)
+[No](../../error/error.md)
 
 ---
-### [⇐ Previous](../vs-code/open-vscode.md)
+### [⇐ Previous](../eslint-liveServer/eslint-liveServer.md)

@@ -2,9 +2,7 @@
 
 Open your terminal by simultaneously pressing **command** + **space-bar** > type **terminal** > click **Terminal** 
 
-A terminal window should open:
-
-<!-- Add image maybe? -->
+A terminal window will open.
 
 Disregard any messages and **run:**
 
