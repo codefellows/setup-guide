@@ -1,10 +1,12 @@
 # Git Prompt Setup
 
-Run `nano ~/.bash_profile`
+**Run:**
+
+`nano ~/.bash_profile`
 
 Your Nano editor will open.
 
-Copy and paste the following code into the editor, **underneath any existing code in this file.**
+Copy and paste the following code into the editor, **underneath any existing code in this file:**
 
 ```
 #!/usr/bin/env bash
@@ -58,13 +60,53 @@ function parse_git_dirty {
 
 # PS1 is what actually defines what you command line prompt looks like.
 export PS1="\[\e[31m\]\u\[\e[m\]\[\e[35m\]\w\[\e[m\]\[\e[33m\]\`parse_git_branch\`\[\e[m\]\[\e[32m\]\\$\[\e[m\] "
+export BASH_SILENCE_DEPRECATION_WARNING=1
+
+echo "Welcome `whoami`. Time to become a badass developer! Self-defeat is not an option. Small wins, everyday!"
+
+alias profile="nano ~/.bash_profile"
+
+verify(){
+  echo ""
+  echo "HOMEBREW ➠  `which brew`"
+  echo ""
+  echo "GIT ➠  `git --version`"
+  echo ""
+  echo "TREE ➠  `tree --version`"
+  echo ""
+  echo "CODE ➠  `code --version`"
+  echo ""
+  echo "Live Server ➠  `live-server --version`"
+  echo ""
+  echo "JSON Server ➠  `json-server --version`"
+  echo ""
+  echo "NODE ➠  `node --version`"
+  echo ""
+  echo "NPM ➠  `npm --version`"
+  echo ""
+  echo "HEROKU ➠  `heroku --version`"
+  echo ""
+  echo "PSQL ➠  `psql --version`"
+  echo ""
+  echo "MONGO ➠  `mongo --version`"
+  echo ""
+  echo "PROMPT ➠  `echo $PS1`"
+  echo ""
+  echo " ▼ GITCONFIG ▼ "
+  echo ""
+  echo "`cat ~/.gitconfig`"
+  echo ""
+  echo "VSCode Extensions:"
+  echo ""
+  echo "`code --list-extensions`"
+}
 ```
 
-Next press `control X` to save.
+**Next** press `control X` to save.
 
-Type `y` to verify changes.
+**Then** Type `y` to verify changes.
 
-Hit `return` to exit Nano editor.
+**Hit** `return` to exit Nano editor.
 
 Now close the terminal and open a new terminal window for changes to take effect. 
 
@@ -78,4 +120,4 @@ YourMacUsername~$
 [False]()
 
 ---
-### [⇐ Previous](../README.md)
+### [⇐ Previous](../git/git-config.md)

@@ -1,6 +1,6 @@
 # Install ESLint and Live-Server
 
-Run:
+**Run:**
 
 `npm -g i eslint git-open live-server`
 
@@ -34,4 +34,4 @@ Did you receive both expected outputs?
 
 ---
 
-### [⇐ Previous](../eslint-liveServer/eslint-liveServer.md)
+### [⇐ Previous](../node/node.md)

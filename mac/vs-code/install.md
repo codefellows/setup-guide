@@ -18,6 +18,8 @@ To fix this:
 
 Go to Apple menu > System Preferences > Security & Privacy > General >  choose Open Anyway.
 
+VS Code should now open.
+
 **Next run:**
 
 `code --version`
@@ -37,7 +39,7 @@ x64
 **Else**  return output is:
 
 ```
--bash: brew: command not found
+-bash: code: command not found
 ```
 
 **or** anything weird **then** [click here](../../error/error.md)

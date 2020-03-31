@@ -32,4 +32,4 @@ You should see something similar:
 [False](../../error/error.md)
 
 ---
-### [⇐ Previous]()
+### [⇐ Previous](../git/install-git.md)

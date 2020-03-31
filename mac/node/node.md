@@ -33,4 +33,4 @@ v10.16.0
 [False](../../error/error.md)
 
 ---
-### [⇐ Previous](../vs-code/check-vscode.md)
+### [⇐ Previous](../vs-code/open-vscode.md)

@@ -12,7 +12,7 @@ fe22a9645b44368865c0ba92e2fb881ff1afce94
 x64
 ```
 
-**then** [continue to next step](../node/node.md).
+**then** [continue to next step](../vs-code/open-vscode.md).
 
 ---
 

@@ -12,9 +12,9 @@ In menu bar> find View > Command Palette > search `shell command` > click on `Sh
 
 Did this open a new instance of VS Code?
 
-[Yes](../git/install-git.md)
+[Yes](../node/node.md)
 
 [No](../../error/error.md)
 
 ---
-### [⇐ Previous](../vs-code/install.md)
+### [⇐ Previous](../vs-code/check-vscode.md)
