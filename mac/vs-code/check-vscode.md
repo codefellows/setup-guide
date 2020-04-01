@@ -22,7 +22,7 @@ x64
 -bash: code: command not found
 ```
 
-Click here to download [VS Code for Mac](install.md) .zip file 
+Click here to continue to [VS Code for Mac](install.md)  
 
 ---
 ### [⇐ Previous](../tree/tree.md)

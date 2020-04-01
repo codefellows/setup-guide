@@ -49,6 +49,8 @@ tht13.html-preview-vscode
 yzhang.markdown-all-in-one
 ```
 
+---
+
 **If** you recieve an error message, something weird,  or `command not found` , then [CLICK HERE](../../error/error.md)
 
 Otherwise... CONGRATULATIONS!!  You are done with the setup process.

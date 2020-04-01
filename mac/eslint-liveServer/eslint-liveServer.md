@@ -10,7 +10,7 @@ After it has completed,  **run:**
 
 `eslint --version`
 
-Expected output:
+You should see something similar:
 
 ```
 v6.7.2
@@ -20,13 +20,15 @@ v6.7.2
 
 `live-server --version`
 
-Expected output:
+You should see something similar:
 
 ```
 live-server 1.2.1
 ```
 
-Did you receive both expected outputs?
+---
+
+Did you get similar output for both?
 
 [Yes](../git/install-git.md)
 

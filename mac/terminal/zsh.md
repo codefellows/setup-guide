@@ -10,11 +10,11 @@ You will be prompted to enter your mac password.
 
  Type slowly and make sure it is correct, then hit `enter` key.
 
-**If** there is **no output** returned then close and reopen a new terminal.
+**If** there is **no output** returned, then close and reopen a new terminal.
 
 ---
 
-NOTE:  You will see a message `default interactive shell is now zsh`.  This will go away after setup is complete.
+NOTE:  You will see a message: `default interactive shell is now zsh`.  This will go away after setup is complete.
 
 Disregard any messages and **run:**
 

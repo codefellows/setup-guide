@@ -108,9 +108,12 @@ Do you have a new colored prompt that looks similar to:
 ```
 YourMacUsername~$ 
 ```
-[True](../vs-code/extensions.md)
 
-[False](../../error/error.md)
+---
+
+[Yes](../vs-code/extensions.md)
+
+[No](../../error/error.md)
 
 ---
 ### [⇐ Previous](../git/git-config.md)
