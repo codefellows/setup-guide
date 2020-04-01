@@ -23,9 +23,11 @@ NOTE: Some extensions may require you to reload VSCode.
 - markdownlint 0.34.0
 - Markdown All in One 2.7.0
 
+---
+
 ## [Continue to Final Verification](../test/test.md)
 
-[Click here if you are stuck](../../error/error.md)
+[Click here if you are stuck.](../../error/error.md)
 
 ---
 ### [⇐ Previous](../git/git-prompt.md)

@@ -31,6 +31,9 @@ You should see something similar:
 	name = yourUserName
 	email = yourEmail@mail.com
 ```
+
+---
+
 [True](git-prompt.md)
 
 [False](../../error/error.md)

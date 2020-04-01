@@ -38,9 +38,13 @@ You should see something similar:
 6.9.0
 ```
 
-[True](../eslint-liveServer/eslint-liveServer.md)
+---
 
-[False](../../error/error.md)
+Did you get similar output for both?
+
+[Yes](../eslint-liveServer/eslint-liveServer.md)
+
+[No](../../error/error.md)
 
 ---
 ### [⇐ Previous](../vs-code/open-vscode.md)

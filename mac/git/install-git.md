@@ -25,6 +25,9 @@ You might have a different version, but expected output should be similar to:
 ```
 git version 2.22.0
 ```
+
+---
+
 Did you get the expected output?
 
 [Yes](git-config.md)

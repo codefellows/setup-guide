@@ -1,26 +1,32 @@
 # ZSH
 
-type this into your terminal 
+**Run:**
 
- `chsh -s /bin/zsh`
+ `chsh -s /bin/bash`
 
- hit `return` key.
-
- Enter your password for your mac if prompted.
+You will be prompted to enter your mac password.
 
  NOTE: Your terminal will not show you what you are typing.  
+
  Type slowly and make sure it is correct, then hit `enter` key.
 
- if there is no output good go here restart.md
+**If** there is **no output** returned, then close and reopen a new terminal.
 
- if 
- 
- `credentials could not be verified`
+---
 
- try again with correct password 
+NOTE:  You will see a message: `default interactive shell is now zsh`.  This will go away after setup is complete.
 
- if weird error go to preferences.md
- 
- OR
+Disregard any messages and **run:**
 
- go here  preferences.md
+ `echo $0`
+
+**Click** the resulting output.
+
+[-bash](bash.md) 
+
+[-zsh](preferences.md)
+
+[None of above](preferences.md)
+
+---
+### [⇐ Previous](setup.md)
