@@ -8,7 +8,7 @@ Disregard any messages and **run:**
 
  `echo $0`
 
-Click the resulting output.
+**Click** the resulting output.
 
 [-bash](bash.md) 
 
