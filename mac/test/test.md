@@ -51,7 +51,7 @@ yzhang.markdown-all-in-one
 
 **If** you recieve an error message, something weird,  or `command not found` , then [CLICK HERE](../../error/error.md)
 
-[False](../../error/error.md)
+Otherwise... CONGRATULATIONS!!  You are done with the setup process.
 
 ---
 ### [⇐ Previous](../vs-code/extensions.md) |  [Return to Start ⇒](../../README.md)
