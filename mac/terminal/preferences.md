@@ -20,9 +20,13 @@ Expected output should be:
 /bin/bash
 ```
 
-[True](../terminal/bash.md)
+---
 
-[False](../../error/error.md)
+Did you get the expected output?
+
+[Yes](../terminal/bash.md)
+
+[No](../../error/error.md)
 
 ---
 ### [⇐ Previous](setup.md)
