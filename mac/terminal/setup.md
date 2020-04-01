@@ -1,4 +1,4 @@
-# Set up the Terminal 
+# Set Up the Terminal 
 
 Open your terminal by simultaneously pressing **command** + **space-bar** > type **terminal** > click **Terminal** 
 
