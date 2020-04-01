@@ -1,6 +1,6 @@
 # Git Config
 
-Make sure you have your Github username and password.
+## Make sure you have your Github username and password.
 
 <img src="../images/github-example.png" width="500" height="500">
 

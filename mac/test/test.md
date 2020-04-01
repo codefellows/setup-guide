@@ -4,8 +4,9 @@
 
 `verify`
 
+This will verify that each step has been set up correctly. 
 
-This will verify that each step has been set up correctly.  
+Expected output should look similar to this:
 
 ```
 yourMacUserName~$ verify
@@ -22,9 +23,9 @@ NODE ➠  v10.16.0
 
 NPM ➠  6.9.0
 
-ESLint ➠  v6.7.2
+ESLINT ➠  v6.7.2
 
-Live Server ➠  live-server 1.2.1
+LIVE SERVER ➠  live-server 1.2.1
 
 GIT ➠  git version 2.22.0
 
@@ -36,7 +37,7 @@ GIT ➠  git version 2.22.0
 	name = githubUserName
 	email = yourEmail@gmail.com
 
-VSCode Extensions:
+VSCODE EXTENSIONS:
 
 DavidAnson.vscode-markdownlint
 dbaeumer.vscode-eslint
@@ -48,9 +49,9 @@ tht13.html-preview-vscode
 yzhang.markdown-all-in-one
 ```
 
-[True](../test/test.md)
+**If** you recieve an error message, something weird,  or `command not found` , then [CLICK HERE](../../error/error.md)
 
 [False](../../error/error.md)
 
 ---
-### [⇐ Previous](../vs-code/extensions.md)
+### [⇐ Previous](../vs-code/extensions.md) |  [Return to Start ⇒](../../README.md)

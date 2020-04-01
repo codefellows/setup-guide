@@ -1,10 +1,10 @@
 # Install Git
 
-Go to top left Apple menu > About This Mac
+Go to top left Apple menu > **select** About This Mac
 
 In the Overview tab you should see a Version number.
 
-Choose an option below,  download and install git according to your version of OS X.
+Choose an option below,  **download and install** git according to your version of OS X.
 
 **NOTE:** You may need to change your install permissions to be able to install Git. The installer will prompt you to do so if necessary.
 
@@ -16,7 +16,7 @@ Choose an option below,  download and install git according to your version of O
 
 `brew install git`
 
-After installation for your version is complete **run:**
+**After** installation for your version is complete **run:**
 
 `git --version`
 

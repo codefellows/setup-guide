@@ -1,4 +1,4 @@
-# Install Nodejs & NPM
+# Install Node & NPM
 
 **Run:**
 
