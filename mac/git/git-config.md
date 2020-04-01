@@ -22,7 +22,7 @@ git config --global core.editor 'code --wait'
 
 `cat ~/.gitconfig`
 
-You should see something similar:
+Expected output:
 
 ```
 [core]
@@ -34,9 +34,11 @@ You should see something similar:
 
 ---
 
-[True](git-prompt.md)
+Did you get the expected output?
 
-[False](../../error/error.md)
+[Yes](git-prompt.md)
+
+[No](../../error/error.md)
 
 ---
 ### [⇐ Previous](../git/install-git.md)
