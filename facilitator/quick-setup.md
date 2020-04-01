@@ -1,22 +1,24 @@
-# Quick Setup
+# Quick Setup for Mac Users
 
-mac
+## Terminal
 
 open terminal
 Preferences > General > bin/bash > default 
 settings > Pro > defualt
 > close and restart
 
-# Homebrew
+## Homebrew
 which brew ? 
 
  > ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/install/master/install)"
 
  > brew update
  > brew doctor
- > brew install tree. ***TREE***
 
-#Vs code 
+## Tree
+ > brew install tree. 
+
+## Vs code 
 https://code.visualstudio.com/download
 
 Download the .zip file.
@@ -24,15 +26,16 @@ Double-click the .zip file (or click the downloaded file at the bottom of Chrome
 Drag the shiny VS Code app into your Applications folder.
 Open the app. (If you opened the app before it was in your Applications folder, you’ll need to reinstall.)
 
+### Setup 
 Open VSCode > Command Palette (⇧⌘P) > ‘shell command’ > click on the Shell Command: Install ‘code’ command in PATH command. > Restart 
 
-#Node
+## Node & NPM
  > brew install node  > sudo maybe ?
 
-#eslint / Live server
+## ESLint & Live Server
  > npm -g i eslint git-open live-server
 
-#git
+## Git
 apple menu > about > version to see build
 
 If you are running:
@@ -46,7 +49,7 @@ If you are running:
 10.10 Yosemite or higher:
  > brew install git.
 
-#Git config
+### GitConfig
  > git config --global user.name 'YOUR Github user name'
  > git config --global user.email 'YOUR EMAIL in github'
 
@@ -54,10 +57,12 @@ If you are running:
 
  > git config --global credential.helper store
 
-#Prompt
+## Prompt
  > nano ~/.bash_profile
 
 >>>>>>> Copy >>>>>>>
+
+```
 
 #!/usr/bin/env bash
 
@@ -111,13 +116,12 @@ function parse_git_dirty {
 # PS1 is what actually defines what you command line prompt looks like.
 export PS1="\[\e[31m\]\u\[\e[m\]\[\e[35m\]\w\[\e[m\]\[\e[33m\]\`parse_git_branch\`\[\e[m\]\[\e[32m\]\\$\[\e[m\] "
 
-
+```
 >>>>>>>>>>>>>>>>>>>>
 
 Control X > y > hit enter > restart terminal
 
- > pwd
-Users/username
+ ## Extensions
 
  > mkdir codefellows
  > cd codefellows
@@ -125,7 +129,7 @@ Users/username
  > cd projects
  > code .
 
-#extensions
+
 live server 5.6.1
 ESLint 2.0.13
 HTML Snippets 0.2.1
@@ -134,7 +138,7 @@ Debugger for Chrome
 
 close vs code
 
-#verification
+## Verification
 
 code --version
 git --version
@@ -147,7 +151,7 @@ cat ~/.gitconfig
 code .
 
 
-testing
+# Testing
 
 alias profile="nano ~/.bash_profile"
 
