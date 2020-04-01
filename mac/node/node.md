@@ -1,4 +1,4 @@
-# Install Nodejs
+# Install Nodejs & NPM
 
 **Run:**
 
@@ -26,6 +26,16 @@ You should see something similar:
 
 ```
 v10.16.0
+```
+
+**Run:**
+
+`npm --version`
+
+You should see something similar:
+
+```
+6.9.0
 ```
 
 [True](../eslint-liveServer/eslint-liveServer.md)

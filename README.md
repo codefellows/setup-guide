@@ -4,6 +4,8 @@ Computer setup instructions for students starting classes at Code Fellows.
 
 This setup should be done in a single session.  Please allow up to an hour or more to complete.
 
+You do not need to understand what this process is doing. This is a vital step that will allow you to use technologies required throughout the Code Fellows curriculum.
+
 ## Download and Install [Chrome for mac](https://www.google.com/chrome/).
 
 ### Set Chrome as default browser.
