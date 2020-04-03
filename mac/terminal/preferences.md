@@ -24,9 +24,9 @@ Expected output should be:
 
 Did you get the expected output?
 
-[Yes](../terminal/bash.md)
+[Yes](../git/git-prompt.md)
 
 [No](../../error/error.md)
 
 ---
-### [⇐ Previous](setup.md)
+### [⇐ Previous](zsh.md)

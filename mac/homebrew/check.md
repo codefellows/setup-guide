@@ -24,4 +24,5 @@ Your system is ready to brew
  **then** [click here to install Homebrew](../homebrew/homebrew.md)
 
 ---
-### [⇐ Previous](setup.md)
+### [⇐ Previous](../git/git-prompt.md)
+

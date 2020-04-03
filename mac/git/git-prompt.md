@@ -1,4 +1,4 @@
-# Git Prompt Setup
+# Prompt Setup
 
 **Run:**
 
@@ -59,13 +59,23 @@ function parse_git_dirty {
 }
 
 export PS1="\[\e[31m\]\u\[\e[m\]\[\e[35m\]\w\[\e[m\]\[\e[33m\]\`parse_git_branch\`\[\e[m\]\[\e[32m\]\\$\[\e[m\] "
+
 export BASH_SILENCE_DEPRECATION_WARNING=1
 
-echo "Welcome `whoami`. Time to become a bad-ass developer! Self-defeat is not an option. Small wins, everyday!"
+echo "`echo -e '\xE2\x9C\x93'` Prompt is Ready `whoami`"
+
+echo "Time to become a bad-ass developer! Self-defeat is not an option. Small wins, everyday!"
 
 alias profile="nano ~/.bash_profile"
 
+prompt(){
+  echo "`echo -e '\xE2\x9C\x93'` Prompt is Ready `whoami`"
+}
+
 verify(){
+  echo ""
+  echo "PROMPT ➠ `prompt`"
+  echo "$PS1"
   echo ""
   echo "HOMEBREW ➠  `which brew`"
   echo ""
@@ -87,8 +97,6 @@ verify(){
   echo ""
   echo "`cat ~/.gitconfig`"
   echo ""
-  echo "PROMPT ➠  `echo $PS1`"
-  echo ""
   echo "VSCODE EXTENSIONS:"
   echo ""
   echo "`code --list-extensions`"
@@ -101,19 +109,21 @@ verify(){
 
 **Hit** `return` to exit Nano editor.
 
-### **Now close the terminal and open a new terminal window for changes to take effect.** 
+## **Now close the terminal and open a new terminal window for changes to take effect.** 
 
-Do you have a new colored prompt that looks similar to:
+Expected message:
 
 ```
-YourMacUsername~$ 
+✓ Prompt is Ready macUserName 
 ```
 
 ---
 
-[Yes](../vs-code/extensions.md)
+Did you get the expected message in your new terminal?
+
+[Yes](../homebrew/check.md)
 
 [No](../../error/error.md)
 
 ---
-### [⇐ Previous](../git/git-config.md)
+### [⇐ Previous](../terminal/setup.md)

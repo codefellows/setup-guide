@@ -1,5 +1,18 @@
 # Quick Setup for Mac Users
 
+check which shell the student is in.
+run prompt
+
+**Run:**
+
+`profile
+
+**Run** this command in student's terminal:
+
+`verify`
+
+
+
 ## Terminal
 
 open terminal
@@ -138,20 +151,7 @@ Debugger for Chrome
 
 close vs code
 
-## Verification
 
-code --version
-git --version
-node --version
-npm --version
-eslint --version
-tree --version
-echo $PS1
-cat ~/.gitconfig
-code .
-
-
-# Testing
 
 alias profile="nano ~/.bash_profile"
 
