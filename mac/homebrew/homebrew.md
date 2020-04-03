@@ -33,4 +33,4 @@ This could take up to 30 minutes or more. Once finished **run:**
 **or** anything weird **then** [click here](../../error/error.md)
 
 ---
-### [⇐ Previous](../terminal/bash.md)
+### [⇐ Previous](check.md)

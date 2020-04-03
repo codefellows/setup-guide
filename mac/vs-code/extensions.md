@@ -30,4 +30,4 @@ NOTE: Some extensions may require you to reload VSCode.
 [Click here if you are stuck.](../../error/error.md)
 
 ---
-### [⇐ Previous](../git/git-prompt.md)
+### [⇐ Previous](../git/git-config.md)

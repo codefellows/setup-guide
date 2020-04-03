@@ -36,7 +36,7 @@ Expected output:
 
 Did you get the expected output?
 
-[Yes](git-prompt.md)
+[Yes](../vs-code/extensions.md)
 
 [No](../../error/error.md)
 
