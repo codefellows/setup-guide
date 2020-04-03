@@ -10,6 +10,8 @@ In menu bar> **find** View > Command Palette > **search** `shell command` > **cl
 
  `code`
 
+ ---
+
 Did this open a new instance of VS Code?
 
 [Yes](../node/node.md)

@@ -14,9 +14,13 @@ Expected Output:
 tree v1.8.0 (c) 1996 - 2018 by Steve Baker, Thomas Moore, Francesc Rocher, Florian Sesser, Kyosuke Tokoro
 ```
 
-[True](../vs-code/check-vscode.md)
+---
 
-[False](../../error/error.md)
+Did you get the expected output?
+
+[Yes](../vs-code/check-vscode.md)
+
+[No](../../error/error.md)
 
 ---
-### [⇐ Previous](../terminal/bash.md)
+### [⇐ Previous](../homebrew/check.md)

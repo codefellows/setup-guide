@@ -10,7 +10,7 @@ Disregard any messages and **run:**
 
 **Click** the resulting output.
 
-[-bash](bash.md) 
+[-bash](../git/git-prompt.md) 
 
 [-zsh](zsh.md)
 
