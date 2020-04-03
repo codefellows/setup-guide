@@ -11,6 +11,9 @@ Expected output should look similar to this:
 ```
 yourMacUserName~$ verify
 
+PROMPT ➠ ✓ Prompt is Ready yourMacUserName
+\[\e[31m\]\u\[\e[m\]\[\e[35m\]\w\[\e[m\]\[\e[33m\]`parse_git_branch`\[\e[m\]\[\e[32m\]\$\[\e[m\] 
+
 HOMEBREW ➠  /usr/local/bin/brew
 
 TREE ➠  tree v1.8.0 (c) 1996 - 2018 by Steve Baker, Thomas Moore, Francesc Rocher, Florian Sesser, Kyosuke Tokoro 
