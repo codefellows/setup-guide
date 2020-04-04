@@ -1,22 +1,34 @@
-# Quick Setup for Mac Users
+# Testing & Quick Setup for Mac Users
 
-check which shell the student is in.
-run prompt
-
-**Run:**
-
-`profile
+This guide will provide a starting point to help and/or debug
 
 **Run** this command in student's terminal:
 
 `verify`
 
+**If** you receive:
+```
+zsh: command not found: verify
+```
+
+Start [HERE](../mac/terminal/zsh.md)
+
+---
+
+**Else** you receive:
+
+```
+bash: command not found: verify
+```
+
+Start [HERE](../mac/git/git-prompt.md)
 
 
+## Prompt
 ## Terminal
 
 open terminal
-Preferences > General > bin/bash > default 
+Preferences > General > bin/bash > default
 settings > Pro > defualt
 > close and restart
 
