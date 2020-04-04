@@ -1,6 +1,7 @@
 # Testing & Quick Setup for Mac Users
 
-This guide will provide a starting point to help and/or debug
+This guide will provide a starting point to help
+
 
 **Run** this command in student's terminal:
 
