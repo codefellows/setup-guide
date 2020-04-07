@@ -1,12 +1,25 @@
 # Testing & Quick Setup for Mac Users
 
-This guide will provide a starting point to help and/or debug
+This guide will provide a starting point to help facilitators identify errors or next steps in the configuration process.  This will help eliminate the hassle of searching for the problem by defining a step by step procedure that can be tested in the console.
 
-**Run** this command in student's terminal:
+The setup guide takes the student through the following process:
+
+1. Terminal /Prompt
+2. Homebrew
+3. Tree
+4. VS Code / Code
+5. Nodejs / NPM
+6. ESLint / Live Server
+7. Git
+8. Git Configuration
+9. VSCode Extensions
+
+**Run** this command in student's terminal to check their progress:
 
 `verify`
 
 **If** you receive:
+
 ```
 zsh: command not found: verify
 ```
@@ -23,178 +36,48 @@ bash: command not found: verify
 
 Start [HERE](../mac/git/git-prompt.md)
 
+---
 
-## Prompt
-## Terminal
-
-open terminal
-Preferences > General > bin/bash > default
-settings > Pro > defualt
-> close and restart
-
-## Homebrew
-which brew ? 
-
- > ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/install/master/install)"
-
- > brew update
- > brew doctor
-
-## Tree
- > brew install tree. 
-
-## Vs code 
-https://code.visualstudio.com/download
-
-Download the .zip file.
-Double-click the .zip file (or click the downloaded file at the bottom of Chrome) to extract the shiny VS Code app.
-Drag the shiny VS Code app into your Applications folder.
-Open the app. (If you opened the app before it was in your Applications folder, you’ll need to reinstall.)
-
-### Setup 
-Open VSCode > Command Palette (⇧⌘P) > ‘shell command’ > click on the Shell Command: Install ‘code’ command in PATH command. > Restart 
-
-## Node & NPM
- > brew install node  > sudo maybe ?
-
-## ESLint & Live Server
- > npm -g i eslint git-open live-server
-
-## Git
-apple menu > about > version to see build
-
-If you are running:
-
-10.6 Snow Leopard / .7 Lion / .8 Mountain Lion : 
- > http://sourceforge.net/projects/git-osx-installer/files/git-2.3.5-intel-universal-snow-leopard.dmg/download
-
-10.9 Mavericks: 
- > http://sourceforge.net/projects/git-osx-installer/files/git-2.5.3-intel-universal-mavericks.dmg/download
-
-10.10 Yosemite or higher:
- > brew install git.
-
-### GitConfig
- > git config --global user.name 'YOUR Github user name'
- > git config --global user.email 'YOUR EMAIL in github'
-
- > git config --global core.editor 'code --wait'
-
- > git config --global credential.helper store
-
-## Prompt
- > nano ~/.bash_profile
-
->>>>>>> Copy >>>>>>>
+**Expected Output**
 
 ```
+PROMPT ➠ ✓ Prompt is Ready yourMacUserName
+\[\e[31m\]\u\[\e[m\]\[\e[35m\]\w\[\e[m\]\[\e[33m\]`parse_git_branch`\[\e[m\]\[\e[32m\]\$\[\e[m\] 
 
-#!/usr/bin/env bash
+HOMEBREW ➠  /usr/local/bin/brew
 
-# get current branch in git repo
-function parse_git_branch() {
-	BRANCH=`git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/'`
-	if [ ! "${BRANCH}" == "" ]
-	then
-		STAT=`parse_git_dirty`
-		echo "[${BRANCH}${STAT}]"
-	else
-		echo ""
-	fi
-}
+TREE ➠  tree v1.8.0 (c) 1996 - 2018 by Steve Baker, Thomas Moore, Francesc Rocher, Florian Sesser, Kyosuke Tokoro 
 
-# get current status of git repo
-function parse_git_dirty {
-	status=`git status 2>&1 | tee`
-	dirty=`echo -n "${status}" 2> /dev/null | grep "modified:" &> /dev/null; echo "$?"`
-	untracked=`echo -n "${status}" 2> /dev/null | grep "Untracked files" &> /dev/null; echo "$?"`
-	ahead=`echo -n "${status}" 2> /dev/null | grep "Your branch is ahead of" &> /dev/null; echo "$?"`
-	newfile=`echo -n "${status}" 2> /dev/null | grep "new file:" &> /dev/null; echo "$?"`
-	renamed=`echo -n "${status}" 2> /dev/null | grep "renamed:" &> /dev/null; echo "$?"`
-	deleted=`echo -n "${status}" 2> /dev/null | grep "deleted:" &> /dev/null; echo "$?"`
-	bits=''
-	if [ "${renamed}" == "0" ]; then
-		bits=">${bits}"
-	fi
-	if [ "${ahead}" == "0" ]; then
-		bits="*${bits}"
-	fi
-	if [ "${newfile}" == "0" ]; then
-		bits="+${bits}"
-	fi
-	if [ "${untracked}" == "0" ]; then
-		bits="?${bits}"
-	fi
-	if [ "${deleted}" == "0" ]; then
-		bits="x${bits}"
-	fi
-	if [ "${dirty}" == "0" ]; then
-		bits="!${bits}"
-	fi
-	if [ ! "${bits}" == "" ]; then
-		echo " ${bits}"
-	else
-		echo ""
-	fi
-}
+CODE ➠  1.43.1
+fe22a9645b44368865c0ba92e2fb881ff1afce94
+x64
 
-# PS1 is what actually defines what you command line prompt looks like.
-export PS1="\[\e[31m\]\u\[\e[m\]\[\e[35m\]\w\[\e[m\]\[\e[33m\]\`parse_git_branch\`\[\e[m\]\[\e[32m\]\\$\[\e[m\] "
+NODE ➠  v10.16.0
 
-```
->>>>>>>>>>>>>>>>>>>>
+NPM ➠  6.9.0
 
-Control X > y > hit enter > restart terminal
+ESLINT ➠  v6.7.2
 
- ## Extensions
+LIVE SERVER ➠  live-server 1.2.1
 
- > mkdir codefellows
- > cd codefellows
- > mkdir projects
- > cd projects
- > code .
+GIT ➠  git version 2.22.0
 
+ ▼ GITCONFIG ▼ 
 
-live server 5.6.1
-ESLint 2.0.13
-HTML Snippets 0.2.1
-HTML Preview 0.2.5
-Debugger for Chrome
+[core]
+	editor = code --wait
+[user]
+	name = githubUserName
+	email = yourEmail@gmail.com
 
-close vs code
+VSCODE EXTENSIONS:
 
-
-
-alias profile="nano ~/.bash_profile"
-
-run verify
-
-verify(){
-  echo ""
-  echo "HOMEBREW ➠  `which brew`"
-  echo ""
-  echo "TREE ➠  `tree --version`"
-  echo ""
-  echo "CODE ➠  `code --version`"
-  echo ""
-  echo "NODE ➠  `node --version`"
-  echo ""
-  echo "NPM ➠  `npm --version`"
-  echo ""
-  echo "ESLint ➠  `eslint --version`"
-  echo ""
-  echo "Live Server ➠  `live-server --version`"
-  echo ""
-  echo "GIT ➠  `git --version`"
-  echo ""
-  echo " ▼ GITCONFIG ▼ "
-  echo ""
-  echo "`cat ~/.gitconfig`"
-  echo ""
-  echo "PROMPT ➠  `echo $PS1`"
-  echo ""
-  echo "VSCode Extensions:"
-  echo ""
-  echo "`code --list-extensions`"
-}
+DavidAnson.vscode-markdownlint
+dbaeumer.vscode-eslint
+george-alisson.html-preview-vscode
+hdg.live-html-previewer
+msjsdiag.debugger-for-chrome
+ritwickdey.LiveServer
+tht13.html-preview-vscode
+yzhang.markdown-all-in-one
 ```
