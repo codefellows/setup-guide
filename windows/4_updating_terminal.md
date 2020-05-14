@@ -117,4 +117,5 @@ Once that's done we can install a quick awesome command called `tree`. What `tre
 
 Type `sudo apt install tree`. Once that's done, you can type `tree` to see the tree view of the directory that you're currently in! You may have to close and restart your terminal before it will work.
 
+
 ### [⇐ Previous](./2_WSL_Ubuntu_setup.md) | [Next ⇒](./5_vscode_node_git_install.md)
