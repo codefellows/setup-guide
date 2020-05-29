@@ -10,7 +10,7 @@ Please follow these steps:
 1. Clone this repository to your machine
 1. Change into the repository folder in your terminal
 1. Execute this command from your terminal:
-   `bash <(curl -s https://raw.githubusercontent.com/codefellows/setup-guide/master/code-301/bin/dsa.sh)`
+   - `bash <(curl -s https://raw.githubusercontent.com/codefellows/setup-guide/master/code-301/bin/dsa.sh)`
 1. Verify that things are working properly by running a test. Enter this command:
    - `npm test`
    - You should see a message like the following, indicating that things are setup properly and tests are passing
