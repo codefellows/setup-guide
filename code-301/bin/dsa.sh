@@ -28,7 +28,6 @@ getConfigFiles() {
 
 ## Initialize for testing
 npmInit() {
-  npm init -y
   npm install
 }
 
