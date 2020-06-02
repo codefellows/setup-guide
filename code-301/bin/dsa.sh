@@ -4,15 +4,11 @@
 downloadRepo() {
   curl https://codeload.github.com/codefellows/data-structures-and-algorithms/legacy.tar.gz/master --output dsa.tar.gz
 
-  tar zxvf dsa.tar.gz
-
-  mv data-structures-and-algorithms-master/* .
-  mv data-structures-and-algorithms-master/.* .
+  tar zxvf dsa.tar.gz --strip 1
 }
 
 cleanup() {
-  rm -rf data-structures-and-algorithms-master
-  rm -rf dsa.zip
+  rm -rf dsa.tar.gz
 }
 
 ## Get our configs
