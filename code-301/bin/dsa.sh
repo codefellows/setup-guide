@@ -29,7 +29,7 @@ npmInit() {
 
 ## Communicate ...
 finish() {
-  clear
+  # clear
   echo "Your Data Structures Repository is ready to go. Complete the process by doing an 'ACP' to push this up to your GitHub"
 }
 
