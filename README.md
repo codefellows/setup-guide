@@ -10,12 +10,14 @@ NOTE: You will be asked to download some stuff.  For this setup process please *
 
 ---
 
+## Select your operating system to get started
 
+[MacOS](./system-setup/README.md)
 
-## Select your operating system to get started:
+[Ubuntu Linux](./system-setup/README.md)
 
-[MacOS](mac/terminal/setup.md)
+[Windows 10](./windows/README.md)
 
-[Windows 10](windows/2_WSL_Ubuntu_setup.md)
+## Errors
 
-[Ubuntu Linux](/ubuntu_linux/1_terminal.md)
+If ever you encounter an error or unexplained activity, please consult the [error documentation](./error/error.md)
