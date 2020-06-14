@@ -1,4 +1,4 @@
-# 301 Computer Setup
+# Code 301 Setup
 
 For Code 301, we'll need some additional applications and utilities installed, including the Postgres database and getting your code challenges repository created and operational
 
@@ -6,4 +6,4 @@ For Code 301, we'll need some additional applications and utilities installed, i
 
 ---
 
-### [⇐ Previous](../README.md) | [Next ⇒](./1-postgres.md)
+### [⇐ Previous](../README.md) | [Next ⇒](./1-heroku.md)

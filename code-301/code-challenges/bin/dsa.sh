@@ -22,8 +22,8 @@ getConfigFiles() {
 }
 
 
-## Initialize for testing
-npmInit() {
+## Install for testing
+npmInstall() {
   npm install
 }
 
@@ -36,7 +36,7 @@ finish() {
 
 downloadRepo
 getConfigFiles
-npmInit
+npmInstall
 cleanup
 finish
 
