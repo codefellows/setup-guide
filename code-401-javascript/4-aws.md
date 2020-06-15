@@ -10,7 +10,7 @@ As part of the 401 Curriculum and beyond, you'll be using various cloud service 
    - `brew install awscli`
 1. Confirm proper installation
    - `aws --version`
-   - You should see output similar to the following:
+   - You should see output with these versions or higher:
 
    ```bash
    aws-cli/2.0.19 Python/3.8.3 Linux/4.19.104-microsoft-standard botocore/2.0.0dev23
