@@ -1,8 +1,8 @@
 # Code 301 Setup
 
-## Install "Heroku"
+## Install Heroku CLI
 
-Heroku is a service where we can deploy and launch web sites and servers in the cloud
+Heroku is a service where we can deploy and launch web servers to the cloud.
 
 1. In your terminal, enter the following command:
    - **Mac Users**
@@ -14,7 +14,7 @@ Once the installation has completed, **run:**
 
  `heroku --version`
 
-You should be shown a working version number:
+You should be shown a working version number, like this or higher:
 
 ```bash
 heroku/7.42.1 linux-x64 node-v12.16.2
