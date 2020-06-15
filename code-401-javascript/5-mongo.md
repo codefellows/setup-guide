@@ -1,10 +1,10 @@
 # Code 401 Javascript Setup
 
-## Mongo Database
+## MongoDB Database
 
-Mongo is a NoSQL (Non-Relational) Database server that we will be using throughout Code 401. In this step, we'll be installing Postgres on your system and preparing it for use.
+MongoDB is a NoSQL Database (Document Store) server that we will be using throughout Code 401. In this step, we'll be installing MongoDB on your system and preparing it for use.
 
-Mongo comes in 2 parts, a **client** and a **server** ... the **server** runs constantly, waiting for **clients** to connect to it so that they can store and retrieve data. The **server** does the actual management of the data. You'll get much deeper into the inner workings of these during your coursework.
+MongoDB comes in 2 parts, a **client** and a **server** ... the **server** runs constantly, waiting for **clients** to connect to it so that they can store and retrieve data. The **server** does the actual management of the data. You'll get much deeper into the inner workings of these during your coursework.
 
 ## Installation
 
@@ -12,13 +12,13 @@ The installation steps are slightly different if you're running a Mac or Windows
 
 ### Mac Users
 
-Open your terminal, and run the following commands to install the MongoDB client and server
+Open your terminal, and run the following commands to install the MongoDB client and server.
 
 This will take a short time to complete. Once it does, you'll need to "start" the mongo database server so that we can make sure **clients** can connect.
 
 ```bash
 brew tap mongodb/brew
-brew install mongodb-community@4.2
+brew install mongodb-community
 ```
 
 After installation completes, run the following command to start the MongoDB Server:
@@ -29,7 +29,7 @@ brew services start mongodb-community@4.2
 
 ### Linux and Windows Users
 
-Run these commands, in order, to install MongoDB. Note that for this installation, we'll be using `apt` instead of `brew`
+Run these commands, in order, to install MongoDB. Note that for this installation, we'll be using `apt` instead of `brew`.
 
 ```bash
 wget -qO - https://www.mongodb.org/static/pgp/server-4.2.asc | sudo apt-key add -
