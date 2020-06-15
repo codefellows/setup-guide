@@ -10,7 +10,7 @@ As part of the 401 Curriculum and beyond, you'll be using various cloud service 
    - `brew install azure-cli`
 1. Confirm proper installation
    - `azure --version`
-   - You should see output similar to the following:
+   - You should see output with these versions or higher:
 
    ```bash
    azure-cli                          2.7.0
