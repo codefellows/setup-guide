@@ -40,12 +40,12 @@ If your version is not a build higher than 19041, you'll need to do an update of
 ### Install Windows Terminal
 
 1. After you reboot, install the "Windows Terminal" app from the Microsoft Store.
-  - If you have any trouble locating it, [view it on the web](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab).
-  - This will allow you have multiple command-line interface "tabs" open at once, which makes development a lot easier.
+   - If you have any trouble locating it, [view it on the web](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab).
+   - This will allow you have multiple command-line interface "tabs" open at once, which makes development a lot easier.
 
 1. Once it's installed, open Windows Terminal. It should identify as Powershell.
 
-![Terminal running Powershell](https://p57.p1.n0.cdn.getcloudapp.com/items/04uYPLLX/Image%202020-06-15%20at%203.29.31%20PM.png?v=aecb8c6c745d0d5a5a11ba078a11a887)
+   ![Terminal running Powershell](https://p57.p1.n0.cdn.getcloudapp.com/items/04uYPLLX/Image%202020-06-15%20at%203.29.31%20PM.png?v=aecb8c6c745d0d5a5a11ba078a11a887)
 
 1. Enter the following command to set your system default to WSL 2
    - `wsl --set-default-version 2`
