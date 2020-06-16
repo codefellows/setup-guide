@@ -22,11 +22,11 @@ Check your windows version in settings before moving on. Click in the Windows Se
 
 ![Check the Build of your OS](https://p57.p1.n0.cdn.getcloudapp.com/items/4gujyKoO/Image%202020-06-15%20at%204.13.25%20PM.png?v=5b8a750ada301268081beb4e33d37077)
 
-If your version is not a build higher than 19041, you'll need to do an update of Windows.  [Open this page](https://www.microsoft.com/en-us/software-download/windows10), and click the button that says "Download tool now". Run it, and allow it to update your current system's OS. This may take awhile. 
+If your version is not a build higher than 19041, you'll need to do an update of Windows.  [Open this page](https://www.microsoft.com/en-us/software-download/windows10){:target="_blank"}, and click the button that says "Download tool now". Run it, and allow it to update your current system's OS. This may take awhile. 
 
 ### Enable WSL Feature in Windows
 
-> **NOTE**: The following instructions are summarized from the [Microsoft WSL2 Upgrade Documentation](https://docs.microsoft.com/en-us/windows/wsl/install-win10#update-to-wsl-2)
+> **NOTE**: The following instructions are summarized from the [Microsoft WSL2 Upgrade Documentation](https://docs.microsoft.com/en-us/windows/wsl/install-win10#update-to-wsl-2){:target="_blank"}
 
 1. In the Search box next to the Windows Menu, type `Turn Windows Features On Or Off` and hit enter.
 1. A window will pop up with a list of folders with checkboxes next to them.
@@ -37,25 +37,45 @@ If your version is not a build higher than 19041, you'll need to do an update of
 1. Once this operation is complete, you will need to restart your system and then continue the steps below
    - NOTE: This page might not open after restart, so be sure to make note of the url or bookmark it.
 
-### Install Windows Terminal
+### Install Windows Terminal & Configure for WSL 2
 
-1. After you reboot, install the "Windows Terminal" app from the Microsoft Store.
-   - If you have any trouble locating it, [view it on the web](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab).
-   - This will allow you have multiple command-line interface "tabs" open at once, which makes development a lot easier.
+After you reboot, install the "Windows Terminal" app from the Microsoft Store. If you have any trouble locating it, [view it on the web](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab){:target="_blank"}.
 
-1. Once it's installed, open Windows Terminal. It should identify as Powershell.
+This will allow you have multiple command-line interface "tabs" open at once, which makes development a lot easier.
+
+Once it's installed, open Windows Terminal. It should identify as Powershell.
 
    ![Terminal running Powershell](https://p57.p1.n0.cdn.getcloudapp.com/items/04uYPLLX/Image%202020-06-15%20at%203.29.31%20PM.png?v=aecb8c6c745d0d5a5a11ba078a11a887)
 
-1. Enter the following command to set your system default to WSL 2
-   - `wsl --set-default-version 2`
-   - Windows should respond with no errors and a message such as this:
-     `For information on key differences with WSL 2 please visit https://aka.ms/wsl2`
+Enter the following command to set your system default to WSL 2: 
+
+`wsl --set-default-version 2`
+
+CAREFULLY read the output you get from running that command. Click the output that you get on your system:
+- <details>
+  <summary>
+     <code>
+        WSL 2 requires an update to its kernel component. For information please visit https://aka.ms/wsl2kernel
+     </code>
+  </summary>
+
+  - You must update WSL a little further. [Open this page](https://aka.ms/wsl2kernel){:target="_blank"}, and follow the instructions.
+  - When you finish with those instructions, try running the above command again.
+</details>
+       
+- <details>
+   <summary>
+      <code>
+         For information on key differences with WSL 2 please visit https://aka.ms/wsl2
+      </code>
+   </summary>
+  - Your system is all set, proceed with the following instructions here.
+</details>
 
 ### Install the Ubuntu app from the Windows Store
 
-1. Open the Microsoft Store and install the "Ubuntu" App (with no version numbers). If you can't find it, [view it online](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6?activetab=pivot:overviewtab)
-1. When the app is ready, it will prompt you to **Launch**. Click the Launch button. This will start the Ubuntu installation. This installation only happens the first time the app is launched, as it's the actual Ubuntu OS installing and mounting to your Windows FS. Anytime you uninstall the app and reinstall it you will have to do this process again. Make sure to back up important data if you ever uninstall this app, as it is not preserved.
+1. Open the Microsoft Store and install the "Ubuntu" App (with no version numbers). If you can't find it, [view it online](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6?activetab=pivot:overviewtab){:target="_blank"}.
+1. When the app is ready, it will prompt you to **Launch**. Click the Launch button. This will start the Ubuntu installation. This installation only happens the first time the app is launched, as it's the actual Ubuntu OS installing and mounting to your Windows file system. Anytime you uninstall the app and reinstall it you will have to do this process again. Make sure to back up important data if you ever uninstall this app, as it is not preserved.
 
 #### Finish Installing the Ubuntu App
 
