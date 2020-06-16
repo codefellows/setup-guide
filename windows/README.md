@@ -34,6 +34,9 @@ If your version is not a build higher than 19041, you'll need to do an update of
      - `Virtual Machine Platform`
      - `Windows Hypervisor Platform`
      - `Windows Subsystem for Linux`
+   - If you are running Windows as a Virtual Machine (unlikely), also enable
+     - Containers
+     - Hyper-V (and as many sub-items as you can activate)
 1. Once this operation is complete, you will need to restart your system and then continue the steps below
    - NOTE: This page might not open after restart, so be sure to make note of the url or bookmark it.
 
