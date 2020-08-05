@@ -16,4 +16,4 @@
 
 ---
 
-### [⇐ Previous](./README.md) | [Return Home](./2-netlify.md)
+### [⇐ Previous](./README.md) | [Next](./2-netlify.md)
