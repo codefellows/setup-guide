@@ -4,9 +4,7 @@
 
 You do not need to understand what this process is doing. This is a vital step that will allow you to use technologies required throughout the Code Fellows' curriculum.
 
-NOTE: You will be asked to download some stuff.  For this setup process please **right-click** on links to **open in a new tab** when asked to download and install.  This is so you don't lose your place. Example image below:
-
-<img src="mac/images/new-tab.png" width="220" height="220">
+NOTE: You will be asked to download some stuff.  For this setup process please **right-click** on links to **open in a new tab** when asked to download and install.  This is so you don't lose your place. 
 
 ---
 
