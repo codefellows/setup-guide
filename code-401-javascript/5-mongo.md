@@ -55,7 +55,7 @@ sudo service mongod start
 sudo service mongod start
 ```
 
-## Validate that postgres clients can connect
+## Validate that clients can connect
 
 Now, let's make sure we can connect to the MongoDB server. Run this command:
 
