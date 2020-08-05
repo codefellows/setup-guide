@@ -8,13 +8,34 @@ At the end, this will add some color to your command line, and your command line
 
 The first thing we'll do is get our environment setup properly, so that all of our commands will work properly as we're getting things going.
 
+### Backing up files
+
+There are a lot of ways that your terminal can be set up determined by different configuration files.
+
+We want to remove the old ways so we can start with a clean slate.
+
+Make back ups of the files listed below. You may get a `No such file or directory` error for some of them. That's ok.
+
+- `mv ~/.bashrc .bashrc.bak`
+- `mv ~/.bash_profile .bash_profile.bak`
+- `mv ~/.profile .profile.bak`
+- `mv ~/.zshrc .zshrc.bak`
+
+### WSL / Ubuntu
+
 From your terminal, run this command
 
 `curl -s https://raw.githubusercontent.com/codefellows/setup-guide/master/configs/.profile >> ~/.profile`
 
 Once it completes, log out of your terminal, and then back in again. Your prompt should change slightly, with a different set of colors
 
-Now, let's move on to getting our development applications installed
+### Mac
+
+From your terminal, run these commands
+
+`echo 'source $(brew --prefix nvm)/nvm.sh' >> ~/.profile`
+
+`curl -s https://raw.githubusercontent.com/codefellows/setup-guide/master/configs/.zshrc >> ~/.zshrc`
 
 ## Reset Your Environment
 
@@ -22,13 +43,7 @@ The changes you just made will take effect every time you re-open your terminal.
 
 `source ~/.profile`
 
-## Mac Users
-
-If you are using a Mac, chances are your shell is `zsh` which means we'll need to take one more step to tell it to use these new settings.
-
-**RUN**:
-
-`echo 'source ~/.profile' >> ~/.zshrc`
+Now, let's move on to getting our development applications installed
 
 ---
 
