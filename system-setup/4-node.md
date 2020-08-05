@@ -44,7 +44,7 @@ Now that 'nvm' (node version manager is installed), let's install node itself
 
 Did you get similar output for both?
 
-If not ... [head here](../../error/error.md)
+If not ... [head here](../error/error.md)
 
 ---
 

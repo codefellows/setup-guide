@@ -11,6 +11,7 @@ Homebrew is a tool that simplifies installing applications on your machine. Thin
      - Once the main installation finishes (could take up to 30 minutes), enter these commands, one at a time in your terminal:
      - `test -d ~/.linuxbrew && eval $(~/.linuxbrew/bin/brew shellenv)`
      - `test -d /home/linuxbrew/.linuxbrew && eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)`
+     - The commands should produce no errors
 
 Once the installation has completed, **run:**
 
@@ -22,6 +23,14 @@ Once the installation has completed, **run:**
 Your system is ready to brew
 ```
 
+**or** return output is:
+
+```text
+Please note that these warnings are just used to help the Homebrew maintainers
+with debugging if you file an issue. If everything you use Homebrew for is
+working fine: please don't worry or file an issue; just ignore this. Thanks!
+```
+
 **then run:**
 
 `brew update`
@@ -31,10 +40,10 @@ Your system is ready to brew
 ```bash
 brew: command not found
 
-(or any other errors or weirdness)
+(or any other errors)
 ```
 
-**then** [click here](../../error/error.md) do not continue with the following steps until you have Homebrew properly installed
+**then** [click here](../error/error.md) do not continue with the following steps until you have Homebrew properly installed
 
 ## Install "gcc" (Windows Users Only)
 

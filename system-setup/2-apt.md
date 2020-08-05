@@ -1,5 +1,7 @@
 # Installing and Updating the Linux App Manager
 
+## WSL/Ubuntu only
+
 For some things on your system, we will be using `apt` to install applications. The first thing we'll want to do is get that up to date with all of the latest versions and information
 
 **OPEN YOUR TERMINAL** and let's get started!

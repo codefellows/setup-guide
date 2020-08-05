@@ -20,8 +20,9 @@
   `v7.2.0`
 - `tree --version`
   - `tree v1.8.0 (c) 1996 - 2018 ...`
-- `echo $PS1`
-  `\[\e[m\]\[\e[36m\]\W\[\e[m\]\[\e[33m\]`parse_git_branch`\$`
+- WSL/Ubuntu only
+  - `echo $PS1`
+    - `\[\e[m\]\[\e[36m\]\W\[\e[m\]\[\e[33m\]`parse_git_branch`\$`
 - `git config --list`
 
   ```bash
