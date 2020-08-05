@@ -9,7 +9,7 @@ As part of the 401 Curriculum and beyond, you'll be using various cloud service 
 1. Install the Azure CLI tools, by running this command in your terminal:
    - `brew install azure-cli`
 1. Confirm proper installation
-   - `azure --version`
+   - `az --version`
    - You should see output with these versions or higher:
 
    ```bash
