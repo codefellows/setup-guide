@@ -6,10 +6,10 @@ As part of your daily routine in 301, you will be executing a code challenge. To
 
 Please follow these steps:
 
-1. Create a new, empty repository called `data-structures-and-algorithms`
-1. Clone this repository to your machine, in your `codefellows` folder
-1. `cd` into the repo in your terminal
-1. Execute this command from your terminal, which will install a number of things for you:
+1. On github.com, create a new, empty repository called `data-structures-and-algorithms` in your account.
+1. Clone your newly-created repository to your machine, in your `codefellows` folder
+1. `cd` into the new repo in your terminal
+1. Execute the following command in the new repo directory, which will setup your DS&A folders:
    - `bash <(curl -s https://raw.githubusercontent.com/codefellows/setup-guide/master/code-301/code-challenges/bin/dsa.sh)`
 1. When it's done, verify that things are working properly by running a test. Enter this command:
    - `npm test`
@@ -32,9 +32,9 @@ Please follow these steps:
    ```
 
 1. Complete an "ACP"
-   - `git add .`
+   - `git add *`
    - `git commit -m "Created Data Structures Repo"`
-   - `git push origin master`
+   - `git push origin main`
 1. Return to GitHub and refresh the view of your `data-structures-and-algorithms` repository, where you should see what you pushed
 1. Go to the "Actions" tab
 1. You should see a green check mark on your most recent commit, showing that your tests are passing just as they were when you ran them from the terminal
