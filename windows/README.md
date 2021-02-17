@@ -55,24 +55,27 @@ Enter the following command to set your system default to WSL 2:
 `wsl --set-default-version 2`
 
 CAREFULLY read the output you get from running that command. Click the output that you get on your system:
-- <details>
+
+<details>
   <summary>
      <code>
         WSL 2 requires an update to its kernel component. For information please visit https://aka.ms/wsl2kernel
      </code>
   </summary>
 
-  - You must update WSL a little further. [Open this page](https://aka.ms/wsl2kernel){:target="_blank"}, and follow the instructions.
-  - When you finish with those instructions, try running the above command again.
+You must update WSL a little further. [Open this page](https://aka.ms/wsl2kernel){:target="_blank"}, and follow the instructions. When you finish with those instructions, try running the above command again.
+
 </details>
-       
-- <details>
+
+<details>
    <summary>
       <code>
          For information on key differences with WSL 2 please visit https://aka.ms/wsl2
       </code>
    </summary>
-  - Your system is all set, proceed with the following instructions here.
+
+Your system is all set, proceed with the following instructions here.
+
 </details>
 
 ### Install the Ubuntu app from the Windows Store
