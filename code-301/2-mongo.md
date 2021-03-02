@@ -18,13 +18,13 @@ This will take a short time to complete. Once it does, you'll need to "start" th
 
 ```bash
 brew tap mongodb/brew
-brew install mongodb-community
+brew install mongodb-community@4
 ```
 
 After installation completes, run the following command to start the MongoDB Server:
 
 ```bash
-brew services start mongodb-community@4.2
+brew services start mongodb-community@4
 ```
 
 ### Linux and Windows Users
@@ -34,7 +34,7 @@ Run these commands, in order, to install MongoDB. Note that for this installatio
 ```bash
 wget -qO - https://www.mongodb.org/static/pgp/server-4.2.asc | sudo apt-key add -
 sudo apt-get install gnupg
-echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.2.list
+echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.list
 sudo apt-get update
 sudo apt-get install -y mongodb-org
 ```
@@ -66,10 +66,10 @@ mongo
 You should see something similar to the following:
 
 ```bash
-MongoDB shell version v4.2.7
+MongoDB shell version v4
 connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&gssapiServiceName=mongodb
 Implicit session: session { "id" : UUID("854a9ce2-a75d-499c-bb51-5c6c7f57a4fd") }
-MongoDB server version: 4.2.7
+MongoDB server version: 4
 Server has startup warnings:
 2020-06-12T15:53:07.715-0700 I  STORAGE  [initandlisten]
 2020-06-12T15:53:07.715-0700 I  STORAGE  [initandlisten] ** WARNING: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine
