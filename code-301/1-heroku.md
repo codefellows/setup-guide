@@ -22,4 +22,4 @@ heroku/7.42.1 linux-x64 node-v12.16.2
 
 ---
 
-### [⇐ Previous](./README.md) | [Next ⇒](./2-postgres.md)
+### [⇐ Previous](./README.md) | [Next ⇒](./2-mongo.md)
