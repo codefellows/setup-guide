@@ -2,7 +2,7 @@
 
 ## MongoDB Database
 
-MongoDB is a NoSQL Database (Document Store) server that we will be using throughout Code 401. In this step, we'll be installing MongoDB on your system and preparing it for use.
+MongoDB is a NoSQL Database (Document Store) server that we will be using throughout Code 301. In this step, we'll be installing MongoDB on your system and preparing it for use.
 
 MongoDB comes in 2 parts, a **client** and a **server** ... the **server** runs constantly, waiting for **clients** to connect to it so that they can store and retrieve data. The **server** does the actual management of the data. You'll get much deeper into the inner workings of these during your coursework.
 
