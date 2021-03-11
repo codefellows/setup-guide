@@ -18,13 +18,13 @@ This will take a short time to complete. Once it does, you'll need to "start" th
 
 ```bash
 brew tap mongodb/brew
-brew install mongodb-community@4
+brew install mongodb-community@4.4
 ```
 
 After installation completes, run the following command to start the MongoDB Server:
 
 ```bash
-brew services start mongodb-community@4
+brew services start mongodb-community@4.4
 ```
 
 ### Linux and Windows Users
@@ -66,10 +66,10 @@ mongo
 You should see something similar to the following:
 
 ```bash
-MongoDB shell version v4
+MongoDB shell version v4.4
 connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&gssapiServiceName=mongodb
 Implicit session: session { "id" : UUID("854a9ce2-a75d-499c-bb51-5c6c7f57a4fd") }
-MongoDB server version: 4
+MongoDB server version: 4.4
 Server has startup warnings:
 2020-06-12T15:53:07.715-0700 I  STORAGE  [initandlisten]
 2020-06-12T15:53:07.715-0700 I  STORAGE  [initandlisten] ** WARNING: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine
