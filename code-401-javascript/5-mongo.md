@@ -27,7 +27,11 @@ After installation completes, run the following command to start the MongoDB Ser
 brew services start mongodb-community@4.2
 ```
 
-### Linux and Windows Users
+### Windows/WSL Users
+
+Follow [Microsoft's directions](https://docs.microsoft.com/en-us/windows/wsl/tutorials/wsl-database#install-mongodb) to install MongoDB on WSL. Once you have finished, run `sudo service mongodb status` and you should see the status of `OK`; if not, run `sudo service mongodb start` to start up the database server.
+
+### Pure Linux Users
 
 Run these commands, in order, to install MongoDB. Note that for this installation, we'll be using `apt` instead of `brew`.
 
@@ -48,12 +52,6 @@ sudo service mongod start
 ```
 
 **On Ubuntu Linux**, mongo will now automatically restart on every reboot.
-
-**On Windows machines running WSL 2**, mongo will not automatically start. You'll need to restart MongoDB anytime you reboot. To do that, run the start service command as above:
-
-```bash
-sudo service mongod start
-```
 
 ## Validate that clients can connect
 
