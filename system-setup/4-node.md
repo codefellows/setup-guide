@@ -10,7 +10,9 @@ In this step, we'll install Node.js using `nvm`
 
 It will take a few minutes for the download and installation process to complete.
 
-**Once it completes, you will need to exit your terminal, and log back in so that the environment resets**
+Carefully follow the instructions in the resulting output of that command.
+
+Once it completes, you will need to exit your terminal, and log back in to demonstrate that the command works in a new shell.
 
 ## Install Node
 
