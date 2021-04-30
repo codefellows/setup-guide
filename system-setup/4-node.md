@@ -1,4 +1,4 @@
-# Install Node & NPM
+# Install Node Tools
 
 In this step, we'll install Node.js using `nvm`
 
@@ -16,30 +16,36 @@ It will take a few minutes for the download and installation process to complete
 
 Now that 'nvm' (node version manager is installed), let's install node itself
 
-- Run this command: `nvm install 12`
-  - This will install Node.js, version 12. Verify this:
+- Run this command: `nvm install --lts`
+  - This will install the latest stable version of Node.js. Verify this:
 - Verify that nvm installed the version by running this:
   - `nvm ls`
-  - Your output should look similar to this:
+  - Your output should look similar to this (version numbers may differ):
 
     ```bash
-    ->     v12.18.0
-    default -> 12 (-> v12.18.0)
-    node -> stable (-> v12.18.0) (default)
-    stable -> 12.18 (-> v12.18.0) (default)
+    ->     v14.16.1
     iojs -> N/A (default)
     unstable -> N/A (default)
+    node -> stable (-> v14.16.1) (default)
+    stable -> 14.16 (-> v14.16.1) (default)
+    lts/* -> lts/fermium (-> v14.16.1)
+    lts/argon -> v4.9.1 (-> N/A)
+    lts/boron -> v6.17.1 (-> N/A)
+    lts/carbon -> v8.17.0 (-> N/A)
+    lts/dubnium -> v10.24.1 (-> N/A)
+    lts/erbium -> v12.22.1 (-> N/A)
+    lts/fermium -> v14.16.1
     ```
 
 - Verify your node version by running this:
   - `node --version`
   - Your output should be similar to this:
-    `v12.18.0`
+    `v14.16.1`
 
 - Verify that Node.js works ...
   - Run the command: `node`
-  - Type `5+5` and hit `enter`
-  - The result should be `10`.  If you get `11` your computer is broken.
+  - Type `5 + 5` and hit `enter`
+  - The result should be `10`.  If you get `11` your computer is broken. ;)
   - **Quit** node by pressing **control C** two times.
 
 Did you get similar output for both?
