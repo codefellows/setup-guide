@@ -17,9 +17,9 @@ Once the installation has completed, **run:**
 You should be shown a working version number, like this or higher:
 
 ```bash
-heroku/7.42.1 linux-x64 node-v12.16.2
+heroku/7.54.0 darwin-x64 node-v12.21.0
 ```
 
 ---
 
-### [⇐ Previous](./README.md) | [Next ⇒](./2-postgres.md)
+### [⇐ Previous](./README.md) | [Next ⇒](./2-database.md)
