@@ -22,4 +22,4 @@ heroku/7.54.0 darwin-x64 node-v12.21.0
 
 ---
 
-### [⇐ Previous](./README.md) | [Next ⇒](./2-database.md)
+### [⇐ Previous](./) | [Next ⇒](./2-database)
