@@ -63,7 +63,7 @@ mongo
 
 You should see something similar to the following:
 
-```bash
+```
 MongoDB shell version v4.4
 connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&gssapiServiceName=mongodb
 Implicit session: session { "id" : UUID("854a9ce2-a75d-499c-bb51-5c6c7f57a4fd") }
@@ -80,7 +80,9 @@ Server has startup warnings:
 2020-06-12T15:53:08.214-0700 I  CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.
 2020-06-12T15:53:08.214-0700 I  CONTROL  [initandlisten] **        We suggest setting it to 'never'
 2020-06-12T15:53:08.214-0700 I  CONTROL  [initandlisten]
+
 ---
+
 Enable MongoDB's free cloud-based monitoring service, which will then receive and display
 metrics about your deployment (disk utilization, CPU, operation statistics, etc).
 
@@ -90,6 +92,7 @@ improvements and to suggest MongoDB products and deployment options to you.
 
 To enable free monitoring, run the following command: db.enableFreeMonitoring()
 To permanently disable this reminder, run the following command: db.disableFreeMonitoring()
+
 ---
 
 >
