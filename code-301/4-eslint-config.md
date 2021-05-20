@@ -24,3 +24,7 @@ Navigate to the root of your computer and add the following to your `eslintrc.js
   }
 }
 ```
+
+----
+
+Your computer is all set and ready for Code 301!
