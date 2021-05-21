@@ -25,7 +25,7 @@ Make back ups of the files listed below. You may get a `No such file or director
 
 From your terminal, run this command
 
-`curl -s https://raw.githubusercontent.com/codefellows/setup-guide/master/configs/.profile >> ~/.profile`
+`curl -s https://raw.githubusercontent.com/codefellows/setup-guide/main/configs/.profile >> ~/.profile`
 
 Once it completes, log out of your terminal, and then back in again. Your prompt should change slightly, with a different set of colors
 
@@ -35,7 +35,7 @@ From your terminal, run these commands
 
 `echo 'source $(brew --prefix nvm)/nvm.sh' >> ~/.profile`
 
-`curl -s https://raw.githubusercontent.com/codefellows/setup-guide/master/configs/.zshrc >> ~/.zshrc`
+`curl -s https://raw.githubusercontent.com/codefellows/setup-guide/main/configs/.zshrc >> ~/.zshrc`
 
 ## Reset Your Environment
 
