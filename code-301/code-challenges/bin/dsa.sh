@@ -2,7 +2,7 @@
 
 # Download and configure the DS&A Repo First
 downloadRepo() {
-  curl https://codeload.github.com/codefellows/data-structures-and-algorithms/legacy.tar.gz/main --output dsa.tar.gz
+  curl https://codeload.github.com/codefellows/data-structures-and-algorithms/legacy.tar.gz/master --output dsa.tar.gz
 
   tar zxvf dsa.tar.gz --strip 1
 }
@@ -39,4 +39,3 @@ getConfigFiles
 npmInstall
 cleanup
 finish
-
