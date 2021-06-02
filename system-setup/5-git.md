@@ -14,10 +14,15 @@ You might have a different version, but expected output should be similar to:
 
 *if* you have an installed version of git
 
-Type the following command in your terminal:
-`git config --global core.editor "code --wait"`
+Type `git config --list'
+if you do not see something similar to the following, skip down to Git Config.  If you do, skip to next page.
 
-Move on to the next section
+```
+user.name=YOUR NAME
+user.email=YOUR EMAIL
+core.editor=code --wait
+```
+NOTE: If you need to change your name / email, run the associated command below in the Git Config.
 
 *else* install it, by running:
 

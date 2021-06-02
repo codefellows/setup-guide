@@ -2,9 +2,18 @@
 
 Now it's time to install VSCode Text Editor, a sophisticated text editor for code, markup, and prose.
 
-To get started, download [VSCode](https://code.visualstudio.com/download), and after it is installed:
+To get started, download [VSCode](https://code.visualstudio.com/download), install VSCode.
 
-- Close and Re-Open your Terminal
+## Windows Users
+
+Make sure to select the following is selected:
+
+![VSCode](vscode.png)
+
+Close your terminal
+
+## Mac and Linux USers Only: Manually Open VSCode
+
 - Launch The VS Code Application
 
 [VSCode's documentation](https://code.visualstudio.com/docs) is excellent. Review it now to familiarize yourself with the basics.
@@ -15,7 +24,15 @@ Open the **Command Palette** (⇧⌘P) and type 'shell command'
 
 Then, click the **Shell Command: Install 'code' command in PATH** command.
 
-Close and re-open your terminal for this to take effect
+Close your terminal
+
+## Confirm VS Code is working
+
+Open your terminal and run this command:
+
+`code .`
+
+VSCode should open up and show a list of files in the directory
 
 ## All Users: Install VSCode Extensions
 
@@ -29,14 +46,6 @@ Close and re-open your terminal for this to take effect
 - **Windows Users Only** - Remote WSL
 
 There are many other extensions to choose from that will make your coding life a lot easier. Your instructors, TAs and classmates will all be great resources as to what works well for them.
-
-## Confirm VS Code is working
-
-Open your terminal and run this command:
-
-`code .`
-
-VS Code should open up and show a list of files in the directory
 
 ---
 

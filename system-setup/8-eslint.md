@@ -1,4 +1,6 @@
-# Install ESLint
+# Install ESLint and Folder Structure
+
+## ESLint
 
 **Run:**
 
@@ -15,6 +17,22 @@ You should see something similar:
 ```bash
 v6.7.2
 ```
+
+## Folder Structure
+Run the following to create a structure where you will store code on your computer:
+
+```
+mkdir projects  # This Will create a folder called projects
+cd projects  # This will Change Directory into the folder projects
+mkdir codefellows 
+cd codefellows
+mkidr code102
+cd code102
+pwd
+```
+
+You should see an output like this:
+`/home/your_user_name/projects/codefellows/code102`
 
 ---
 
