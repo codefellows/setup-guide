@@ -63,7 +63,7 @@ mongo
 
 You should see something similar to the following:
 
-```
+```bash
 MongoDB shell version v4.4
 connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&gssapiServiceName=mongodb
 Implicit session: session { "id" : UUID("854a9ce2-a75d-499c-bb51-5c6c7f57a4fd") }
@@ -106,4 +106,4 @@ Type `exit` to return to your bash shell. MongoDB is successfully installed.
 
 ---
 
-### [⇐ Previous](./1-heroku) | [Home ⇒](./3-code-challenges)
+### [⇐ Previous](./1-heroku) | [Next ⇒](./3-code-challenges)

@@ -59,3 +59,7 @@ Navigate to your home folder, `cd ~`. Edit, or create, `.eslintrc.json`, and set
 ----
 
 Your computer is all set and ready for Code 301!
+
+----
+
+### [⇐ Previous](./3-code-challenges) | [Home ⇒](./)
