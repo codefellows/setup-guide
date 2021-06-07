@@ -6,14 +6,17 @@ As part of your daily routine in 301, you will be executing a code challenge. To
 
 Please follow these steps:
 
-1. On github.com, create a new, empty repository called `data-structures-and-algorithms` in your account.
-1. Clone your newly-created repository to your machine, in your `codefellows` folder
-1. `cd` into the new repo in your terminal
-1. Execute the following command in the new repo directory, which will setup your DS&A folders:
-   - `bash <(curl -s https://raw.githubusercontent.com/codefellows/setup-guide/master/code-301/code-challenges/bin/dsa.sh)`
-1. When it's done, verify that things are working properly by running a test. Enter this command:
-   - `npm test`
-   - You should see a message like the following, indicating that things are setup properly and tests are passing
+1. [Click Here](https://github.com/codefellows/data-structures-and-algorithms/generate) to create a new repository, based on the official DS&A template.
+   - Name this repository exactly: `data-structures-and-algorithms`.
+   - The description should be "Practice with Data Structures and Algorithms".
+   - **Do not check the box labeled** "Include All Branches".
+3. Clone your newly-created repository to your machine, in your projects folder.
+4. `cd` into the new repo in your terminal.
+5. Enter these commands, in sequence
+   - `cd javascript` - to enter the javascript folder.
+   - `npm install` - which will install some libraries that we'll use to help you test out your code challenges.
+   - `npm test` - which will do a trial run.
+   - You should see a message like the following, indicating that things are setup properly and tests are passing:
 
    ```bash
     PASS  code-challenges/proof-of-life.test.js
@@ -32,8 +35,8 @@ Please follow these steps:
    ```
 
 1. Complete an "ACP"
-   - `git add *`
-   - `git commit -m "Created Data Structures Repo"`
+   - `git add package-lock.json`
+   - `git commit -m "Initialized JavaScript Challenges"`
    - `git push origin main`
 1. Return to GitHub and refresh the view of your `data-structures-and-algorithms` repository, where you should see what you pushed
 1. Go to the "Actions" tab
