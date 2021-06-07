@@ -6,13 +6,13 @@ As part of your daily routine in 301, you will be executing a code challenge. To
 
 Please follow these steps:
 
-1. [Click Here](https://github.com/codefellows/data-structures-and-algorithms/generate) to create a new repository, based on the official DS&A template.
+1. [Click Here](https://github.com/codefellows/data-structures-and-algorithms/generate){:target="_blank"} to create a new repository, based on the official DS&A template.
    - Name this repository exactly: `data-structures-and-algorithms`.
    - The description should be "Practice with Data Structures and Algorithms".
    - **Do not check the box labeled** "Include All Branches".
-3. Clone your newly-created repository to your machine, in your projects folder.
-4. `cd` into the new repo in your terminal.
-5. Enter these commands, in sequence
+1. Clone your newly-created repository to your machine, in your projects folder.
+1. `cd` into the new repo in your terminal.
+1. Enter these commands, in sequence
    - `cd javascript` - to enter the javascript folder.
    - `npm install` - which will install some libraries that we'll use to help you test out your code challenges.
    - `npm test` - which will do a trial run.
