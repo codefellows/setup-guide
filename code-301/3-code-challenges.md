@@ -10,7 +10,7 @@ Please follow these steps:
 1. Clone your newly-created repository to your machine, in your `codefellows` folder
 1. `cd` into the new repo in your terminal
 1. Execute the following command in the new repo directory, which will setup your DS&A folders:
-   - `bash <(curl -s https://raw.githubusercontent.com/codefellows/setup-guide/master/code-301/code-challenges/bin/dsa.sh)`
+   - `bash <(curl -s https://raw.githubusercontent.com/codefellows/setup-guide/main/code-301/code-challenges/bin/dsa.sh)`
 1. When it's done, verify that things are working properly by running a test. Enter these commands:
    - `cd javascript`
    - `npm test`
