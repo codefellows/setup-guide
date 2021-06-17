@@ -1,23 +1,23 @@
 # Verify Your Setup
 
-> By the time you’ve completed the guide, you should be able to run the following commands in your terminal and see the expected output
+> By the time you’ve completed the guide, you should be able to run the following commands in your terminal and see the expected output.  Your versions may be slightly than what is listed here due to recent updates.
 
 - `code --version`
 
   ```bash
-  1.46.0
+  1.56.2
   a5d1cc28bb5da32ec67e86cc50f84c67cc690321
   x64
   ```
 
 - `git --version`
-  - `git version 2.24.3 (Apple Git-128)`
+  - `git version 2.25.1 (Apple Git-128)`
 - `node --version`
-  - `v10.19.0`
+  - `v14.17.0`
 - `npm --version`
-  `6.13.4`
+  `6.14.13`
 - `eslint --version`
-  `v7.2.0`
+  `v7.27.0`
 - `tree --version`
   - `tree v1.8.0 (c) 1996 - 2018 ...`
 - WSL/Ubuntu only

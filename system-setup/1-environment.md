@@ -27,7 +27,7 @@ From your terminal, run this command
 
 `curl -s https://raw.githubusercontent.com/codefellows/setup-guide/main/configs/.profile >> ~/.profile`
 
-Once it completes, log out of your terminal, and then back in again. Your prompt should change slightly, with a different set of colors
+You will not see a success message. Once it finishes, completely close your terminal, and then re-open it. Your prompt should change slightly, with a different set of colors
 
 ### Mac
 
@@ -41,7 +41,11 @@ From your terminal, run these commands
 
 The changes you just made will take effect every time you re-open your terminal. But right now, we want to see those changes immediately, so let's "source it" by running:
 
+`echo cd ~ >> .profile`
+
 `source ~/.profile`
+
+- NOTE: You will see an error along the lines of `-bash: /home/linuxbrew/.linuxbrew/bin/brew: No such file or directory`.  This is ok for now.
 
 Now, let's move on to getting our development applications installed
 

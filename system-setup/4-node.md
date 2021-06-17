@@ -14,6 +14,10 @@ Carefully follow the instructions in the resulting output of that command.
 
 Once it completes, you will need to exit your terminal, and log back in to demonstrate that the command works in a new shell.
 
+You will then need to ensure you have a hidden folder for nvm.  Run the following:
+
+`mkdir ~/.nvm`
+
 ## Install Node
 
 Now that 'nvm' (node version manager is installed), let's install node itself
