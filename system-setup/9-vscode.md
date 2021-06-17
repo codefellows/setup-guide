@@ -32,11 +32,11 @@ Open your terminal and run this command:
 
 `code .`
 
-VSCode should open up and show a list of files in the directory
+VSCode should open up and show a list of files in the current directory.
 
 ## All Users: Install VSCode Extensions
 
-1. To add extensions to VSCode, open up VSCode. On the bottom left hand side you will see a cog icon.  Click this and select extensions. A side-bar will slide out and at the top you can search for the listed extensions below and click the green 'Install' button:
+1. To add extensions to VSCode, open up VSCode. On the bottom left hand side you will see a settings ("gear") icon.  Click this, then click "Extensions". A side-bar will slide out and at the top you can search for the listed extensions below, and click the green 'Install' button for each:
 
 - live server
 - ESLint
