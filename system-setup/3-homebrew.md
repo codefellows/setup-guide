@@ -11,7 +11,7 @@ Homebrew is a tool that simplifies installing applications on your machine. Thin
      - Once the main installation finishes (could take up to 30 minutes), enter these commands, one at a time in your terminal:
      - `test -d ~/.linuxbrew && eval $(~/.linuxbrew/bin/brew shellenv)`
      - `test -d /home/linuxbrew/.linuxbrew && eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)`
-     - The commands should produce no errors and does not produce a success message.
+     - The commands should produce no errors and do not produce success messages.
 
 Once the installation has completed, **run:**
 
