@@ -19,21 +19,25 @@ v6.7.2
 ```
 
 ## Folder Structure
-Run the following to create a structure where you will store code on your computer:
+
+Can you predict what these commands will do?
+
+Type each of the following commands, one line at a time, to create a folder structure where you will store code on your computer:
 
 ```
-mkdir projects  # This Will create a folder called projects
-cd projects  # This will Change Directory into the folder projects
-mkdir codefellows 
-cd codefellows
-mkidr code102
-cd code102
+cd ~
+mkdir projects  
+cd projects 
+mkdir courses
+cd courses
 pwd
 ```
 
-You should see an output like this:
-`/home/your_user_name/projects/codefellows/code102`
+You should see an output similar to this:
+`/home/your_user_name/projects/courses`
+
+This is the place to clone repositories for labs
 
 ---
 
-### [⇐ Previous](7-live-server.md) | | [Next ⇒](9-vscode.md)
+### [⇐ Previous](7-live-server) | | [Next ⇒](9-vscode)
