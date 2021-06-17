@@ -41,10 +41,6 @@ From your terminal, run these commands
 
 The changes you just made will take effect every time you re-open your terminal. But right now, we want to see those changes immediately, so let's "source it" by running:
 
-- Use your down arrow key to scroll to the bottom of the file and add this after the last line
-
-`cd ~` - This makes sure you are in your home directory.
-
 `echo cd ~ >> .profile`
 
 `source ~/.profile`
