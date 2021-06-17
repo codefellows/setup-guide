@@ -87,14 +87,16 @@ Your system is all set, proceed with the following instructions here.
 
 1. It will ask you to enter a username.
 1. It will then ask you to enter and confirm a password.
-   - It's recommended it's not too long as you may have to type it a lot. Also note that it will protect your password by not displaying it to the screen when you type, but it is registering your key strokes.
-1. Finally, the prompt will change and you will be on a command line. Type `pwd` to see where you currently are in the FS, you should be at `/home/<your username>`. **This is the root level of your Ubuntu user.**
+   - It's recommended it's not too long as you may have to type it a lot. 
+   - Also note that it will protect your password by not displaying ANYTHING at all to the screen, but it is registering your key strokes.
+1. Finally, the prompt will change and you will be on a command line. 
+1. Type `pwd` to see where you currently are in the file system. You should be at `/home/<your username>`. **This is the root level of your Ubuntu user.**
    1. If your `pwd` output is not `/home/<your username>`, run the command `cd ~` and check again.
-   1. If the above does not fix the issue, get assistance.
+   1. If you are still not at `/home/<your username>`, get assistance.
    
 #### Verify that you are running WSL Version 2
 
-1. Open Terminal
+1. Open Command Prompt from the Windows search bar
 1. Run the following command:
 
    - `wsl -l -v`
