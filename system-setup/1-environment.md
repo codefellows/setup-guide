@@ -27,7 +27,7 @@ From your terminal, run this command
 
 `curl -s https://raw.githubusercontent.com/codefellows/setup-guide/main/configs/.profile >> ~/.profile`
 
-You will not see a success message. Once it completes, log out of your terminal, and then back in again. Your prompt should change slightly, with a different set of colors
+You will not see a success message. Once it finishes, completely close your terminal, and then re-open it. Your prompt should change slightly, with a different set of colors
 
 ### Mac
 
