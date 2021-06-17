@@ -2,7 +2,7 @@
 
 ## Install Git
 
-Run the following command to ensure that you have the most recent version of `git`
+Run the following command to ensure that you have the most recent version of `git`:
 
 `brew install git || brew upgrade git`
 
@@ -10,8 +10,6 @@ Run the following command to ensure that you have the most recent version of `gi
 ## Git Config
 
 Like artists, programmers sign their work. Let's configure Git to sign your commits with your name and email address.
-
-Make sure you use the same email your registered with at [GitHub](https://github.com)
 
 **WARNING:** Before running the following commands one line at at time, replace `YOUR FULL NAME` and `YOUR EMAIL ADDRESS` with the name and email from [Your GitHub Account](https://github.com/settings/profile)
 
@@ -29,4 +27,4 @@ git config --global core.editor "code --wait"
 
 ---
 
-### [⇐ Previous](4-node.md) | [Next ⇒](6-tree.md)
+### [⇐ Previous](4-node) | [Next ⇒](6-tree)
