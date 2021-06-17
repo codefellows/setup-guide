@@ -38,7 +38,7 @@ VSCode should open up and show a list of files in the current directory.
 
 1. To add extensions to VSCode, open up VSCode. On the bottom left hand side you will see a settings ("gear") icon.  Click this, then click "Extensions". A side-bar will slide out and at the top you can search for the listed extensions below, and click the green 'Install' button for each:
 
-- live server
+- liveserver
 - ESLint
 - Markdown Lint
 - HTML Preview
@@ -49,4 +49,4 @@ There are many other extensions to choose from that will make your coding life a
 
 ---
 
-### [⇐ Previous](8-eslint.md) | [Next ⇒](./10-verify.md)
+### [⇐ Previous](8-eslint) | [Next ⇒](./10-verify)
