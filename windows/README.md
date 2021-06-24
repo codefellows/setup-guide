@@ -44,7 +44,15 @@ If your version is not a build higher than 19041, you'll need to do an update of
 
 After you reboot, install the "Windows Terminal" app from the Microsoft Store. If you have any trouble locating it, [view it on the web](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab){:target="_blank"}.
 
+NOTE: If the above installation fails:
+1. Go to the "releases" within [GH](https://github.com/microsoft/terminal/releases){:target="_blank"}.
+1. Find the "latest release". this was 1.8.1092.0 at the time of this issue
+1. At the bottom of the "latest release" section, you will see "assets", and under assets is a downloadable file that ends in .msixbundle
+1. Download this file, and run it. That does the same thing the "Get" on the windows store does for Windows Terminal.
+
 This will allow you have multiple command-line interface "tabs" open at once, which makes development a lot easier.
+
+### Configure for WSL 2
 
 Once it's installed, open Windows Terminal. It should identify as Powershell.
 
@@ -83,6 +91,11 @@ Your system is all set, proceed with the following instructions here.
 1. Open the Microsoft Store and install the "Ubuntu" App (with no version numbers). If you can't find it, [view it online](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6?activetab=pivot:overviewtab){:target="_blank"}.
 1. When the app is ready, it will prompt you to **Launch**. Click the Launch button. This will start the Ubuntu installation. This installation only happens the first time the app is launched, as it's the actual Ubuntu OS installing and mounting to your Windows file system. Anytime you uninstall the app and reinstall it you will have to do this process again. Make sure to back up important data if you ever uninstall this app, as it is not preserved.
 
+NOTE: If the above installation fails:
+1. Go [here](https://docs.microsoft.com/en-us/windows/wsl/install-manual){:target="_blank"}.
+1. Select the proper version: "Ubuntu 20.04", a download of a .appx file will occur
+1. Run this file, and it will do the same thing as the "Get" from the windows store
+
 #### Finish Installing the Ubuntu App
 
 1. It will ask you to enter a username.
@@ -113,6 +126,13 @@ Your system is all set, proceed with the following instructions here.
    - `wsl --set-version Ubuntu-20.04 2`
    - This will take a fair amount of time to complete
    - Re-Run the command above to verify your version
+
+#### (Optional) Set Ubuntu as the default when opening the windows terminal.
+
+1. Open the windows termianl.
+1. Click on the drop down arrow and click on settings
+1. In the Default profile select Ubuntu.
+1. Click Save and close the terminal
 
 #### Verify Ubuntu is available in Windows Terminal
 
