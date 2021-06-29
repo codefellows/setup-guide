@@ -27,4 +27,4 @@ git config --global core.editor "code --wait"
 
 ---
 
-### [⇐ Previous](4-node) | [Next ⇒](6-tree)
+### [⇐ Previous](4-node.md) | [Next ⇒](6-tree.md)
