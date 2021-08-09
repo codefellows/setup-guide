@@ -73,4 +73,4 @@ Type `\q` to exit the postgres client application and return to your bash shell.
 
 ---
 
-### [⇐ Previous](./4-aws.md)  | [Home ⇒](./)
+### [⇐ Previous](./3-aws.md)  | [Home ⇒](./)
