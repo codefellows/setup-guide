@@ -16,4 +16,4 @@ As part of the 401 Curriculum and beyond, you'll be using various cloud service 
 
 ---
 
-### [⇐ Previous](./1-httpie.md) | [Next ⇒](./3-azure.md)
+### [⇐ Previous](./1-httpie.md) | [Next ⇒](./3-aws.md)
