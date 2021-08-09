@@ -18,4 +18,4 @@ As part of the 401 Curriculum and beyond, you'll be using various cloud service 
 
 ---
 
-### [⇐ Previous](./3-azure.md) | [Next ⇒](./5-mongo.md)
+### [⇐ Previous](./3-azure.md) | [Next ⇒](./5-postgres.md)
