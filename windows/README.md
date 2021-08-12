@@ -93,6 +93,7 @@ Your system is all set, proceed with the following instructions here.
 1. When the app is ready, it will prompt you to **Launch**. Click the Launch button. This will start the Ubuntu installation. This installation only happens the first time the app is launched, as it's the actual Ubuntu OS installing and mounting to your Windows file system. Anytime you uninstall the app and reinstall it you will have to do this process again. Make sure to back up important data if you ever uninstall this app, as it is not preserved.
 
 NOTE: If the above installation fails:
+
 1. Go [here](https://docs.microsoft.com/en-us/windows/wsl/install-manual){:target="_blank"}.
 1. Select the proper version: "Ubuntu 20.04", a download of a .appx file will occur
 1. Run this file, and it will do the same thing as the "Get" from the windows store
