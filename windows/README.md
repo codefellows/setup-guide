@@ -45,6 +45,7 @@ If your version is not a build higher than 19041, you'll need to do an update of
 After you reboot, install the "Windows Terminal" app from the Microsoft Store. If you have any trouble locating it, [view it on the web](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab){:target="_blank"}.
 
 NOTE: If the above installation fails:
+
 1. Go to the "releases" within [GH](https://github.com/microsoft/terminal/releases){:target="_blank"}.
 1. Find the "latest release". this was 1.8.1092.0 at the time of this issue
 1. At the bottom of the "latest release" section, you will see "assets", and under assets is a downloadable file that ends in .msixbundle
@@ -127,7 +128,7 @@ NOTE: If the above installation fails:
    - This will take a fair amount of time to complete
    - Re-Run the command above to verify your version
 
-#### (Optional) Set Ubuntu as the default when opening the windows terminal.
+#### Set Ubuntu as the default when opening the windows terminal.
 
 1. Open the windows termianl.
 1. Click on the drop down arrow and click on settings
