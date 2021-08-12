@@ -171,6 +171,7 @@ In order to use Git locally in a secure manner, we need to connect our computer 
        ssh -T git@github.com
        ```
 
+     - If you get a warning about authenticity of host enter `yes` to continue connecting.
      - You should get confirmation that looks something like this ... congratulations!
 
        ```bash
