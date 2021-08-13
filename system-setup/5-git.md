@@ -86,7 +86,7 @@ In order to use Git locally in a secure manner, we need to connect our computer 
 
    - You'll need to copy that and paste it into GitHub. There are 3 ways to do this
    
-      - Mac Users: Run `pbcopy < ~/.ssh/id_rsa.pub` to copy key to ckipboard.
+      - Mac Users: Run `pbcopy < ~/.ssh/id_rsa.pub` to copy key to clipboard.
       - Linux / Windows Users can use `xclip` to do this
         - `sudo apt-get install xclip` installs xclip
         - `xclip -selection clipboard < ~/.ssh/id_rsa.pub` to copy key to clipboard
