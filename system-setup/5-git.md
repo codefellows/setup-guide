@@ -10,7 +10,7 @@ Run the following command to ensure that you have the most recent version of `gi
 
 In order to use Git locally in a secure manner, we need to connect our computer with github.com using what's called "SSH Authorization", which is a way that we can consistently connect to github without sending our username and password every time we perform a command
 
-[GitHub Instructions: Gerarate SSH Key](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+[GitHub Instructions: Generate SSH Key](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
 
 1. Create an "SSH Key"
@@ -86,10 +86,10 @@ In order to use Git locally in a secure manner, we need to connect our computer 
 
    - You'll need to copy that and paste it into GitHub. There are 3 ways to do this
    
-      - Mac Users: Run `pbcopy < ~/.ssh/id_ed25519.pub` to copy key to ckipboard.
+      - Mac Users: Run `pbcopy < ~/.ssh/id_rsa.pub` to copy key to clipboard.
       - Linux / Windows Users can use `xclip` to do this
         - `sudo apt-get install xclip` installs xclip
-        - `clip -selection clipboard < ~/.ssh/id_ed25519.pub` to copy key to clipboard
+        - `xclip -selection clipboard < ~/.ssh/id_rsa.pub` to copy key to clipboard
       - Or, you can do this the old fashioned way and Highlight the text and copy it to your clipboard
         - Note: Copy all of it, from the `ssh-rsa` to your email address at the end
         
