@@ -158,7 +158,7 @@ In order to use Git locally in a secure manner, we need to connect our computer 
        Host *
          AddKeysToAgent yes
          UseKeychain yes
-         IdentityFile ~/.ssh/id_ed25519
+         IdentityFile ~/.ssh/id_rsa
        ```
 
       - Press `ctrl-x` then press `y` then press `enter`
