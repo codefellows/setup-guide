@@ -12,7 +12,6 @@ In order to use Git locally in a secure manner, we need to connect our computer 
 
 [GitHub Instructions: Generate SSH Key](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
-
 1. Create an "SSH Key"
 
    - Head to your terminal and enter the following command (using the email address you sign into GitHub with)
@@ -29,11 +28,11 @@ In order to use Git locally in a secure manner, we need to connect our computer 
 
    - It will then prompt you for a password to lock down this file. Enter one you can remember.
 
-    > Note that you are free to leave this blank if you want to avoid typing passwords every time you use git. It's fine, although not terribly secure if someone gets ahold of your laptop
+     > Note that you are free to leave this blank if you want to avoid typing passwords every time you use git. It's fine, although not terribly secure if someone gets ahold of your laptop
 
-    ```bash
-    Enter passphrase (empty for no passphrase):
-    ```
+     ```bash
+     Enter passphrase (empty for no passphrase):
+     ```
 
    - Once complete, it'll give you output that looks similar to this:
 
@@ -66,34 +65,34 @@ In order to use Git locally in a secure manner, we need to connect our computer 
 
       - Type this command to see your new key:
 
-     ```bash
-     cat ~/.ssh/id_rsa.pub
-     ```
+        ```bash
+        cat ~/.ssh/id_rsa.pub
+        ```
 
      - It'll look like a bunch of random letters, like this:
 
-     ```text
-     ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC1PqLEQoHNtq0Nx0IyIKQxXj91oSdTU0F2LA5FnCRPSJLBplzBtlkZdG9JLX
-     +2EsrfpAMpP7FPU2hKt1swmPLp3HrbPI3ziNyyPX9Mj/5qpANYv+9QiKs6X9iApsfl0r985BE0XthFqJNYzBKM
-     +q6bM1F5gKSBWX+t0RpTWn5lMnE970na52vQFVU7whQwmq1OxmzMzKlPtWA5xLF8b/
-     fvWzKPkj0d9pCd752zw4H2Rm2T1huqxYFx4i6y3Cv5fUIF2/B
-     4WU1GUUiIrH3s0XCW7UxUnkFCOWJUZ3XFlkBvOftxN8mocMhaip1xsoOr2tWIYgrABcmFOE9vXKE7Z64ILO+
-     1vjM3JzO660jBUYJfkOfWKRm1P/BDTqLG+4A7das8aJa+kQJHMrLR8BhlSnxZVHiNhbrGHaKcH8CZVuF/
-     ATdnT44EtyKgR433A7WwzLbr22vsMw4iU5HNwXHbnUY+5SD5Lw/ZngnXm1m5A4jP/7MBs4eJlYw6+K+HiNIze
-     +9w10TsmcaDlNcHckn8/
-     22OzY6Qph3qx2NBWcZ42XcBKNDLnwgztdbNNA32R85UrCWb0v7XgO2YgthsKSGxtA3wSL32BWfJwlrkLuUJvLQ=
-     = yourname@example.com
-     ```
+       ```text
+       ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC1PqLEQoHNtq0Nx0IyIKQxXj91oSdTU0F2LA5FnCRPSJLBplzBtlkZdG9JLX
+       +2EsrfpAMpP7FPU2hKt1swmPLp3HrbPI3ziNyyPX9Mj/5qpANYv+9QiKs6X9iApsfl0r985BE0XthFqJNYzBKM
+       +q6bM1F5gKSBWX+t0RpTWn5lMnE970na52vQFVU7whQwmq1OxmzMzKlPtWA5xLF8b/
+       fvWzKPkj0d9pCd752zw4H2Rm2T1huqxYFx4i6y3Cv5fUIF2/B
+       4WU1GUUiIrH3s0XCW7UxUnkFCOWJUZ3XFlkBvOftxN8mocMhaip1xsoOr2tWIYgrABcmFOE9vXKE7Z64ILO+
+       1vjM3JzO660jBUYJfkOfWKRm1P/BDTqLG+4A7das8aJa+kQJHMrLR8BhlSnxZVHiNhbrGHaKcH8CZVuF/
+       ATdnT44EtyKgR433A7WwzLbr22vsMw4iU5HNwXHbnUY+5SD5Lw/ZngnXm1m5A4jP/7MBs4eJlYw6+K+HiNIze
+       +9w10TsmcaDlNcHckn8/
+       22OzY6Qph3qx2NBWcZ42XcBKNDLnwgztdbNNA32R85UrCWb0v7XgO2YgthsKSGxtA3wSL32BWfJwlrkLuUJvLQ=
+       = yourname@example.com
+       ```
 
      - You'll need to copy that and paste it into GitHub. There are 3 ways to do this
-   
+
        - Mac Users: Run `pbcopy < ~/.ssh/id_rsa.pub` to copy key to clipboard.
        - Linux / Windows Users can use `xclip` to do this
          - `sudo apt-get install xclip` installs xclip
          - `xclip -selection clipboard < ~/.ssh/id_rsa.pub` to copy key to clipboard
        - Or, you can do this the old fashioned way and Highlight the text and copy it to your clipboard
          - Note: Copy all of it, from the `ssh-rsa` to your email address at the end
-        
+
      - Now that you have this in your clip board, get it into GitHub ...
        - Login to your GitHub Account
        - Go to your settings page
@@ -147,7 +146,7 @@ In order to use Git locally in a secure manner, we need to connect our computer 
        ```
 
    - For Mac Users, you'll also need to create an extra config file. Enter this command:
-     
+
      - Open the config file `nano ~/.ssh/config`
      - Add the following:
 
@@ -158,7 +157,7 @@ In order to use Git locally in a secure manner, we need to connect our computer 
          IdentityFile ~/.ssh/id_rsa
        ```
 
-      - Press `ctrl-x` then press `y` then press `enter`
+     - Press `ctrl-x` then press `y` then press `enter`
 
 1. Test it out!
 
@@ -179,7 +178,6 @@ In order to use Git locally in a secure manner, we need to connect our computer 
 
    ![Clone](../images/clone.png)
 
-
 ## Git Config
 
 Like artists, programmers sign their work. Let's configure Git to sign your commits with your name and email address.
@@ -197,6 +195,5 @@ git config --global user.email 'YOUR EMAIL ADDRESS'
 ```bash
 git config --global core.editor "code --wait"
 ```
-
 
 ### [⇐ Previous](4-node.md) | [Next ⇒](6-tree.md)
