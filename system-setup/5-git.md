@@ -97,7 +97,7 @@ In order to use Git locally in a secure manner, we need to connect our computer 
      - Login to your GitHub Account
      - Go to your settings page
      - Click the down arrow next your icon on the top right and choose **"Settings"**
-         ![Settings](../images/settings.png)
+         ![Settings](../images/settings.jpg)
      - From the settings window, choose the **"SSH and GPG Keys"** menu option
          ![Settings](../images/keys.png)
      - Click the green button labeled "New SSH Key"
