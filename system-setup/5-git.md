@@ -14,7 +14,8 @@ In order to use Git locally in a secure manner, we need to connect our computer 
 
 
 1. Create an "SSH Key"
-   - Head to your terminal and enter the following command (using the email address you sign into GitHub with)
+
+  - Head to your terminal and enter the following command (using the email address you sign into GitHub with)
 
      ```bash
      ssh-keygen -t rsa -b 4096 -C "youremail@example.com"
@@ -96,24 +97,20 @@ In order to use Git locally in a secure manner, we need to connect our computer 
    - Now that you have this in your clip board, get it into GitHub ...
 
      - Login to your GitHub Account
-
      - Go to your settings page
        - Click the down arrow next your icon on the top right and choose **"Settings"**
        ![Settings](../images/settings.png)
-
      - From the settings window, choose the **"SSH and GPG Keys"** menu option
        ![Settings](../images/keys.png)
-
      - Click the green button labeled "New SSH Key"
-
      - On the next screen you'll see 2 inputs
        - In the first one, give you key a name, like "My Computer"
        - In the second box, paste in the key you copied in the previous step
-
      - Press the **Add SSH Key** button
        ![Add Key](../images/add-key.png)
 
 1. Add the key to your computer's **ssh-agent**
+
    - The ssh-agent is a service that your computer will run to securely manage your keys
 
    - Type this command to start and verify your **ssh-agent** is running properly
@@ -151,14 +148,15 @@ In order to use Git locally in a secure manner, we need to connect our computer 
        ```
 
    - For Mac Users, you'll also need to create an extra config file. Enter this command:
+     
      - Open the config file `nano ~/.ssh/config`
-     - Add the following to the editor:
+     - Add the following:
 
        ```bash
        Host *
          AddKeysToAgent yes
          UseKeychain yes
-         IdentityFile ~/.ssh/id_ed25519
+         IdentityFile ~/.ssh/id_rsa
        ```
 
       - Press `ctrl-x` then press `y` then press `enter`
