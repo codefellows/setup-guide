@@ -12,17 +12,17 @@ In order to use Git locally in a secure manner, we need to connect our computer 
 
 [GitHub Instructions: Generate SSH Key](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
-1. Create an "SSH Key"
+1. Create an "SSH Key":
 
-   - Head to your terminal and enter the following command (using the email address you sign into GitHub with)
+   - Head to your terminal and enter the following command (using the email address you sign in to GitHub with):
 
      ```bash
      ssh-keygen -t rsa -b 4096 -C "youremail@example.com"
      ```
 
-   - This will prompt you for a file location. Just accept the default
+   - This will prompt you for a file location. Just accept the default.
 
-     ```bash
+     ```
      Enter file in which to save the key (/Users/yourname/.ssh/id_rsa):
      ```
 
@@ -30,7 +30,7 @@ In order to use Git locally in a secure manner, we need to connect our computer 
 
      > Note that you are free to leave this blank if you want to avoid typing passwords every time you use git. It's fine, although not terribly secure if someone gets ahold of your laptop
 
-     ```bash
+     ```
      Enter passphrase (empty for no passphrase):
      ```
 
@@ -61,15 +61,15 @@ In order to use Git locally in a secure manner, we need to connect our computer 
      +----[SHA256]-----+
      ```
 
-   1. Give that key to GitHub
+1. Give that key to GitHub
 
-      - Type this command to see your new key:
+   - Type this command to see your new key:
 
         ```bash
         cat ~/.ssh/id_rsa.pub
         ```
 
-     - It'll look like a bunch of random letters, like this:
+   - It'll look like a bunch of random letters, like this:
 
        ```text
        ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC1PqLEQoHNtq0Nx0IyIKQxXj91oSdTU0F2LA5FnCRPSJLBplzBtlkZdG9JLX
@@ -84,28 +84,28 @@ In order to use Git locally in a secure manner, we need to connect our computer 
        = yourname@example.com
        ```
 
-     - You'll need to copy that and paste it into GitHub. There are 3 ways to do this
+   - You'll need to copy that and paste it into GitHub. There are 3 ways to do this
 
-       - Mac Users: Run `pbcopy < ~/.ssh/id_rsa.pub` to copy key to clipboard.
-       - Linux / Windows Users can use `xclip` to do this
-         - `sudo apt-get install xclip` installs xclip
-         - `xclip -selection clipboard < ~/.ssh/id_rsa.pub` to copy key to clipboard
-       - Or, you can do this the old fashioned way and Highlight the text and copy it to your clipboard
-         - Note: Copy all of it, from the `ssh-rsa` to your email address at the end
+     - Mac Users: Run `pbcopy < ~/.ssh/id_rsa.pub` to copy key to clipboard.
+     - Linux / Windows Users can use `xclip` to do this
+       - `sudo apt-get install xclip` installs xclip
+       - `xclip -selection clipboard < ~/.ssh/id_rsa.pub` to copy key to clipboard
+     - Or, you can do this the old fashioned way and Highlight the text and copy it to your clipboard
+       - Note: Copy all of it, from the `ssh-rsa` to your email address at the end
 
-     - Now that you have this in your clip board, get it into GitHub ...
-       - Login to your GitHub Account
-       - Go to your settings page
-       - Click the down arrow next your icon on the top right and choose **"Settings"**
+   - Now that you have this in your clip board, get it into GitHub ...
+     - Login to your GitHub Account
+     - Go to your settings page
+     - Click the down arrow next your icon on the top right and choose **"Settings"**
          ![Settings](../images/settings.png)
-       - From the settings window, choose the **"SSH and GPG Keys"** menu option
+     - From the settings window, choose the **"SSH and GPG Keys"** menu option
          ![Settings](../images/keys.png)
-       - Click the green button labeled "New SSH Key"
-       - On the next screen you'll see 2 inputs
-         - In the first one, give you key a name, like "My Computer"
-         - In the second box, paste in the key you copied in the previous step
-       - Press the **Add SSH Key** button
+     - Click the green button labeled "New SSH Key"
+     - On the next screen you'll see 2 inputs
          ![Add Key](../images/add-key.png)
+       - Title: Give your key a name, like "My Computer"
+       - Key: Paste in the key you copied in the previous step
+     - Press the **Add SSH Key** button
 
 1. Add the key to your computer's **ssh-agent**
 
@@ -119,7 +119,7 @@ In order to use Git locally in a secure manner, we need to connect our computer 
 
    - If it is, you should see output that looks like this:
 
-     ```bash
+     ```
      Agent pid 95727
      ```
 
@@ -141,7 +141,7 @@ In order to use Git locally in a secure manner, we need to connect our computer 
 
      - You should see a success message like this:
 
-       ```bash
+       ```
        Identity added: /Users/johncokos/.ssh/id_rsa (you@example.com)
        ```
 
@@ -161,14 +161,14 @@ In order to use Git locally in a secure manner, we need to connect our computer 
 
 1. Test it out!
 
-     - Try a test connection to GitHub:
+   - Try a test connection to GitHub:
 
        ```bash
        ssh -T git@github.com
        ```
 
-     - If you get a warning about authenticity of host enter `yes` to continue connecting.
-     - You should get confirmation that looks something like this ... congratulations!
+   - If you get a warning about authenticity of host enter `yes` to continue connecting.
+   - You should get confirmation that looks something like this ... congratulations!
 
        ```bash
        Hi yourname! You've successfully authenticated, but GitHub does not provide shell access.
