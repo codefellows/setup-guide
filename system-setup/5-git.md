@@ -201,5 +201,9 @@ git config --global user.email 'YOUR EMAIL ADDRESS'
 git config --global core.editor "code --wait"
 ```
 
+```bash
+git config --global init.defaultbranch main
+```
+
 
 ### [⇐ Previous](4-node.md) | [Next ⇒](6-tree.md)
