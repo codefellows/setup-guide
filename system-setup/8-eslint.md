@@ -40,4 +40,4 @@ This is the place to clone repositories for labs
 
 ---
 
-### [⇐ Previous](7-live-server) | | [Next ⇒](9-vscode)
+### [⇐ Previous](./7-live-server.md) | | [Next ⇒](./9-vscode.md)

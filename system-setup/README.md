@@ -6,4 +6,4 @@ The next series of steps will walk you through getting your system setup with th
 
 ---
 
-### [⇐ Previous](../README.md) | [Next ⇒](./1-environment.md)
+### [⇐ Previous](../README.md) | [Next ⇒](1-environment.md)
