@@ -43,6 +43,8 @@ The changes you just made will take effect every time you re-open your terminal.
 
 `echo cd ~ >> .profile`
 
+- NOTE: This forces your terminal to the linux side. System performance on the linux will increase performance while executing code.
+
 `source ~/.profile`
 
 - NOTE: You will see an error along the lines of `-bash: /home/linuxbrew/.linuxbrew/bin/brew: No such file or directory`.  This is ok for now.
