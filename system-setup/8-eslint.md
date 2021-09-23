@@ -18,6 +18,8 @@ You should see something similar:
 v6.7.2
 ```
 
+- NOTE: There is a file named .eslintrc.json located in the class repository under configs. You wil copy this to the root of every project you create. This will be the same throughout 201-401.
+
 ## Folder Structure
 
 Can you predict what these commands will do?
