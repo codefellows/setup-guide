@@ -43,11 +43,11 @@ The changes you just made will take effect every time you re-open your terminal.
 
 `echo cd ~ >> .profile`
 
-- NOTE: This forces your terminal to the linux side. System performance on the linux will increase performance while executing code.
+> NOTE: This forces your terminal to the Linux side when you open the terminal. System performance on Linux will increase speed of executing code.
 
 `source ~/.profile`
 
-- NOTE: You will see an error along the lines of `-bash: /home/linuxbrew/.linuxbrew/bin/brew: No such file or directory`.  This is ok for now.
+> NOTE: You will see an error along the lines of `-bash: /home/linuxbrew/.linuxbrew/bin/brew: No such file or directory`.  This is ok for now.
 
 Now, let's move on to getting our development applications installed
 
