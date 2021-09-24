@@ -29,10 +29,12 @@ brew services start mongodb-community
 
 ### Windows/WSL Users
 
-**Complete the following sections of [Microsoft's directions](https://docs.microsoft.com/en-us/windows/wsl/tutorials/wsl-database#install-mongodb{:target="_blank"}) are completed.**
+**Complete the following sections of [Microsoft's directions](https://docs.microsoft.com/en-us/windows/wsl/tutorials/wsl-database#install-mongodb{:target="_blank"}).**
 
-- Install MongoDB
-- Add the init script to start MongoDB as a service
+- [Install MongoDB](https://docs.microsoft.com/en-us/windows/wsl/tutorials/wsl-database#install-mongodb){:target="_blank"}
+  - **NOTE:** There is an issue with a step in this section.
+    - Step 8 should be `Ensure you are still in home directory. If not type cd ~`
+- [Add the init script to start MongoDB as a service](https://docs.microsoft.com/en-us/windows/wsl/tutorials/wsl-database#add-the-init-script-to-start-mongodb-as-a-service){:target="_blank"}
 
 Once you have finished, run `sudo service mongodb status` and you should see the status of `[ OK ]` on the left side of the screen; if not, run `sudo service mongodb start` to start up the database server.
 
