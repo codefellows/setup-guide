@@ -129,6 +129,10 @@ NOTE: If the above installation fails:
    - This will take a fair amount of time to complete
    - Re-Run the command above to verify your version
 
+> NOTE: If you get an error regarding virtualization not turned on, review the link below:
+
+- [How to enable Virtualization on Windows 10](https://support.bluestacks.com/hc/en-us/articles/115003174386-How-to-enable-Virtualization-VT-on-Windows-10-for-BlueStacks-4)
+
 #### Set Ubuntu as the default when opening the windows terminal.
 
 1. Open the windows termianl.
