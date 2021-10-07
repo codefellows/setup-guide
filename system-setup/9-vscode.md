@@ -40,9 +40,8 @@ VSCode should open up and show a list of files in the current directory.
 
 - liveserver
 - ESLint
-- Markdown Lint
+- markdownlint
 - HTML Preview
-- Debugger for Chrome
 - **Windows Users Only** - Remote WSL
 
 There are many other extensions to choose from that will make your coding life a lot easier. Your instructors, TAs and classmates will all be great resources as to what works well for them.
