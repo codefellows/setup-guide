@@ -53,6 +53,14 @@ NOTE: If the above installation fails:
 
 This will allow you have multiple command-line interface "tabs" open at once, which makes development a lot easier.
 
+NOTE: If the above fails do this:
+
+1. go to the "releases" within [GH](https://github.com/microsoft/terminal/releases)
+1. Find the "latest release".
+1. At the bottom of the "latest release" section, you will see "assets", and under assets is a downloadable file that ends in .msixbundle
+1. Download this file, and run it. That does the same thing the "Get" on the windows store does for Windows Terminal.
+Ubuntu App:
+
 ### Configure for WSL 2
 
 Once it's installed, open Windows Terminal. It should identify as Powershell.
@@ -97,6 +105,12 @@ NOTE: If the above installation fails:
 1. Go [here](https://docs.microsoft.com/en-us/windows/wsl/install-manual){:target="_blank"}.
 1. Select the proper version: "Ubuntu 20.04", a download of a .appx file will occur
 1. Run this file, and it will do the same thing as the "Get" from the windows store
+
+NOTE: If neither of the above work, do this:
+
+1. click [here](https://docs.microsoft.com/en-us/windows/wsl/install-manual)
+1. Select the proper version: "Ubuntu 20.04", a download of a .appx file will occur
+1. run this file, and it will do the same thing as the "Get" from the windows store
 
 #### Finish Installing the Ubuntu App
 
