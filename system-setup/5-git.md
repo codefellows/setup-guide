@@ -10,7 +10,7 @@ Run the following command to ensure that you have the most recent version of `gi
 
 In order to use Git locally in a secure manner, we need to connect our computer with github.com.
 
-[GitHub Instructions: Cashing GitHub credentials](https://docs.github.com/en/get-started/getting-started-with-git/caching-your-github-credentials-in-git)
+[GitHub Instructions: Caching GitHub credentials](https://docs.github.com/en/get-started/getting-started-with-git/caching-your-github-credentials-in-git)
 
 - Install CLI by completing the following steps:
   - run in terminal: `brew install gh`
