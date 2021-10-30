@@ -30,14 +30,14 @@ If your version is not a build higher than 19041, you'll need to do an update of
 
 1. In the Search box next to the Windows Menu, type `Turn Windows Features On Or Off` and hit enter.
 1. A window will pop up with a list of folders with checkboxes next to them.
-   - Scroll down and check the boxes for
+   - Scroll down and check the boxes for:
      - `Virtual Machine Platform`
      - `Windows Hypervisor Platform`
      - `Windows Subsystem for Linux`
-   - If you are running Windows as a Virtual Machine (unlikely), also enable
+   - If you are running Windows as a Virtual Machine (unlikely), also enable:
      - `Containers`
      - `Hyper-V (and as many sub-items as you can activate)`
-1. Once this operation is complete, you will need to restart your system and then continue the steps below
+1. Once this operation is complete, you will need to restart your system and then continue the steps below.
    - NOTE: This page might not open after restart, so be sure to make note of the url or bookmark it.
 
 ### Install Windows Terminal & Configure for WSL 2
@@ -47,17 +47,17 @@ After you reboot, install the "Windows Terminal" app from the Microsoft Store. I
 NOTE: If the above installation fails:
 
 1. Go to the "releases" within [GH](https://github.com/microsoft/terminal/releases){:target="_blank"}.
-1. Find the "latest release". this was 1.8.1092.0 at the time of this issue
-1. At the bottom of the "latest release" section, you will see "assets", and under assets is a downloadable file that ends in .msixbundle
+1. Find the "latest release". this was 1.8.1092.0 at the time of this issue.
+1. At the bottom of the "latest release" section, you will see "assets", and under assets is a downloadable file that ends in `.msixbundle`.
 1. Download this file, and run it. That does the same thing the "Get" on the windows store does for Windows Terminal.
 
 This will allow you have multiple command-line interface "tabs" open at once, which makes development a lot easier.
 
 NOTE: If the above fails do this:
 
-1. go to the "releases" within [GH](https://github.com/microsoft/terminal/releases)
+1. Go to the "releases" within [GH](https://github.com/microsoft/terminal/releases).
 1. Find the "latest release".
-1. At the bottom of the "latest release" section, you will see "assets", and under assets is a downloadable file that ends in .msixbundle
+1. At the bottom of the "latest release" section, you will see "assets", and under assets is a downloadable file that ends in `.msixbundle`.
 1. Download this file, and run it. That does the same thing the "Get" on the windows store does for Windows Terminal.
 Ubuntu App:
 
@@ -103,14 +103,14 @@ Your system is all set, proceed with the following instructions here.
 NOTE: If the above installation fails:
 
 1. Go [here](https://docs.microsoft.com/en-us/windows/wsl/install-manual){:target="_blank"}.
-1. Select the proper version: "Ubuntu 20.04", a download of a .appx file will occur
-1. Run this file, and it will do the same thing as the "Get" from the windows store
+1. Select the proper version: "Ubuntu 20.04", a download of an `.appx` file will occur.
+1. Run this file, and it will do the same thing as the "Get" from the Windows Store.
 
 NOTE: If neither of the above work, do this:
 
-1. click [here](https://docs.microsoft.com/en-us/windows/wsl/install-manual)
-1. Select the proper version: "Ubuntu 20.04", a download of a .appx file will occur
-1. run this file, and it will do the same thing as the "Get" from the windows store
+1. Click [here](https://docs.microsoft.com/en-us/windows/wsl/install-manual).
+1. Select the proper version: "Ubuntu 20.04", a download of an `.appx` file will occur.
+1. Run this file, and it will do the same thing as the "Get" from the Windows Store.
 
 #### Finish Installing the Ubuntu App
 
@@ -137,7 +137,7 @@ NOTE: If neither of the above work, do this:
      Ubuntu-20.04           Running         2
      ```
 
-1. If your version states version 1, you might need to take an additional step to update Ubuntu
+1. If your version states version 1, you might need to take an additional step to update Ubuntu:
    - Enter the following command (replace Ubuntu-20.04 with the actual version you installed):
    - `wsl --set-version Ubuntu-20.04 2`
    - This will take a fair amount of time to complete
@@ -146,9 +146,9 @@ NOTE: If neither of the above work, do this:
 #### Set Ubuntu as the default when opening the windows terminal.
 
 1. Open the windows termianl.
-1. Click on the drop down arrow and click on settings
+1. Click on the drop down arrow and click on settings.
 1. In the Default profile select Ubuntu.
-1. Click Save and close the terminal
+1. Click Save and close the terminal.
 
 #### Verify Ubuntu is available in Windows Terminal
 
