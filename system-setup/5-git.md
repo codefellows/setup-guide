@@ -18,7 +18,7 @@ In order to use Git locally in a secure manner, we need to connect our computer 
   - Use arrow key to select **GitHub.com**
   - Select **HTTPS**
   - When prompted with Authenticate Git with your GitHub credentials (Y / n).  Press `y` and enter
-  - Click **Login with a web wrowser**
+  - Click **Login with a web browser**
   - Copy the one time code shown in yout terminal and then press enter.  This will open github.com in a web page.
   - If not signed in, you will be prompted to signin.
   - Github will prompt you for the one time code.  Enter in the appropriate boxes.
