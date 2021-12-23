@@ -120,7 +120,7 @@ NOTE: If neither of the above work, do this:
    - This will take a fair amount of time to complete
    - Re-Run the command above to verify your version
 
-**TIP:** When we refer to "Terminal" throughout this guide, you should open Ubuntu Terminal application.
+> **TIP:** When we refer to "Terminal" throughout this guide, you should open Ubuntu Terminal application.
 
 ### 4. Continue with this setup guide
 
