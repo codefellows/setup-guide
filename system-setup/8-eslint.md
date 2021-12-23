@@ -24,7 +24,7 @@ Can you predict what these commands will do?
 
 Type each of the following commands, one line at a time, to create a folder structure where you will store code on your computer:
 
-```
+```bash
 cd ~
 mkdir projects  
 cd projects 

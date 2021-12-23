@@ -10,7 +10,7 @@ Verify tree is installed by **running:**
 
 Expected Output:
 
-```
+```bash
 tree v1.8.0 (c) 1996 - 2018 by Steve Baker, Thomas Moore, Francesc Rocher, Florian Sesser, Kyosuke Tokoro
 ```
 
