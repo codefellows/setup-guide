@@ -18,6 +18,8 @@ NOTE: You will be asked to download some stuff.  For this setup process please *
 
 [Windows 10](./windows/README.md)
 
+[Windows 11](./windows/11.md)
+
 ## Errors
 
 If ever you encounter an error or unexplained activity, please consult the [error documentation](./error/error.md)
