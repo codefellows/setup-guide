@@ -40,30 +40,9 @@ If your version is not a build higher than 19041, you'll need to do an update of
 1. Once this operation is complete, you will need to restart your system and then continue the steps below.
    - NOTE: This page might not open after restart, so be sure to make note of the url or bookmark it.
 
-### Install Windows Terminal & Configure for WSL 2
+### Configure Windows to run WSL 2
 
-After you reboot, install the "Windows Terminal" app from the Microsoft Store. If you have any trouble locating it, [view it on the web](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab){:target="_blank"}.
-
-NOTE: If the above installation fails:
-
-1. Go to the "releases" within [GH](https://github.com/microsoft/terminal/releases){:target="_blank"}.
-1. Find the "latest release". this was 1.8.1092.0 at the time of this issue.
-1. At the bottom of the "latest release" section, you will see "assets", and under assets is a downloadable file that ends in `.msixbundle`.
-1. Download this file, and run it. That does the same thing the "Get" on the windows store does for Windows Terminal.
-
-This will allow you have multiple command-line interface "tabs" open at once, which makes development a lot easier.
-
-NOTE: If the above fails do this:
-
-1. Go to the "releases" within [GH](https://github.com/microsoft/terminal/releases).
-1. Find the "latest release".
-1. At the bottom of the "latest release" section, you will see "assets", and under assets is a downloadable file that ends in `.msixbundle`.
-1. Download this file, and run it. That does the same thing the "Get" on the windows store does for Windows Terminal.
-Ubuntu App:
-
-### Configure for WSL 2
-
-Once it's installed, open Windows Terminal. It should identify as Powershell.
+Once it's installed, open Windows Powershell.
 
    ![Terminal running Powershell](https://p57.p1.n0.cdn.getcloudapp.com/items/04uYPLLX/Image%202020-06-15%20at%203.29.31%20PM.png?v=aecb8c6c745d0d5a5a11ba078a11a887)
 
@@ -143,21 +122,8 @@ NOTE: If neither of the above work, do this:
    - This will take a fair amount of time to complete
    - Re-Run the command above to verify your version
 
-#### Set Ubuntu as the default when opening the windows terminal.
 
-1. Open the windows termianl.
-1. Click on the drop down arrow and click on settings.
-1. In the Default profile select Ubuntu.
-1. Click Save and close the terminal.
-
-#### Verify Ubuntu is available in Windows Terminal
-
-1. Launch the Windows Terminal app. 
-1. Next to the new tab icon, there is a drop-down to let you select what kind of terminal you want to start. 
-1. You should now be able to select an Ubuntu terminal.
-1. From here on out, we will assume that you are using your Ubuntu Terminal, any time we refer to using a command-line (CLI), or entering terminal commands. 
-
-**TIP:** When we refer to "Terminal" throughout this guide, you should open the Windows Terminal application, and select Ubuntu in a new tab.
+> **TIP:** When we refer to "Terminal" throughout this guide, you should open the Ubuntu application
 
 ### 4. Continue with this setup guide
 
