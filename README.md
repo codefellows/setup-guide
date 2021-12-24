@@ -16,7 +16,9 @@ NOTE: You will be asked to download some stuff.  For this setup process please *
 
 [Ubuntu Linux](./system-setup/README.md)
 
-[Windows 10](./windows/README.md)
+[Windows 10](./windows/windows-10.md)
+
+[Windows 11](./windows/windows-11.md)
 
 ## Errors
 
