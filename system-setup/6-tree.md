@@ -1,4 +1,15 @@
-# Install Tree
+# Tree
+
+Tree is a useful application that will allow you to look at a directory structure and files that are in a directory.
+
+```text
+# Example of what an output may look like
+── courses
+    ├── code102
+    ├── code201
+```
+
+## Installation
 
 **Run:**
 
