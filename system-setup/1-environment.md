@@ -21,16 +21,13 @@ Make back ups of the files listed below. You may get a `No such file or director
 
 ## Adds functionality to applications we are about to install
 
-Copy and paste the following to your terminal (all at once)
+Copy and paste the following to your terminal:
 
-```text
-echo '# NVM' >> ~/.zshrc
-echo 'export NVM_DIR="$HOME/.nvm"
-[ -s "/home/linuxbrew/.linuxbrew/opt/nvm/nvm.sh" ] && . "/home/linuxbrew/.linuxbrew/opt/nvm/nvm.sh"' >> ~/.zshrc
-echo '[ -s "/home/linuxbrew/.linuxbrew/opt/nvm/etc/bash_completion.d/nvm" ] && . "/home/linuxbrew/.linuxbrew/opt/nvm/etc/bash_completion.d/nvm"' >> ~/.zshrc
+```bash
+curl -s https://raw.githubusercontent.com/codefellows/setup-guide/main/configs/update_zshrc.sh | bash
 ```
 
-Now, let's move on to getting our development applications installed
+Now, let's move on to getting our development applications installed.
 
 ---
 
