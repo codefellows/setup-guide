@@ -15,4 +15,5 @@ main(){
 
 main
 
-## curl -s https://raw.githubusercontent.com/codefellows/setup-guide/main/configs/verify.sh | bash
+## Full/Raw: curl -Ls https://raw.githubusercontent.com/codefellows/setup-guide/main/configs/verify.sh | bash
+## Actual: curl -Ls https://bit.ly/3qMWhbE | bash
