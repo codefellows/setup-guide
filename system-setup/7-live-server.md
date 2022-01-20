@@ -1,4 +1,8 @@
-# Install live-server
+# live-server
+
+This is a simulated website development server with live reload capability. This will allow you to see your website before deoploying.
+
+## Installation
 
 **Run:**
 

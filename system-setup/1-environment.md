@@ -1,14 +1,12 @@
-# Setup Your Terminal/Shell Environment
+# Backup Your Terminal/Shell Environment
 
 This section will talk about how to update the Terminal's look and feel, as well as how to edit files using the command line editor, `nano`
 
-At the end, this will add some color to your command line, and your command line will be formatted for development.
+At the end of this guide, we will add some color to your command line, and your command line will be formatted for development.
 
-## Updating the .profile file
+## Backing up files
 
-The first thing we'll do is get our environment setup properly, so that all of our commands will work properly as we're getting things going.
-
-### Backing up files
+The first thing we'll do is backup your existing terminal setup.
 
 There are a lot of ways that your terminal can be set up determined by different configuration files.
 
@@ -21,31 +19,15 @@ Make back ups of the files listed below. You may get a `No such file or director
 - `mv ~/.profile .profile.bak`
 - `mv ~/.zshrc .zshrc.bak`
 
-### WSL / Ubuntu
+## Adds functionality to applications we are about to install
 
-From your terminal, run this command
+Copy and paste the following to your terminal:
 
-`curl -s https://raw.githubusercontent.com/codefellows/setup-guide/main/configs/.profile >> ~/.profile`
+```bash
+curl -s https://raw.githubusercontent.com/codefellows/setup-guide/main/configs/update_zshrc.sh | bash
+```
 
-You will not see a success message. Once it finishes, completely close your terminal, and then re-open it. Your prompt should change slightly, with a different set of colors
-
-### Mac
-
-From your terminal, run these commands
-
-`echo 'source $(brew --prefix nvm)/nvm.sh' >> ~/.profile`
-
-`curl -s https://raw.githubusercontent.com/codefellows/setup-guide/main/configs/.zshrc >> ~/.zshrc`
-
-## Reset Your Environment
-
-The changes you just made will take effect every time you re-open your terminal. But right now, we want to see those changes immediately, so let's "source it" by running:
-
-`source ~/.profile`
-
-- NOTE: You will see an error along the lines of `-bash: /home/linuxbrew/.linuxbrew/bin/brew: No such file or directory`.  This is ok for now.
-
-Now, let's move on to getting our development applications installed
+Now, let's move on to getting our development applications installed.
 
 ---
 

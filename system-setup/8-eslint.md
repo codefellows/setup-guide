@@ -1,6 +1,6 @@
-# Install ESLint and Folder Structure
+# ESLint and Folder Structure
 
-## ESLint
+## Install ESLint
 
 **Run:**
 
