@@ -19,6 +19,14 @@ Make back ups of the files listed below. You may get a `No such file or director
 - `mv ~/.profile .profile.bak`
 - `mv ~/.zshrc .zshrc.bak`
 
+## Windows & Linux Users Only
+
+```bash
+sudo apt-get install zsh
+```
+
+After installing, type `zsh`. Zsh will ask you to choose some configuration. We will do this later by installing `oh-my-zsh`.  Chose option 0 to create the config file (prevent this message to show again).
+
 ## Adds functionality to applications we are about to install
 
 Copy and paste the following to your terminal:
