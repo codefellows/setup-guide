@@ -41,6 +41,7 @@ VSCode should open up and show a list of files in the current directory.
 - liveserver
 - ESLint
 - markdownlint
+- editorconfig
 - HTML Preview
 - **Windows Users Only** - Remote WSL
 
