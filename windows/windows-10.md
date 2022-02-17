@@ -2,9 +2,9 @@
 
 ## Overview
 
-Windows has released a feature available to all PCs running on Windows 10 called Windows Subsystem for Linux, otherwise known as WSL. WSL gives you the ability to add a Linux distribution (aka "distro"), like Ubuntu Linux, and connect it directly to the Windows File System. 
+Windows has released a feature available to all PCs running on Windows 10 called Windows Subsystem for Linux, otherwise known as WSL. WSL gives you the ability to add a Linux distribution (aka "distro"), like Ubuntu Linux, and connect it directly to the Windows File System.
 
-This guide will show you how to set up Ubuntu on your PC, and use it for software development. 
+This guide will show you how to set up Ubuntu on your PC, and use it for software development.
 
 ## Install Instructions
 
@@ -16,13 +16,13 @@ Please read through these steps before getting started
 
 For setting up a modern development environment, we will require that you're running the latest version of Windows 10 and have WSL Version 2 installed.
 
-> **NOTE:** WSL 2 is only available in Windows 10, Version 2004, Build 19041 or higher. You may need to update your Windows version. 
+> **NOTE:** WSL 2 is only available in Windows 10 or greater, Version 2004, Build 19041 or higher. You may need to update your Windows version.
 
-Check your windows version in settings before moving on. Click in the Windows Search box, and type "version", and hit enter. You'll see a System Information window telling you about your computer and OS. Confirm you are running 2004 or higher. 
+Check your windows version in settings before moving on. Click in the Windows Search box, and type "version", and hit enter. You'll see a System Information window telling you about your computer and OS. Confirm you are running 2004 or higher.
 
 ![Check the Build of your OS](https://p57.p1.n0.cdn.getcloudapp.com/items/4gujyKoO/Image%202020-06-15%20at%204.13.25%20PM.png?v=5b8a750ada301268081beb4e33d37077)
 
-If your version is not a build higher than 19041, you'll need to do an update of Windows.  [Open this page](https://www.microsoft.com/en-us/software-download/windows10){:target="_blank"}, and click the button that says "Download tool now". Run it, and allow it to update your current system's OS. This may take awhile. 
+If your version is not a build higher than 19041, you'll need to do an update of Windows.  [Open this page](https://www.microsoft.com/en-us/software-download/windows10){:target="_blank"}, and click the button that says "Download tool now". Run it, and allow it to update your current system's OS. This may take awhile.
 
 ### Enable WSL Feature in Windows
 
@@ -74,7 +74,7 @@ Your system is all set, proceed with the following instructions here.
 
 ### Install the Ubuntu app from the Windows Store
 
-1. Open the Microsoft Store and install the "Ubuntu" App (with no version numbers). If you can't find it, [view it online](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6?activetab=pivot:overviewtab){:target="_blank"}.
+1. Open the Microsoft Store and install the "Ubuntu" App with no version numbers(preferred), or latest version based on options avaliable. If you can't find it, [view it online](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6?activetab=pivot:overviewtab){:target="_blank"}.
 1. When the app is ready, it will prompt you to **Launch**. Click the Launch button. This will start the Ubuntu installation. This installation only happens the first time the app is launched, as it's the actual Ubuntu OS installing and mounting to your Windows file system. Anytime you uninstall the app and reinstall it you will have to do this process again. Make sure to back up important data if you ever uninstall this app, as it is not preserved.
 
 NOTE: If the above installation fails:
@@ -106,16 +106,16 @@ NOTE: If neither of the above work, do this:
 1. Run the following command:
 
    - `wsl -l -v`
-   - You should see a report such as this, which should confirm your WSL Version
+   - You should see a report such as this, which should confirm your WSL Version (NOTE: NAME may differ slightly)
 
      ```bash
-     PS C:\Users\yourname> wsl -l -v
+     PS C:\Users\<yourname> wsl -l -v
      NAME                   STATE           VERSION
      Ubuntu-20.04           Running         2
      ```
 
 1. If your version states version 1, you might need to take an additional step to update Ubuntu:
-   - Enter the following command (replace Ubuntu-20.04 with the actual version you installed):
+   - Enter the following command (NOTE: replace Ubuntu-20.04 with the actual version you installed):
    - `wsl --set-version Ubuntu-20.04 2`
    - This will take a fair amount of time to complete
    - Re-Run the command above to verify your version
