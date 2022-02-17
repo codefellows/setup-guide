@@ -1,6 +1,9 @@
 #!/bin/bash
 
 update(){
+    
+    [ -d ~/.nvm ] || mkdir ~/.nvm
+    
     echo '# NVM' >> ~/.zshrc
     echo 'export NVM_DIR="$HOME/.nvm" [ -s "/home/linuxbrew/.linuxbrew/opt/nvm/nvm.sh" ] && . "/home/linuxbrew/.linuxbrew/opt/nvm/nvm.sh"' >> ~/.zshrc
     echo '[ -s "/home/linuxbrew/.linuxbrew/opt/nvm/etc/bash_completion.d/nvm" ] && . "/home/linuxbrew/.linuxbrew/opt/nvm/etc/bash_completion.d/nvm"' >> ~/.zshrc
