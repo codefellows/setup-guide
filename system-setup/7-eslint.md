@@ -26,8 +26,8 @@ Type each of the following commands, one line at a time, to create a folder stru
 
 ```bash
 cd ~
-mkdir projects  
-cd projects 
+mkdir projects
+cd projects
 mkdir courses
 cd courses
 pwd
@@ -40,4 +40,4 @@ This is the place to clone repositories for labs
 
 ---
 
-### [⇐ Previous](./7-live-server.md) | | [Next ⇒](./9-vscode.md)
+### [⇐ Previous](./6-live-server.md) | | [Next ⇒](./8-vscode.md)

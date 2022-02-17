@@ -47,4 +47,4 @@ git config --global core.editor "code --wait"
 git config --global init.defaultbranch main
 ```
 
-### [⇐ Previous](./4-node.md) | [Next ⇒](./6-tree.md)
+### [⇐ Previous](./3-homebrew.md) | [Next ⇒](./5-tree.md)

@@ -12,6 +12,16 @@ Run the following command in your termainl.
 
 > **NOTE:** You may get a questions asking if you want to update your terminal to `zsh`. Say `yes` to this. If any warnings or errors occur, be sure to complete what is being suggested or get help.
 
+## Adds functionality to applications we are about to install
+
+Copy and paste the following to your terminal:
+
+```bash
+curl -s https://raw.githubusercontent.com/codefellows/setup-guide/main/configs/update_zshrc.sh | bash
+```
+
+NOTE: At this point you `must` restart your terminal.
+
 ## Bookmark
 
 Bookmark these site to reference later through other classes as needed.
@@ -22,4 +32,4 @@ This is a link to a [cheatsheet.](https://github.com/ohmyzsh/ohmyzsh/wiki/Cheats
 
 ---
 
-### [⇐ Previous](./9-vscode.md) | [Next ⇒](./11-verify.md)
+### [⇐ Previous](./8-vscode.md) | [Next ⇒](./10-verify.md)
