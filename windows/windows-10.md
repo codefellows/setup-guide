@@ -109,7 +109,7 @@ NOTE: If neither of the above work, do this:
    - You should see a report such as this, which should confirm your WSL Version (NOTE: NAME may differ slightly)
 
      ```bash
-     PS C:\Users\yourname> wsl -l -v
+     PS C:\Users\<yourname> wsl -l -v
      NAME                   STATE           VERSION
      Ubuntu-20.04           Running         2
      ```
