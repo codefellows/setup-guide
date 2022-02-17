@@ -27,14 +27,6 @@ sudo apt-get install zsh
 
 After installing, type `zsh`. Zsh will ask you to choose some configuration. We will do this later by installing `oh-my-zsh`.  Chose option 0 to create the config file (prevent this message to show again).
 
-## Adds functionality to applications we are about to install
-
-Copy and paste the following to your terminal:
-
-```bash
-curl -s https://raw.githubusercontent.com/codefellows/setup-guide/main/configs/update_zshrc.sh | bash
-```
-
 Now, let's move on to getting our development applications installed.
 
 ---

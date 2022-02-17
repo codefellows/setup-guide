@@ -57,4 +57,4 @@ When that completes, you will be returned to the command prompt and can move on 
 
 ---
 
-### [⇐ Previous](./2-apt.md) | [Next ⇒](./4-node.md)
+### [⇐ Previous](./2-apt.md) | [Next ⇒](./4-git.md)

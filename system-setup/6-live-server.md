@@ -18,4 +18,4 @@ Expected Output:
 
 ---
 
-### [⇐ Previous](./6-tree.md) | | [Next ⇒](./8-eslint.md)
+### [⇐ Previous](./5-tree.md) | | [Next ⇒](./7-eslint.md)

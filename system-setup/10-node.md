@@ -39,8 +39,8 @@ Now that 'nvm' (node version manager is installed), let's install node itself
     lts/boron -> v6.17.1 (-> N/A)
     lts/carbon -> v8.17.0 (-> N/A)
     lts/dubnium -> v10.24.1 (-> N/A)
-    lts/erbium -> v12.22.1 (-> N/A)
-    lts/fermium -> v14.16.1
+    lts/erbium -> v12.22.4 (-> N/A)
+    lts/fermium -> v14.17.4
     ```
 
 - Verify your node version by running this:
@@ -60,4 +60,4 @@ If not ... [head here](../error/error.md)
 
 ---
 
-### [⇐ Previous](./3-homebrew.md) | [Next ⇒](./5-git.md)
+### [⇐ Previous](./9-ohmyzsh.md) | [Next ⇒](./11-verify.md)
