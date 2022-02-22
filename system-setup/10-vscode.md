@@ -49,4 +49,4 @@ There are many other extensions to choose from that will make your coding life a
 
 ---
 
-### [⇐ Previous](./7-eslint.md) | [Next ⇒](./9-ohmyzsh.md)
+### [⇐ Previous](./9-eslint.md) | [Next ⇒](./11-verify.md)
