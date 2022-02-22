@@ -60,4 +60,4 @@ If not ... [head here](../error/error.md)
 
 ---
 
-### [⇐ Previous](./9-ohmyzsh.md) | [Next ⇒](./11-verify.md)
+### [⇐ Previous](./6-ohmyzsh.md) | [Next ⇒](./8-live-server.md)

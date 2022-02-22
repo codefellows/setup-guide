@@ -32,4 +32,4 @@ This is a link to a [cheatsheet.](https://github.com/ohmyzsh/ohmyzsh/wiki/Cheats
 
 ---
 
-### [⇐ Previous](./8-vscode.md) | [Next ⇒](./10-verify.md)
+### [⇐ Previous](./5-tree.md) | [Next ⇒](./7-node.md)

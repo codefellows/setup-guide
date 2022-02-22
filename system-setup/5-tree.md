@@ -27,4 +27,4 @@ tree v1.8.0 (c) 1996 - 2018 by Steve Baker, Thomas Moore, Francesc Rocher, Flori
 
 ---
 
-### [⇐ Previous](./4-git.md) | [Next ⇒](./6-live-server.md)
+### [⇐ Previous](./4-git.md) | [Next ⇒](./6-ohmyzsh.md)
