@@ -120,6 +120,8 @@ NOTE: If neither of the above work, do this:
    - This will take a fair amount of time to complete
    - Re-Run the command above to verify your version
 
+Note: If you are having trouble getting Ubuntu-20.04 getting to version 2, follow the [Manual Installation Instructions](https://docs.microsoft.com/en-us/windows/wsl/install-manual#step-4---download-the-linux-kernel-update-package) from Microsoft.
+
 > **TIP:** When we refer to "Terminal" throughout this guide, you should open Ubuntu Terminal application.
 
 ### 4. Continue with this setup guide
