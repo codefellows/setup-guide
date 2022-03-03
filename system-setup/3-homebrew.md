@@ -1,16 +1,19 @@
 # Install "Homebrew"
 
-Homebrew is a tool that simplifies installing applications on your machine. Think of it like an app store for your computer
+Homebrew is a tool that simplifies installing applications on your machine. Think of it like an app store for your computer.
 
 1. In your terminal, enter the following command:
-   - `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`
-   - You will be prompted several times along the way. Accept all the defaults and say "Yes" when prompted
+   - `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+   - You will be prompted several times along the way. Enter your password when prompted, accept all the defaults, say "Yes" if prompted.
    - **MAC Users**
-     - You will likely be prompted to install XCode command line tools. Say "Yes"
+     - You will likely be prompted to install XCode command line tools. Say "Yes".
+     - When it completes, follow the "Next steps:" instructions, which should be:
+       - `echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/xxx/.zprofile`
+       - `eval "$(/opt/homebrew/bin/brew shellenv)"`
    - **Linux and Windows Users**
      - Once the main installation finishes (could take up to 30 minutes), enter these commands, one at a time in your terminal:
-     - `test -d ~/.linuxbrew && eval $(~/.linuxbrew/bin/brew shellenv)`
-     - `test -d /home/linuxbrew/.linuxbrew && eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)`
+       - `test -d ~/.linuxbrew && eval $(~/.linuxbrew/bin/brew shellenv)`
+       - `test -d /home/linuxbrew/.linuxbrew && eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)`
      - The commands should produce no errors and do not produce success messages.
 
 Once the installation has completed, **run:**
