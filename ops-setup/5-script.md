@@ -2,13 +2,13 @@
 
 ## Download and Start Setup Script
 
-- Run `wget https://raw.githubusercontent.com/codefellows/setup-guide/configs/ops/deployelk.sh`
-- Run `wget https://raw.githubusercontent.com/codefellows/setup-guide/configs/ops/install-bind.sh`
-- Run `wget https://raw.githubusercontent.com/codefellows/setup-guide/configs/ops/install-virtualbox.sh`
-- Run `wget https://raw.githubusercontent.com/codefellows/setup-guide/configs/ops/install-vscode.sh`
-- Run `wget https://raw.githubusercontent.com/codefellows/setup-guide/configs/ops/labsetup.sh`
-- Run `wget https://raw.githubusercontent.com/codefellows/setup-guide/configs/ops/gnome-terminal-profiles.dconf`
-- Run `wget https://raw.githubusercontent.com/codefellows/setup-guide/configs/ops/uninstall-virtualbox.sh`
+- Run `wget https://raw.githubusercontent.com/codefellows/setup-guide/main/configs/ops/deployelk.sh`
+- Run `wget https://raw.githubusercontent.com/codefellows/setup-guide/main/configs/ops/install-bind.sh`
+- Run `wget https://raw.githubusercontent.com/codefellows/setup-guide/main/configs/ops/install-virtualbox.sh`
+- Run `wget https://raw.githubusercontent.com/codefellows/setup-guide/main/configs/ops/install-vscode.sh`
+- Run `wget https://raw.githubusercontent.com/codefellows/setup-guide/main/configs/ops/labsetup.sh`
+- Run `wget https://raw.githubusercontent.com/codefellows/setup-guide/main/configs/ops/gnome-terminal-profiles.dconf`
+- Run `wget https://raw.githubusercontent.com/codefellows/setup-guide/main/configs/ops/uninstall-virtualbox.sh`
 
 - Run `bash labsetup.sh` to execute the tool. Note that you should NOT run with `sudo` as the script privilege escalates on a per-command basis.
 
