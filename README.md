@@ -14,7 +14,7 @@ If you are a coding student registered in `Code-102`, `Code-201`, `Code-301`, or
 
 ---
 
-[MacOS](./system-setup/README.md) | [Ubuntu Linux](./system-setup/README.md) | [Windows 10](./windows/windows-10.md) |[Windows 11](./windows/windows-11.md)
+[MacOS](./system-setup/README.md) | [Ubuntu Linux](./system-setup/README.md) | [Windows 10](./windows/windows-10.md) | [Windows 11](./windows/windows-11.md)
 
 ## Section 2 - Ops Setup
 
