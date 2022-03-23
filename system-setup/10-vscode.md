@@ -43,6 +43,8 @@ VSCode should open up and show a list of files in the current directory.
 - markdownlint
 - editorconfig
 - HTML Preview
+- Thunder Client
+- Rainbow Brackets
 - **Windows Users Only** - Remote WSL
 
 There are many other extensions to choose from that will make your coding life a lot easier. Your instructors, TAs and classmates will all be great resources as to what works well for them.
