@@ -8,8 +8,8 @@ Homebrew is a tool that simplifies installing applications on your machine. Thin
    - **MAC Users**
      - You will likely be prompted to install XCode command line tools. Say "Yes".
      - When it completes, follow the "Next steps:" instructions, which should be:
-       - `echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/xxx/.zprofile`
-       - `eval "$(/opt/homebrew/bin/brew shellenv)"`
+       - ```echo 'eval "$(`which brew` shellenv)"' >> $HOME/.zprofile```
+       - ```eval "$(`which brew` shellenv)"```
    - **Linux and Windows Users**
      - Once the main installation finishes (could take up to 30 minutes), enter these commands, one at a time in your terminal:
        - `test -d ~/.linuxbrew && eval $(~/.linuxbrew/bin/brew shellenv)`
