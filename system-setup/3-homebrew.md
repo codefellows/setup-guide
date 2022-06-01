@@ -6,12 +6,11 @@ Homebrew is a tool that simplifies installing applications on your machine. Thin
 
 ## Verify if Homebrew is already installed
 
-- In your terminal, run: `which brew`
-- If output is similar to `usr/local/bin/brew`, Homebrew is installed.
-- If installed:
-  - Run: `brew update` to get latest updates
-  - move on to [next page](./4-git.md)
-- If not installed, proceed with the rest of this page's instructions.
+- In your terminal, run: `brew --version`
+  - *If output is similar to:* `Homebrew 3.4.11`
+    - Run: `brew update` to get latest updates
+    - Move on to [next page](./4-git.md)
+  - *If output is not similar to the above*, continue with instructions on this page.
 
 ---
 

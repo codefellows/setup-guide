@@ -3,7 +3,8 @@
 ## Verify if Git & GitHub are already installed:
 
 - In your terminal, run: `git config --list`
-  - If the output is similar to:
+- **Note**: To exit the git config --list screen, type the letter `q` in your terminal
+  - *If the output is similar to:*
 
     - ```bash
       user.name=[Your name is here]
@@ -13,7 +14,7 @@
       ```
 
     - Then move on to [next page](./5-tree.md)
-  - If output is not similar to the above, continue with instructions on this page.
+  - *If output is not similar to the above*, continue with instructions on this page.
 
 ---
 
