@@ -2,6 +2,19 @@
 
 Homebrew is a tool that simplifies installing applications on your machine. Think of it like an app store for your computer.
 
+---
+
+## Verify if Homebrew is already installed
+
+- In your terminal, run: `which brew`
+- If output is similar to `usr/local/bin/brew`, Homebrew is installed.
+- If installed:
+  - Run: `brew update` to get latest updates
+  - move on to [next page](./4-git.md)
+- If not installed, proceed with the rest of this page's instructions.
+
+---
+
 1. In your terminal, enter the following command:
    - `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
    - You will be prompted several times along the way. Enter your password when prompted, accept all the defaults, say "Yes" if prompted.

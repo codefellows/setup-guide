@@ -2,6 +2,16 @@
 
 In this step, we'll install Node.js.
 
+## Verify if Node is already installed
+
+- In your terminal, run: `node --version`
+  - *If output is this version or higher*:
+    - `v17.8.0`
+    - Continue to [next page](./8-live-server.md)
+  - *If output is not similar to the above*, continue with instructions on this page.
+
+---
+
 ## Install Node
 
 **Run:**

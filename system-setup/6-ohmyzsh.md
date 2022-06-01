@@ -2,6 +2,16 @@
 
 Now it's time to unleash your terminal potential.
 
+## Verify if Oh-My-Zsh is already installed
+
+- In your terminal, run: `zsh --version`
+  - *If output is this version or higher*:
+    - `zsh 5.9`
+    - Continue to [next page](./7-node.md)
+  - *If output is not similar to the above*, continue with instructions on this page.
+
+---
+
 ## Installation
 
 The following is pulled from [Oh My Zsh.](https://ohmyz.sh/)

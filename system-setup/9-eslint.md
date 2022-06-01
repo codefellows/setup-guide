@@ -1,5 +1,15 @@
 # ESLint and Folder Structure
 
+## Verify if ESLint is already installed
+
+- In your terminal, run: `eslint --version`
+  - *If output is this version or higher*:
+    - `v6.7.2`
+    - Continue to [next page](./10-vscode.md)
+  - *If output is not similar to the above*, continue with instructions on this page.
+
+---
+
 ## Install ESLint
 
 **Run:**
