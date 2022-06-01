@@ -1,0 +1,82 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* OVERRIDES: */
+
+body {
+  font-family: 18px/28px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #F0F0F0;
+  padding: 0;
+}
+.reset {
+  background: #fff;
+}
+.reset img {
+  width: 100%;
+}
+
+section {
+  box-shadow: 0px 1px 2px rgba(0,0,0,0.09);
+  margin-top: 1em;
+}
+nav {
+  top: 1em;
+}
+nav ul a:hover {
+  color: #2882d1;
+}
+ul {
+  list-style: disc;
+}
+ol ol ol {
+  margin-bottom: 0;
+}
+code.highlighter-rouge {
+  font-family: 'Lucida Sans', Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
+  font-size: 13px;
+  color: #cc3524;
+  text-shadow: unset;
+  margin: 0 4px;
+  font-weight: bold;
+  padding: 2px 6px;
+  background: #F0F0F0;
+  border-radius: 2px;
+  border-bottom: 1px solid #cc3524;
+  border-right: 1px solid #cc3524;
+}
+td:first-child {
+  border-left: 1px solid #e5e5e5;
+}
+td {
+  text-align: left;
+  padding: 5px 10px;
+  border-bottom: 1px solid #e5e5e5;
+  border: 1px solid #e5e5e5;
+}
+a {
+  color: #2882d1;
+  font-weight: 400;
+  text-decoration: none;
+}
+h1:before {
+  content: url("https://www.codefellows.org/media/streamline-icon-programming-flag@48x48.png");
+  float: right;
+}
+blockquote {
+  border-left: 1px solid #cc3524;
+}
+a:hover, a:active {
+    outline: 0;
+    text-decoration: underline;
+}
+
+/* Prevent truncated assignment titles */
+@media print, screen and (max-width: 1060px) {
+  header h1, section h1, footer h1 {
+    white-space: normal;
+    overflow: auto;
+    text-overflow: initial;
+  }
+}
