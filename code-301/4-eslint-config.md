@@ -8,8 +8,4 @@ When building an application with React, an `eslint` configuration file is inclu
 
 ----
 
-Your computer is all set and ready for Code 301!
-
-----
-
-### [⇐ Previous](./3-code-challenges) | [Home ⇒](./)
+### [⇐ Previous](./3-code-challenges) | [Next ⇒](./verify)
