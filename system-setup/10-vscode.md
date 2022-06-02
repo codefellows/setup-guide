@@ -2,9 +2,14 @@
 
 Now it's time to install VSCode Text Editor, a sophisticated text editor for code, markup, and prose.
 
-To get started, download [VSCode](https://code.visualstudio.com/download), install VSCode.
+> **Follow the below instructions in order**, paying attention to any notes specific to Windows or Mac, depending on your operating system.
 
-## Windows Users
+## Get Started
+
+- Close any open terminal windows.
+- Download [VSCode](https://code.visualstudio.com/download) and install.
+
+### Windows Users
 
 Make sure to select the following is selected:
 
@@ -12,41 +17,40 @@ Make sure to select the following is selected:
 
 Close your terminal
 
-## Mac and Linux USers Only: Manually Open VSCode
+Run the following command in your terminal.
 
-- Launch The VS Code Application
+- `sudo apt-get install wget ca-certificates`
 
-[VSCode's documentation](https://code.visualstudio.com/docs) is excellent. Review it now to familiarize yourself with the basics.
+Start VS Code
 
-## Mac and Linux Users Only: Install shell commands
+- Install the Remote WSL Extension.
+- Close VSCode
 
-Open the **Command Palette** (⇧⌘P) and type 'shell command'
+### Mac and Linux USers Only
 
-Then, click the **Shell Command: Install 'code' command in PATH** command.
+- Before launching, move VSCode from your download folder to your application folder.
+- Launch The VS Code Application  
+- Open the **Command Palette** (⇧⌘P) and type 'shell command'
+- Click the **Shell Command: Install 'code' command in PATH** command.
 
-Close your terminal
+### All Users: Install VSCode Extensions
 
-## Confirm VS Code is working
+We'll now be adding some functionality to your new code editor by installing a number of extensions. 
 
-Open your terminal and run this command:
-
-`code .`
-
-VSCode should open up and show a list of files in the current directory.
-
-## All Users: Install VSCode Extensions
-
-1. To add extensions to VSCode, open up VSCode. On the bottom left hand side you will see a settings ("gear") icon.  Click this, then click "Extensions". A side-bar will slide out and at the top you can search for the listed extensions below, and click the green 'Install' button for each:
-
-- liveserver
-- ESLint
-- markdownlint
-- editorconfig
-- HTML Preview
-- Thunder Client
-- **Windows Users Only:** Remote WSL
+- Open VSCode through your terminal using `code .`
+- On the bottom left hand side you will see a settings ("gear") icon. 
+- Click this, then click "Extensions".
+- A side-bar will slide out and at the top you can search for the listed extensions below, and click the green 'Install' button for each:
+  - liveserver
+  - ESLint
+  - markdownlint
+  - editorconfig
+  - HTML Preview
+  - Thunder Client
 
 There are many other extensions to choose from that will make your coding life a lot easier. Your instructors, TAs and classmates will all be great resources as to what works well for them.
+
+[VSCode's documentation](https://code.visualstudio.com/docs) is excellent. Review it now to familiarize yourself with the basics.
 
 ---
 
