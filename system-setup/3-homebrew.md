@@ -54,11 +54,16 @@ working fine: please don't worry or file an issue; just ignore this. Thanks!
 
 ```bash
 brew: command not found
-
-(or any other errors)
 ```
 
-**then** [click here](../error/error.md) do not continue with the following steps until you have Homebrew properly installed
+**then** run these commands (if you're on a Windows or Linux system)
+
+1. ```echo 'export BREW_HOME="/home/linuxbrew/.linuxbrew/bin"' >> $HOME/.zprofile``` 
+1. ```echo 'export PATH="$PATH:$BREW_HOME"' >> $HOME/.zprofile``` 
+1. ```reset```
+
+
+> **If `brew update` still fails to run, [click here](../error/error.md) and do not continue with the following steps until you have Homebrew properly installed**
 
 ## Install "gcc" (Windows Users Only)
 
