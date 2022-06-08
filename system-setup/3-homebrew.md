@@ -16,7 +16,7 @@ Homebrew is a tool that simplifies installing applications on your machine. Thin
 
 1. In your terminal, enter the following command:
    - `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
-   - You will be prompted several times along the way. Enter your password when prompted, accept all the defaults, say "Yes" if prompted.
+   - You will be prompted several times along the way. Enter your password when prompted, accept all the defaults, say "Yes" if prompted. (***Note:*** *You will not have any visual feedback on your screen as you type. It is protecting your password by not displaying ANYTHING at all to the screen, but it is registering your key strokes.*)
    - **MAC Users**
      - You will likely be prompted to install XCode command line tools. Say "Yes".
      - When it completes, follow the "Next steps:" instructions, which should be:
