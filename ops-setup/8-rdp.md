@@ -36,4 +36,4 @@ EOL
 ```
 ---
 
-### [⇐ Previous](./7-git.md) | [Next ⇒](./9-wrapup.md)
+### [⇐ Previous](./7-applications.md) | [Next ⇒](./9-wrapup.md)

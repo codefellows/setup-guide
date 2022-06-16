@@ -9,7 +9,7 @@
 - Run `sudo apt install xrdp -y`, which installs a software package that will allow you to connect to this lab kit PC remotely in subsequent classes.
   - The `-y` option bypasses an "Are you sure?" prompt.
 - Allow the RDP server to initialize on startup with `sudo systemctl enable --now xrdp`.
-  - You'll need this in in a later class.
+  - You'll need this in a later class.
 
 ---
 
