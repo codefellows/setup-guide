@@ -23,3 +23,4 @@ cd ~/github
 git clone https://github.com/cyberdefenders/DetectionLabELK.git
 cd ~/github/DetectionLabELK
 ./build.sh virtualbox
+
