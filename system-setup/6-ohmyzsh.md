@@ -6,7 +6,7 @@ Now it's time to unleash your terminal potential.
 
 - In your terminal, run: `zsh --version`
   - *If output is this version or higher*:
-    - `zsh 5.9`
+    - `zsh 5.8`
     - Continue to [next page](./7-node.md)
   - *If output is not similar to the above*, continue with instructions on this page.
 
