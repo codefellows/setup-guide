@@ -35,7 +35,8 @@ Please follow these steps:
    ```
 
 1. Complete an "ACP"
-   - `git add package-lock.json`
+   - `git add -f package-lock.json`
+       - The `-f` flag is a one-time setup step for this file.
    - `git commit -m "Initialized JavaScript Challenges"`
    - `git push origin main`
 1. Return to GitHub and refresh the view of your `data-structures-and-algorithms` repository, where you should see what you pushed
