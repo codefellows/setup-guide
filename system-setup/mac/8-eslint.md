@@ -5,7 +5,7 @@
 - In your terminal, run: `eslint --version`
   - *If output is this version or higher*:
     - `v6.7.2`
-    - Continue to [next page](./10-vscode.md)
+    - Continue to [next page](./9-vscode.md)
   - *If output is not similar to the above*, continue with instructions on this page.
 
 ---
@@ -50,4 +50,4 @@ This is the place to clone repositories for labs
 
 ---
 
-### [⇐ Previous](./8-live-server.md) | | [Next ⇒](./10-vscode.md)
+### [⇐ Previous](./7-live-server.md) | | [Next ⇒](./9-vscode.md)

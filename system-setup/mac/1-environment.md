@@ -19,16 +19,8 @@ Make back ups of the files listed below. You may get a `No such file or director
 - `mv ~/.profile .profile.bak`
 - `mv ~/.zshrc .zshrc.bak`
 
-## Windows & Linux Users Only
-
-```bash
-sudo apt-get install zsh
-```
-
-After installing, type `zsh`. Zsh will ask you to choose some configuration. We will do this later by installing `oh-my-zsh`.  Chose option 0 to create the config file (prevent this message to show again).
-
 Now, let's move on to getting our development applications installed.
 
 ---
 
-### [⇐ Previous](./README.md) | [Next ⇒](./2-apt.md)
+### [⇐ Previous](./README.md) | [Next ⇒](./2-homebrew.md)

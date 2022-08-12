@@ -7,7 +7,7 @@ This is a simulated website development server with live reload capability. This
 - In your terminal, run: `live-server --version`
   - *If output is this version or higher*:
     - `live-server 1.2.1`
-    - Continue to [next page](./9-eslint.md)
+    - Continue to [next page](./8-eslint.md)
   - *If output is not similar to the above*, continue with instructions on this page.
 
 ---
@@ -28,4 +28,4 @@ Expected Output:
 
 ---
 
-### [⇐ Previous](./7-node.md) | | [Next ⇒](./9-eslint.md)
+### [⇐ Previous](./6-node.md) | | [Next ⇒](./8-eslint.md)

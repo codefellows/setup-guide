@@ -7,7 +7,7 @@ In this step, we'll install Node.js.
 - In your terminal, run: `node --version`
   - *If output is this version or higher*:
     - `v17.8.0`
-    - Continue to [next page](./8-live-server.md)
+    - Continue to [next page](./7-live-server.md)
   - *If output is not similar to the above*, continue with instructions on this page.
 
 ---
@@ -35,8 +35,8 @@ Once it completes, ***you will need to exit*** your terminal, and log back in to
 
 Did you get similar output for both?
 
-If not ... [head here](../error/error.md)
+If not ... [head here](../../error/error.md)
 
 ---
 
-### [⇐ Previous](./6-ohmyzsh.md) | [Next ⇒](./8-live-server.md)
+### [⇐ Previous](./5-ohmyzsh.md) | [Next ⇒](./7-live-server.md)

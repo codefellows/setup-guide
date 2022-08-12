@@ -7,7 +7,7 @@ Now it's time to unleash your terminal potential.
 - In your terminal, run: `zsh --version`
   - *If output is this version or higher*:
     - `zsh 5.8`
-    - Continue to [next page](./7-node.md)
+    - Continue to [next page](./6-node.md)
   - *If output is not similar to the above*, continue with instructions on this page.
 
 ---
@@ -34,4 +34,4 @@ This is a link to a [cheatsheet.](https://github.com/ohmyzsh/ohmyzsh/wiki/Cheats
 
 ---
 
-### [⇐ Previous](./5-tree.md) | [Next ⇒](./7-node.md)
+### [⇐ Previous](./4-tree.md) | [Next ⇒](./6-node.md)

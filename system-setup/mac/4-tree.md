@@ -20,7 +20,7 @@ Tree is a useful application that will allow you to look at a directory structur
       tree v2.0.2 (c) 1996 - 2022 by Steve Baker, Thomas Moore, Francesc Rocher, Florian Sesser, Kyosuke Tokoro
         ```
 
-    - Continue to [next page](./6-ohmyzsh.md)
+    - Continue to [next page](./5-ohmyzsh.md)
   - *If output is not similar to the above*, continue with instructions on this page.
 
 ---
@@ -43,4 +43,4 @@ tree v1.8.0 (c) 1996 - 2018 by Steve Baker, Thomas Moore, Francesc Rocher, Flori
 
 ---
 
-### [⇐ Previous](./4-git.md) | [Next ⇒](./6-ohmyzsh.md)
+### [⇐ Previous](./3-git.md) | [Next ⇒](./5-ohmyzsh.md)

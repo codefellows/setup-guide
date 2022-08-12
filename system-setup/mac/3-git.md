@@ -13,14 +13,14 @@
       init.defaultbranch=main
       ```
 
-    - Then move on to [next page](./5-tree.md)
+    - Then move on to [next page](./4-tree.md)
   - *If output is not similar to the above*, continue with instructions on this page.
 
 ---
 
 ## Install and Configure Git and GitHub
 
-Run the following command to ensure that you have the most recent version of `git`:
+Run the following command to ensure that you have the most recent version of git:
 
 `brew install git || brew upgrade git`
 
@@ -65,4 +65,4 @@ git config --global core.editor "code --wait"
 git config --global init.defaultbranch main
 ```
 
-### [⇐ Previous](./3-homebrew.md) | [Next ⇒](./5-tree.md)
+### [⇐ Previous](./2-homebrew.md) | [Next ⇒](./4-tree.md)
