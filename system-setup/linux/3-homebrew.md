@@ -14,19 +14,13 @@ Homebrew is a tool that simplifies installing applications on your machine. Thin
 
 ---
 
-1. In your terminal, enter the following command:
-   - `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
-   - You will be prompted several times along the way. Enter your password when prompted, accept all the defaults, say "Yes" if prompted. (***Note:*** *You will not have any visual feedback on your screen as you type. It is protecting your password by not displaying ANYTHING at all to the screen, but it is registering your key strokes.*)
-   - **MAC Users**
-     - You will likely be prompted to install XCode command line tools. Say "Yes".
-     - When it completes, follow the "Next steps:" instructions, which should be:
-       - ```echo 'eval "$(`which brew` shellenv)"' >> $HOME/.zprofile```
-       - ```eval "$(`which brew` shellenv)"```
-   - **Linux and Windows Users**
-     - Once the main installation finishes (could take up to 30 minutes), enter these commands, one at a time in your terminal:
-       - `test -d ~/.linuxbrew && eval $(~/.linuxbrew/bin/brew shellenv)`
-       - `test -d /home/linuxbrew/.linuxbrew && eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)`
-     - The commands should produce no errors and do not produce success messages.
+In your terminal, enter the following command:
+
+- `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+- You will be prompted several times along the way. Enter your password when prompted, accept all the defaults, say "Yes" if prompted. (***Note:*** *You will not have any visual feedback on your screen as you type. It is protecting your password by not displaying ANYTHING at all to the screen, but it is registering your key strokes.*)
+- Once the main installation finishes (could take up to 30 minutes), enter these commands, one at a time in your terminal - they should produce no errors, and do not produce success messages:
+  - `test -d ~/.linuxbrew && eval $(~/.linuxbrew/bin/brew shellenv)`
+  - `test -d /home/linuxbrew/.linuxbrew && eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)`
 
 Once the installation has completed, **run:**
 
@@ -56,16 +50,16 @@ working fine: please don't worry or file an issue; just ignore this. Thanks!
 brew: command not found
 ```
 
-**then** run these commands (if you're on a Windows or Linux system)
+**then** run these commands
 
 1. ```echo 'export BREW_HOME="/home/linuxbrew/.linuxbrew/bin"' >> $HOME/.zprofile``` 
 1. ```echo 'export PATH="$PATH:$BREW_HOME"' >> $HOME/.zprofile``` 
 1. ```reset```
 
 
-> **If `brew update` still fails to run, [click here](../error/error.md) and do not continue with the following steps until you have Homebrew properly installed**
+> **If `brew update` still fails to run, [click here](../../error/error.md) and do not continue with the following steps until you have Homebrew properly installed**
 
-## Install "gcc" (Windows Users Only)
+## Install "gcc"
 
 In order for Homebrew to install other applications, it needs a tool called **gcc** to assist itself.
 

@@ -8,37 +8,15 @@ Now it's time to install VSCode Text Editor, a sophisticated text editor for cod
 
 - Close any open terminal windows.
 - Download [VSCode](https://code.visualstudio.com/download) and install.
+- If this window displays during set up, be sure the following boxes are selected
+![VSCode](../vscode.png)
 
-### Windows Users
+### Install Additional VSCode Extensions
 
-Make sure to select the following is selected:
+We'll now be adding some functionality to your new code editor by installing a number of extensions.
 
-![VSCode](vscode.png)
-
-Close your terminal
-
-Run the following command in your terminal.
-
-- `sudo apt-get install wget ca-certificates`
-
-Start VS Code
-
-- Install the Remote WSL Extension.
-- Close VSCode
-
-### Mac and Linux USers Only
-
-- Before launching, move VSCode from your download folder to your application folder.
-- Launch The VS Code Application  
-- Open the **Command Palette** (⇧⌘P) and type 'shell command'
-- Click the **Shell Command: Install 'code' command in PATH** command.
-
-### All Users: Install VSCode Extensions
-
-We'll now be adding some functionality to your new code editor by installing a number of extensions. 
-
-- Open VSCode through your terminal using `code .`
-- On the bottom left hand side you will see a settings ("gear") icon. 
+- You can open VSCode through your terminal using `code .`
+- On the bottom left hand side you will see a settings ("gear") icon.
 - Click this, then click "Extensions".
 - A side-bar will slide out and at the top you can search for the listed extensions below, and click the green 'Install' button for each:
   - liveserver

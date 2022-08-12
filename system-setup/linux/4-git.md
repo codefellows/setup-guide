@@ -20,7 +20,7 @@
 
 ## Install and Configure Git and GitHub
 
-Run the following command to ensure that you have the most recent version of `git`:
+Run the following command to ensure that you have the most recent version of git:
 
 `brew install git || brew upgrade git`
 

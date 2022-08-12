@@ -35,7 +35,7 @@ Once it completes, ***you will need to exit*** your terminal, and log back in to
 
 Did you get similar output for both?
 
-If not ... [head here](../error/error.md)
+If not ... [head here](../../error/error.md)
 
 ---
 
