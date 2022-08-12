@@ -19,7 +19,7 @@ Make back ups of the files listed below. You may get a `No such file or director
 - `mv ~/.profile .profile.bak`
 - `mv ~/.zshrc .zshrc.bak`
 
-## Windows & Linux Users Only
+## Install Z Shell
 
 ```bash
 sudo apt-get install zsh

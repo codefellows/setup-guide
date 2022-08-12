@@ -11,42 +11,34 @@ Now it's time to install VSCode Text Editor, a sophisticated text editor for cod
 
 ### Windows Users
 
-Make sure to select the following is selected:
+- If this window displays during set up, be sure the following boxes are selected
+![VSCode](../vscode.png)
 
-![VSCode](vscode.png)
-
-Close your terminal
-
-Run the following command in your terminal.
-
-- `sudo apt-get install wget ca-certificates`
-
-Start VS Code
-
-- Install the Remote WSL Extension.
+- Open VSCode
+- Install the Remote WSL Extension. To do this:
+  - On the bottom left hand side you will see a settings ("gear") icon. 
+  - Click this, then click "Extensions".
+  - A side-bar will slide out and at the top you can search for extensions.
+  - Click "install" on the extension you want.
 - Close VSCode
+- Re-open your terminal
+- Run the following command in your terminal:
+  - `sudo apt-get install wget ca-certificates`
+- Once that is complete, run the following command in your terminal to launch VSCode with Remote WSL:
+  - `code .`
 
-### Mac and Linux USers Only
+### Install Additional VSCode Extensions
 
-- Before launching, move VSCode from your download folder to your application folder.
-- Launch The VS Code Application  
-- Open the **Command Palette** (⇧⌘P) and type 'shell command'
-- Click the **Shell Command: Install 'code' command in PATH** command.
+We'll now be adding some functionality to your new code editor!
 
-### All Users: Install VSCode Extensions
+Install the following extensions:
 
-We'll now be adding some functionality to your new code editor by installing a number of extensions. 
-
-- Open VSCode through your terminal using `code .`
-- On the bottom left hand side you will see a settings ("gear") icon. 
-- Click this, then click "Extensions".
-- A side-bar will slide out and at the top you can search for the listed extensions below, and click the green 'Install' button for each:
-  - liveserver
-  - ESLint
-  - markdownlint
-  - editorconfig
-  - HTML Preview
-  - Thunder Client
+- liveserver
+- ESLint
+- markdownlint
+- editorconfig
+- HTML Preview
+- Thunder Client
 
 There are many other extensions to choose from that will make your coding life a lot easier. Your instructors, TAs and classmates will all be great resources as to what works well for them.
 

@@ -22,11 +22,11 @@ Check your windows version in settings before moving on. Click in the Windows Se
 
 ![Check the Build of your OS](https://p57.p1.n0.cdn.getcloudapp.com/items/4gujyKoO/Image%202020-06-15%20at%204.13.25%20PM.png?v=5b8a750ada301268081beb4e33d37077)
 
-If your version is not a build higher than 19041, you'll need to do an update of Windows.  [Open this page](https://www.microsoft.com/en-us/software-download/windows10){:target="_blank"}, and click the button that says "Download tool now". Run it, and allow it to update your current system's OS. This may take awhile.
+If your version is not a build higher than 19041, you'll need to do an update of Windows.  [Open this page](https://www.microsoft.com/en-us/software-download/windows10), and click the button that says "Download tool now". Run it, and allow it to update your current system's OS. This may take awhile.
 
 ### Enable WSL Feature in Windows
 
-> **NOTE**: The following instructions are summarized from the [Microsoft WSL2 Upgrade Documentation](https://docs.microsoft.com/en-us/windows/wsl/install-win10#update-to-wsl-2){:target="_blank"}
+> **NOTE**: The following instructions are summarized from the [Microsoft WSL2 Upgrade Documentation](https://docs.microsoft.com/en-us/windows/wsl/install-win10#update-to-wsl-2)
 
 1. In the Search box next to the Windows Menu, type `Turn Windows Features On Or Off` and hit enter.
 1. A window will pop up with a list of folders with checkboxes next to them.
@@ -57,7 +57,7 @@ CAREFULLY read the output you get from running that command. Click the output th
      </code>
   </summary>
 
-You must update WSL a little further. [Open this page](https://aka.ms/wsl2kernel){:target="_blank"}, and follow the instructions. When you finish with those instructions, try running the above command again.
+You must update WSL a little further. [Open this page](https://aka.ms/wsl2kernel), and follow the instructions. When you finish with those instructions, try running the above command again.
 
 </details>
 
@@ -74,12 +74,12 @@ Your system is all set, proceed with the following instructions here.
 
 ### Install the Ubuntu app from the Windows Store
 
-1. Open the Microsoft Store and install the "Ubuntu" App with no version numbers(preferred), or latest version based on options avaliable. If you can't find it, [view it online](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6?activetab=pivot:overviewtab){:target="_blank"}.
+1. Open the Microsoft Store and install the "Ubuntu" App with no version numbers(preferred), or latest version based on options avaliable. If you can't find it, [view it online](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6?activetab=pivot:overviewtab).
 1. When the app is ready, it will prompt you to **Launch**. Click the Launch button. This will start the Ubuntu installation. This installation only happens the first time the app is launched, as it's the actual Ubuntu OS installing and mounting to your Windows file system. Anytime you uninstall the app and reinstall it you will have to do this process again. Make sure to back up important data if you ever uninstall this app, as it is not preserved.
 
 NOTE: If the above installation fails:
 
-1. Go [here](https://docs.microsoft.com/en-us/windows/wsl/install-manual){:target="_blank"}.
+1. Go [here](https://docs.microsoft.com/en-us/windows/wsl/install-manual).
 1. Select the proper version: "Ubuntu 20.04", a download of an `.appx` file will occur.
 1. Run this file, and it will do the same thing as the "Get" from the Windows Store.
 
@@ -122,7 +122,7 @@ NOTE: If neither of the above work, do this:
 
 Note: If you are having trouble getting Ubuntu-20.04 getting to version 2, follow the [Manual Installation Instructions](https://docs.microsoft.com/en-us/windows/wsl/install-manual#step-4---download-the-linux-kernel-update-package) from Microsoft.
 
-> **TIP:** When we refer to "Terminal" throughout this guide, you should open Ubuntu Terminal application.
+> **TIP:** From now on when we refer to "Terminal" throughout this guide, you should open your Ubuntu Terminal application.
 
 ### 4. Continue with this setup guide
 
@@ -130,4 +130,4 @@ Once you have your system configured as above, you are ready to complete the req
 
 ---
 
-### [Next ⇒](../system-setup/README.md)
+### [⇐ Previous](../../README.md) | [Next ⇒](./README.md)

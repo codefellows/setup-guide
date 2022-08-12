@@ -1,10 +1,8 @@
 # Installing and Updating the Linux App Manager
 
-## WSL/Ubuntu only
-
 For some things on your system, we will be using `apt` to install applications. The first thing we'll want to do is get that up to date with all of the latest versions and information
 
-**OPEN YOUR TERMINAL** and let's get started!
+**OPEN YOUR UBUNTU TERMINAL** and let's get started!
 
 1. Type `sudo apt-get update`.
    - Provide your password, when prompted (***Note:*** *You will not have any visual feedback on your screen as you type. It is protecting your password by not displaying ANYTHING at all to the screen, but it is registering your key strokes.*)
