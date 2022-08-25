@@ -14,9 +14,7 @@ Please follow the correct path below, based on the course that you are registere
 
 ### Begin by selecting your Operating System
 
-
-[MacOS](./system-setup/README.md) | [Ubuntu Linux](./system-setup/README.md) | [Windows 10](./windows/windows-10.md) | [Windows 11](./windows/windows-11.md)
-
+[MacOS](./system-setup/mac/README.md) | [Ubuntu Linux](./system-setup/linux/README.md) | [Windows 10](./system-setup/windows/windows-10.md) | [Windows 11](./system-setup/windows/windows-11.md)
 
 ## Path 2 - For students registered for `Ops-102`, `Ops-201`, `Ops-301`, or `Ops-401` only 
 
