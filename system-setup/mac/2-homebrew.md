@@ -22,7 +22,11 @@ In your terminal, enter the following command:
 
 - You will likely be prompted to install XCode command line tools. Say "Yes".
 
-- When it completes, follow the "Next steps:" instructions displayed in your terminal, which should be similar to:
+- When it completes, follow the "Next steps:" instructions displayed in your terminal
+
+![Homebrew No Next Steps example](../../images/homebrew-next-steps.png)
+
+- which should be similar to:
   - ```echo 'eval "$(`which brew` shellenv)"' >> $HOME/.zprofile```
   - ```eval "$(`which brew` shellenv)"```
 

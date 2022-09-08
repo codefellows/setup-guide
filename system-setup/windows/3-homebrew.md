@@ -18,7 +18,13 @@ In your terminal, enter the following command:
 
 - `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 - You will be prompted several times along the way. Enter your password when prompted, accept all the defaults, say "Yes" if prompted. (***Note:*** *You will not have any visual feedback on your screen as you type. It is protecting your password by not displaying ANYTHING at all to the screen, but it is registering your key strokes.*)
-- Once the main installation finishes (could take up to 30 minutes), enter these commands, one at a time in your terminal - they should produce no errors, and do not produce success messages:
+- Once the main installation finishes (could take up to 30 minutes), **look at the output at the bottom of your terminal**. You may see an arrow pointing to "Next Steps" line with 2 commands.
+
+![Homebrew No Next Steps example](../../images/homebrew-next-steps.png)
+
+- Enter those commands, one at a time in your terminal - they should produce no errors, and do not produce success messages.
+
+- Then enter these commands, one at a time in your terminal - they should produce no errors, and do not produce success messages:
   - `test -d ~/.linuxbrew && eval $(~/.linuxbrew/bin/brew shellenv)`
   - `test -d /home/linuxbrew/.linuxbrew && eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)`
 
