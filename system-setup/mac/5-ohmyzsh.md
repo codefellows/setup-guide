@@ -27,7 +27,7 @@ At this point you **`must`** restart your terminal.
 ## **Confirmation**
 
 - Re-open your terminal and run the command: `brew --version`
-  - If the terminal outputs `Homebrew 3.5.10` or something similar:
+  - If the terminal outputs `Homebrew 3.5` or greater:
     - You're ready to continue through the setup guide.
   - **If you get an error** such as `zsh: command not found: brew`, then run the following commands:
 
@@ -39,7 +39,7 @@ At this point you **`must`** restart your terminal.
       Expected output:
 
       ```js
-      Homebrew 3.5.10
+      Homebrew 3.5 or greater
       ```
 
 ## Bookmark
