@@ -17,6 +17,7 @@ Make back ups of the files listed below. You may get a `No such file or director
 - `mv ~/.bashrc .bashrc.bak`
 - `mv ~/.bash_profile .bash_profile.bak`
 - `mv ~/.profile .profile.bak`
+- `mv ~/.zprofile .zprofile.bak`
 - `mv ~/.zshrc .zshrc.bak`
 
 Now, let's move on to getting our development applications installed.
