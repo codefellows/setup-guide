@@ -7,10 +7,10 @@ Homebrew is a tool that simplifies installing applications on your machine. Thin
 ## Verify if Homebrew is already installed
 
 - In your terminal, run: `brew --version`
-  - *If output is similar to:* `Homebrew 3.4.11`
+  - _If output is similar to:_ `Homebrew 3.4.11`
     - Run: `brew update` to get latest updates
     - Move on to [next page](./3-git.md)
-  - *If output is not similar to the above*, continue with instructions on this page.
+  - _If output is not similar to the above_, continue with instructions on this page.
 
 ---
 
@@ -18,7 +18,7 @@ In your terminal, enter the following command:
 
 - `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
-- You will be prompted several times along the way. Enter your password when prompted, accept all the defaults, say "Yes" if prompted. (***Note:*** *You will not have any visual feedback on your screen as you type. It is protecting your password by not displaying ANYTHING at all to the screen, but it is registering your key strokes.*)
+- You will be prompted several times along the way. Enter your password when prompted, accept all the defaults, say "Yes" if prompted. (**_Note:_** _You will not have any visual feedback on your screen as you type. It is protecting your password by not displaying ANYTHING at all to the screen, but it is registering your key strokes._)
 
 - You will likely be prompted to install XCode command line tools. Say "Yes".
 
@@ -27,8 +27,8 @@ In your terminal, enter the following command:
 ![Homebrew No Next Steps example](../../images/homebrew-next-steps.png)
 
 - which should be similar to:
-  - ```echo 'eval "$(`which brew` shellenv)"' >> $HOME/.zprofile```
-  - ```eval "$(`which brew` shellenv)"```
+  - `` echo 'eval "$(`which brew` shellenv)"' >> $HOME/.zshrc ``
+  - `` eval "$(`which brew` shellenv)" ``
 
 Once the installation has completed, **run:**
 
@@ -52,7 +52,7 @@ working fine: please don't worry or file an issue; just ignore this. Thanks!
 
 - `brew update`
 
-**else if**  return output is:
+**else if** return output is:
 
 ```bash
 brew: command not found
