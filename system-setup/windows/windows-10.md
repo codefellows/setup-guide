@@ -46,7 +46,7 @@ Open Powershell on your computer with administrative access (right click on powe
 
 Enter the following command to set your system default to WSL 2:
 
-`wsl --set-default-version 2`
+* `wsl --set-default-version 2`
 
 CAREFULLY read the output you get from running that command. Click the output that you get on your system:
 
@@ -71,6 +71,10 @@ You must update WSL a little further. [Open this page](https://aka.ms/wsl2kernel
 Your system is all set, proceed with the following instructions here.
 
 </details>
+
+Run the following command in Powershell:
+
+- `wsl --update`
 
 ### Install the Ubuntu app from the Windows Store
 
