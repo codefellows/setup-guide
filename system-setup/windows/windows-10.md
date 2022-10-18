@@ -46,7 +46,7 @@ Open Powershell on your computer with administrative access (right click on powe
 
 Enter the following command to set your system default to WSL 2:
 
-* `wsl --set-default-version 2`
+- `wsl --set-default-version 2`
 
 CAREFULLY read the output you get from running that command. Click the output that you get on your system:
 
