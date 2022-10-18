@@ -46,7 +46,13 @@ pwd
 You should see an output similar to this:
 `/home/your_user_name/projects/courses`
 
-This is the place to clone repositories for labs
+Next, create a directory for your current course - if you are in 102, create a 102 directory. If you are in 201, create a 201 directory, etc.
+
+```bash
+mkdir 102    # if you are in Code 102
+```
+
+This directory is the place to clone repositories for labs
 
 ---
 
