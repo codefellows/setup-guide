@@ -52,7 +52,7 @@ Next, create a directory for your current course - if you are in 102, create a 1
 mkdir 102    # if you are in Code 102
 ```
 
-This directory is the place to clone repositories for labs
+This directory is where you clone repositories and do your work for labs in this course.
 
 ---
 
