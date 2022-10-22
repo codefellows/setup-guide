@@ -78,7 +78,7 @@ Run the following command in Powershell:
 
 ### Install the Ubuntu app from the Windows Store
 
-1. Open the Microsoft Store and install the "Ubuntu" App with no version numbers(preferred), or latest version based on options avaliable. If you can't find it, [view it online](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6?activetab=pivot:overviewtab).
+1. Open the Microsoft Store and install the "Ubuntu 20.04" App. If you can't find it, [view it online](https://apps.microsoft.com/store/detail/ubuntu-20045-lts/9MTTCL66CPXJ?hl=en-us&gl=us).
 1. When the app is ready, it will prompt you to **Launch**. Click the Launch button. This will start the Ubuntu installation. This installation only happens the first time the app is launched, as it's the actual Ubuntu OS installing and mounting to your Windows file system. Anytime you uninstall the app and reinstall it you will have to do this process again. Make sure to back up important data if you ever uninstall this app, as it is not preserved.
 
 NOTE: If the above installation fails:
