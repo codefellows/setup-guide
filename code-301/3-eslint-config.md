@@ -12,4 +12,4 @@ Your computer is all set and ready for Code 301!
 
 ----
 
-### [⇐ Previous](./3-code-challenges) | [Home ⇒](./)
+### [⇐ Previous](./2-code-challenges) | [Home ⇒](./)

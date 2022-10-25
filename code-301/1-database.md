@@ -14,7 +14,7 @@ The installation steps are slightly different if you're running a Mac or Windows
 
 Open your terminal, and run the following commands to install the MongoDB client and server.
 
-This will take a short time to complete. Once it does, you'll need to "start" the mongo database server so that we can make sure **clients** can connect.
+This will take a short time to complete. Once it does, you'll need to "start" the MongoDB database server so that we can make sure **clients** can connect.
 
 ```bash
 brew tap mongodb/brew
@@ -56,7 +56,7 @@ sudo chmod 755 /etc/init.d/mongod
 sudo service mongod start
 ```
 
-**On Ubuntu Linux**, mongo will now automatically restart on every reboot.
+**On Ubuntu Linux**, MongoDB will now automatically restart on every reboot.
 
 ## Validate that clients can connect
 
@@ -103,7 +103,7 @@ To permanently disable this reminder, run the following command: db.disableFreeM
 >
 ```
 
-The `>` at the bottom is what you're really looking for. It's a prompt that lets you know you are connected with the **mongo client** to your running **mongo server**
+The `>` at the bottom is what you're really looking for. It's a prompt that lets you know you are connected with the **MongoDB client** to your running **MongoDB server**
 
 Take a screen shot of your terminal when you type in `mongo`. You will submit this screen shot along with your other computer set-up screen shots for this assignment.
 
@@ -111,4 +111,4 @@ Type `exit` to return to your bash shell. MongoDB is successfully installed.
 
 ---
 
-### [⇐ Previous](./1-heroku) | [Next ⇒](./3-code-challenges)
+### [⇐ Previous](./) | [Next ⇒](./2-code-challenges)
