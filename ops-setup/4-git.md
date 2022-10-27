@@ -11,7 +11,8 @@ You'll use the `git` command for managing the Ops scripts you write. Let's set i
 
 ## Download file to be used later
 
-1. In the terminal, run: `wget https://raw.githubusercontent.com/codefellows/setup-guide/main/configs/ops/gnome-terminal-profiles.dconf`
+1. In the terminal, run this command (all one line) to download a config file: 
+   - `wget https://raw.githubusercontent.com/codefellows/setup-guide/main/configs/ops/gnome-terminal-profiles.dconf`
 
 ---
 
