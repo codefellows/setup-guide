@@ -1,42 +1,41 @@
 # Ops Setup
 
-## Install applications and tools
+Now, install some applications and tools
 
-### Install Open SSH Server, allow firewall, and launch the service on startup
+### Add OpenSSH Server:
 
-- ```sudo apt-get install openssh-server -y```
-- ```sudo systemctl start sshd```
-- ```sudo ufw allow ssh```
-- ```sudo systemctl enable ssh```
+1. `sudo apt-get install openssh-server -y`
+1. `sudo systemctl start sshd`
+1. `sudo ufw allow ssh`
+1. `sudo systemctl enable ssh`
 
-### Install VIM
+### Install VIM:
 
-- ```sudo apt install vim -y```
-- ```vim --version >> ~/Downloads/deployerlog.txt```
+1. `sudo apt install vim -y`
+1. `vim --version >> ~/Downloads/deployerlog.txt`
 
-### Install curl
+### Install curl:
 
-- ```sudo apt install curl -y```
-- ```curl --version >> ~/Downloads/deployerlog.txt```
+1. `sudo apt install curl -y`
+1. `curl --version >> ~/Downloads/deployerlog.txt`
 
-### Install Virtalbox
+### Install Virtalbox:
 
-- ```install-virtualbox```
+1. `install-virtualbox`
 
-### Install VS Code
+### Install VSCode:
 
-- ```sudo apt install software-properties-common apt-transport-https wget -y```
-- ```wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -```
-- ```sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"```
-- ```sudo apt install code -y```
-- ```code --version >> ~/Downloads/deployerlog.txt```
+1. `sudo apt install software-properties-common apt-transport-https wget -y`
+1. `wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add `
+1. `sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main`
+1. `sudo apt install code -y`
+1. `code --version >> ~/Downloads/deployerlog.txt`
 
-### Set favorite apps
+### Set Favorite Apps
 
 - ```gsettings set org.gnome.shell favorite-apps "$(gsettings get org.gnome.shell favorite-apps | sed s/.$//), 'terminal.desktop']"```
 - ```gsettings set org.gnome.shell favorite-apps "$(gsettings get org.gnome.shell favorite-apps | sed s/.$//), 'files.desktop']"```
 - ```gsettings set org.gnome.shell favorite-apps "$(gsettings get org.gnome.shell favorite-apps | sed s/.$//), 'virtualbox.desktop']"```
-- ```gsettings set org.gnome.shell favorite-apps "$(gsettings get org.gnome.shell favorite-apps | sed s/.$//), 'gns3.desktop']"```
 - ```gsettings set org.gnome.shell favorite-apps "$(gsettings get org.gnome.shell favorite-apps | sed s/.$//), 'code.desktop']"```
 
 ---
