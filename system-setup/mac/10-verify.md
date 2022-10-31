@@ -31,7 +31,7 @@ Run the following command
 curl -Ls https://bit.ly/3qMWhbE | bash
 ```
 
-You should get a successful message. If you do not see `By gum, you've done it!`, look at the output from the steps in part 1 to begin troubleshooting. Get TA assistance as necessary.
+You should get a successful message. If instead you see `Something went wrong!`, look at the output carefully, and retry the steps in part 1 to begin troubleshooting. Get [assistance](../../error/error.md) as necessary.
 
 ---
 
