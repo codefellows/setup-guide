@@ -1,9 +1,11 @@
 # Ops Setup
 
-## Get Internet Pprotocol (IP) Address
+Keep track of your IP address. 
+
+## Get Your Internet Protocol (IP) Address
 
 - Check your IP address with `ip a` and write it down/take note somewhere.
-- For a walkthrough on how this works, click here: [How ip a works](https://itsfoss.com/check-ip-address-ubuntu/)
+- Review this walkthrough on [how the ip command works](https://itsfoss.com/check-ip-address-ubuntu/){target: "_blank"}
 
 ---
 

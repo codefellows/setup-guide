@@ -1,14 +1,15 @@
 # Ops Setup
 
-## Adjust settings for RDP (Remote Desktop Protocol)
+Adjust settings for RDP (Remote Desktop Protocol). These steps will make your remote-connection sessions easier.
 
-- These will make the RDP sessions easier
+## RDP Config
 
 ### Remove "color profile authentication" popup in XRDP
 
-- ```sudo touch /etc/polkit-1/localauthority/50-local.d/45-allow-colord.pkla```
+Copy this entire block of commands, and paste it into your terminal to run all at once:
 
 ```bash
+sudo touch /etc/polkit-1/localauthority/50-local.d/45-allow-colord.pkla
 sudo cat >> /etc/polkit-1/localauthority/50-local.d/45-allow-colord.pkla <<EOL```
 [Allow Colord all Users]
 Identity=unix-user:*
@@ -19,10 +20,11 @@ ResultActive=yes
 EOL
 ```
 
-Then run:
-- ```sudo rm /var/crash/*```
+Then run: `sudo rm /var/crash`
 
-### Remove “Authentication required to refresh system repositories” popup on login via XRDP
+## Remove “Authentication required to refresh system repositories” popup on login via XRDP
+
+Copy this entire block of commands, and paste it into your terminal to run all at once:
 
 ```bash
 sudo cat >> /etc/polkit-1/localauthority/50-local.d/46-allow-update-repo.pkla <<EOL
