@@ -69,10 +69,10 @@ mongosh
 You should see something similar to the following:
 
 ```bash
-Current Mongosh Log ID:	63604c9f419a468d5c5fd283
-Connecting to:		mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+1.5.4
-Using MongoDB:		6.0.0
-Using Mongosh:		1.5.4
+Current Mongosh Log ID: 63604c9f419a468d5c5fd283
+Connecting to:  mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+1.5.4
+Using MongoDB:  6.0.0
+Using Mongosh:  1.5.4
 
 For mongosh info see: https://docs.mongodb.com/mongodb-shell/
 
@@ -81,10 +81,10 @@ For mongosh info see: https://docs.mongodb.com/mongodb-shell/
 
 The `>` at the bottom is what you're really looking for. It's a prompt that lets you know you are connected with the **mongosh client** to your running **MongoDB server**
 
-Take a screen shot of your terminal when you type in `mongo`. You will submit this screen shot along with your other computer set-up screen shots for this assignment.
+Take a screen shot of your terminal when you type in `mongosh`. You will submit this screen shot along with your other computer set-up screen shots for this assignment.
 
 Type `exit` to return to your bash shell. MongoDB is successfully installed.
 
 ---
 
-### [⇐ Previous](./1-heroku) | [Next ⇒](./3-code-challenges)
+### [⇐ Previous](./) | [Next ⇒](./2-code-challenges)
