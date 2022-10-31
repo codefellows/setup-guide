@@ -18,7 +18,7 @@ Run each of these commands in your terminal:
 
 1. ```sudo apt update```
 1. ```sudo apt install linux-headers-$(uname -r) dkms -y```
-1. ```sudo apt-get install virtualbox -y```
+1. ```sudo apt install virtualbox -y```
 
 ### Add the Virtualbox Extension Pack 6.1.16
 
