@@ -8,7 +8,7 @@ You do not need to understand what is happening in each step of this process. Ge
 
 *NOTE: During this process, you will be required to download a few files. For this setup process please **right-click** on links to **open in a new tab** when asked to download and install.  This is so you don't lose your place.*
 
-Get started by selecting the appropriate starting point below. 
+Get started by selecting the appropriate starting point below.
 
 ## Software Development Courses
 
@@ -19,7 +19,7 @@ Begin by selecting your operating system:
 - Configure [Windows 10](./system-setup/windows/windows-10.md)
 - Configure [Windows 11](./system-setup/windows/windows-11.md)
 
-## Ops and Cybersecurity Courses 
+## Ops and Cybersecurity Courses
 
 - Configure [all operating systems](./ops-setup/1-network.md)
 
