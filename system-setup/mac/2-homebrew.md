@@ -11,10 +11,23 @@ Homebrew is a tool that simplifies installing applications on your machine. Thin
 In your terminal, run:
 
 - `brew --version`
-  - _If output is similar to:_ `Homebrew 3.4.11`
-    - Run: `brew update` to get latest updates
-    - Move on to [next page](./3-git.md)
-  - _If output is not similar to the above_, continue with instructions on this page.
+
+> **IF** the output is similar to:
+>
+> ```text
+> Homebrew 3.4.11
+> ```
+>
+> Run the command:
+>>
+> - `brew update`
+>
+> to get latest updates, and move on to the [next page](./3-git.md)
+>
+> ---
+> **else if** the output is not similar to the above:
+>
+> Continue with instructions on this page.
 
 ---
 
@@ -30,7 +43,7 @@ Enter your password when prompted, accept all the defaults, say "Yes" if prompte
 
 You will likely be prompted to install XCode command line tools. Select "Yes".
 
-Once the main installation finishes (could take up to 30 minutes), **look at the output at the bottom of your terminal.** You may see an arrow pointing to "Next steps:" instructions. They would look similar to the image below.
+Once the main installation finishes (could take up to 30 minutes), **look at the output at the bottom of your terminal.** You may see an arrow pointing to **"Next steps:"** instructions. They would look similar to the image below.
 
 ![Homebrew No Next Steps example](../../images/homebrew-next-steps.png)
 
@@ -40,20 +53,28 @@ Once that step is completed, **run:**
 
 - `brew doctor`
 
-> **IF** return output is:
-> > `Your system is ready to brew`
+> **IF** the return output is:
 >
-> **OR** return output is:
+> ```text
+> Your system is ready to brew
+> ```
 >
-> > `Please note that these warnings are just used to help the Homebrew maintainers with debugging if you file an issue. If everything you use Homebrew for is working fine: please don't worry or file an issue; just ignore this. Thanks!`
+> **OR** the return output is:
+>
+> ```text
+> Please note that these warnings are just used to help the Homebrew maintainers with debugging if you file an issue. If everything you use Homebrew for is working fine: please don't worry or file an issue; just ignore this. Thanks!
+> ```
 >
 > **then**  run the command:
 >
 > - `brew update`
 >
 > ---
-> **else if** return output is:
-> > `brew: command not found`
+> **else if** the return output is:
+>
+> ```text
+> brew: command not found
+> ```
 >
 > **then** run these commands
 >

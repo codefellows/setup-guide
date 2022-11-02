@@ -12,19 +12,21 @@ In your terminal, run:
 
 - `git config --list`
 
->_If the output is similar to:_
+> **IF** the output is similar to:
 >
 > ```bash
-> user.name=[Your name is here]
-> user.email=[Your email is here]
-> code.editor=code --wait
-> init.defaultbranch=main
+>   user.name=[Your name is here]
+>   user.email=[Your email is here]
+>   code.editor=code --wait
+>   init.defaultbranch=main
 > ```
 >
->> Then move on to [next page](./4-tree.md)
+> Then move on to [next page](./5-tree.md)
+>
 > ---
-> _If output is not similar to the above_:
->> Continue with instructions on this page.
+> **else if** the output is not similar to the above:
+>
+> Continue with instructions on this page.
 
 **Note**: To exit the `git config --list` screen, type the letter `q` in your terminal
 

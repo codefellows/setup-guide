@@ -24,9 +24,11 @@ Run the following command:
 
 - `sudo apt-get install zsh`
 
-After installing, run: `zsh`
+After installing, run the command:
 
-Zsh will ask you to choose some configuration. We will do this later by installing `oh-my-zsh`. Chose option 0 to create the config file (prevent this message from showing again).
+- `zsh`
+
+Zsh will ask you to choose some configuration. We will do this later by installing `oh-my-zsh`. Chose option 0 now to create the config file (prevent this message from showing again).
 
 Now, let's move on to getting our development applications installed.
 
