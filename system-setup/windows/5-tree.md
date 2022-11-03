@@ -46,7 +46,7 @@ Once it completes, verify `tree` is installed by running the command:
 Expected output should match this version, or higher:
 
 > ```bash
-> tree v2.0.1 (c) 1996 - 2018 by Steve Baker, Thomas Moore, Francesc Rocher, Florian Sesser, Kyosuke Tokoro
+> tree v2.0.1 (c) 1996 - 2022 by Steve Baker, Thomas Moore, Francesc Rocher, Florian Sesser, Kyosuke Tokoro
 > ```
 
 ---

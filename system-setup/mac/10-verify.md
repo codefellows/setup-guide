@@ -2,26 +2,33 @@
 
 > By the time you’ve completed the guide, you should be able to run the following commands in your terminal and see the expected output. Your versions may be slightly different than what is listed here due to recent updates.
 
+Run these commands and compare them with the expected output.
+
 - `code --version`
-  - `1.64.2`
+  - Expected output: `1.64.2`
 - `git --version`
-  - `git version 2.34.1`
+  - Expected output: `git version 2.34.1`
 - `node --version`
-  - `v17.31.1`
+  - Expected output: `v17.8.0`
 - `npm --version`
-  - `8.3.0`
+  - Expected output: `8.3.0`
 - `eslint --version`
-  - `v8.1.0`
+  - Expected output: `v8.1.0`
 - `tree --version`
-  - `tree v2.0.1 (c) 1996 - 2018 ...`
-- `git config --list` should contain at least the following:
+  - Expected output: `tree v2.0.1 (c) 1996 - 2022 ...`
+- `git config --list`
+  - Should contain at least the following:
   - `user.name=YOUR NAME`
   - `user.email=YOUR EMAIL`
   - `core.editor=code --wait`
   - `init.defaultbranch=main`
-  - Type the letter `q` to exit the config screen and return to the previous screen.
+  - (Type the letter `q` to exit the config screen and return to the previous screen.)
 - `code .`
-  - should open VS Code with your current folder contents
+  - Should open VS Code with your current folder contents
+
+If any of the above commands do not give you the expected output, get [assistance](../../error/error.md).
+
+---
 
 ## Verify Your Setup Part 2
 

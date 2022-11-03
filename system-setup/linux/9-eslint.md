@@ -17,7 +17,7 @@ In your terminal, run:
 > **IF** the output is this version or higher:
 >
 > ```text
-> v6.7.2
+> v8.1.0
 > ```
 >
 > Continue to the [next page](./10-vscode.md)
@@ -42,7 +42,7 @@ You should see a lot of feedback as it installs. Verify eslint is installed by r
 Expected output should be this version or higher:
 
 > ```text
-> v6.7.2
+> v8.1.0
 > ```
 
 If not ... [head here](../../error/error.md)
