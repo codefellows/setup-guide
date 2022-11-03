@@ -2,28 +2,33 @@
 
 Now it's time to install VSCode Text Editor, a sophisticated text editor for code, markup, and prose.
 
-> **Follow the below instructions in order**
+> **Follow the below instructions in order**, paying attention to any notes specific to your operating system.
+
+---
 
 ## Get Started
 
 - Close any open terminal windows.
 - Download [VSCode](https://code.visualstudio.com/download) and install.
-
-- If this window displays during set up, be sure the following boxes are selected
+- If this window displays during set up, be sure the following boxes are selected.
 ![VSCode](../vscode.png)
-- Before launching the application, move VSCode from your downloads folder to your applications folder.
-- Launch The VS Code Application  
-- Open the **Command Palette** (⌘⇧P) and type 'shell command'
-- Click the **Shell Command: Install 'code' command in PATH** command.
+- Before launching the application, **move VSCode from your downloads folder to your applications folder**.
+- Launch The VS Code Application  .
+- Open the **Command Palette** (press ⌘+shift+p keys) and type 'shell command'.
+- Select the option that says: **Shell Command: Install 'code' command in PATH**.
+- Close VS Code and close your terminal.
 
-## Install VSCode Extensions
+---
+
+## Install Required VSCode Extensions
 
 We'll now be adding some functionality to your new code editor by installing a number of extensions.
 
-- You can open VSCode through your terminal using `code .`
-- On the bottom left hand side you will see a settings ("gear") icon. 
-- Click this, then click "Extensions".
-- A side-bar will slide out and at the top you can search for the listed extensions below, and click the green 'Install' button for each:
+- Re-open your terminal and run the command:
+  - `code .`
+- On the bottom left hand side you will see a settings ("gear") icon.
+- Click this, then select "Extensions".
+- A side-bar will slide out and at the top you can search for the listed extensions below, and click the 'Install' button for each:
   - liveserver
   - ESLint
   - markdownlint
