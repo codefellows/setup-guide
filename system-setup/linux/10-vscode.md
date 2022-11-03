@@ -2,7 +2,9 @@
 
 Now it's time to install VSCode Text Editor, a sophisticated text editor for code, markup, and prose.
 
-> **Follow the below instructions in order**, paying attention to any notes specific to Windows or Mac, depending on your operating system.
+> **Follow the below instructions in order**, paying attention to any notes specific to your operating system.
+
+---
 
 ## Get Started
 
@@ -11,14 +13,17 @@ Now it's time to install VSCode Text Editor, a sophisticated text editor for cod
 - If this window displays during set up, be sure the following boxes are selected
 ![VSCode](../vscode.png)
 
-### Install Additional VSCode Extensions
+---
+
+## Install Required VSCode Extensions
 
 We'll now be adding some functionality to your new code editor by installing a number of extensions.
 
-- You can open VSCode through your terminal using `code .`
+- Re-open your terminal and run the command:
+  - `code .`
 - On the bottom left hand side you will see a settings ("gear") icon.
-- Click this, then click "Extensions".
-- A side-bar will slide out and at the top you can search for the listed extensions below, and click the green 'Install' button for each:
+- Click this, then select "Extensions".
+- A side-bar will slide out and at the top you can search for the listed extensions below, and click the 'Install' button for each:
   - liveserver
   - ESLint
   - markdownlint

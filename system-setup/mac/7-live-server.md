@@ -1,30 +1,49 @@
 # live-server
 
-This is a simulated website development server with live reload capability. This will allow you to see your website before deoploying.
-
-## Verify if live-server is already installed
-
-- In your terminal, run: `live-server --version`
-  - *If output is this version or higher*:
-    - `live-server 1.2.1`
-    - Continue to [next page](./8-eslint.md)
-  - *If output is not similar to the above*, continue with instructions on this page.
+This is a simulated website development server with live reload capability. This will allow you to see your website before deploying.
 
 ---
 
-## Installation
+## Verify if live-server is already installed
 
-**Run:**
+**_If this is your first time going through the setup guide on your current machine, skip this "Verify" section and move on to the "Install" section below_**
 
- `npm install -g live-server`
+In your terminal, run:
 
-Verify live-server is installed by **running:**
+- `live-server --version`
 
- `live-server --version`
+> **IF** the output is this version or higher:
+>
+> ```text
+> live-server 1.2.1
+> ```
+>
+> Continue to the [next page](./8-eslint.md)
+>
+> ---
+> **else if** the output is not similar to the above:
+>
+> Continue with instructions on this page.
 
-Expected Output:
+---
 
-`live-server 1.2.1`
+## Install Live-Server
+
+Run the command:
+
+- `npm install -g live-server`
+
+Verify live-server is installed by running the command:
+
+- `live-server --version`
+
+Expected output should be this version or higher:
+
+> ```text
+> live-server 1.2.1
+> ```
+
+If not ... [head here](../../error/error.md)
 
 ---
 

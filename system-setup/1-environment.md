@@ -1,9 +1,5 @@
 # Backup Your Terminal/Shell Environment
 
-This section will talk about how to update the Terminal's look and feel, as well as how to edit files using the command line editor, `nano`
-
-At the end of this guide, we will add some color to your command line, and your command line will be formatted for development.
-
 ## Backing up files
 
 The first thing we'll do is backup your existing terminal setup.
@@ -22,11 +18,13 @@ Make back ups of the files listed below. You may get a `No such file or director
 
 ## Windows & Linux Users Only
 
-```bash
-sudo apt-get install zsh
-```
+Run the following command:
 
-After installing, type `zsh`. Zsh will ask you to choose some configuration. We will do this later by installing `oh-my-zsh`. Chose option 0 to create the config file (prevent this message to show again).
+- `sudo apt-get install zsh`
+
+After installing, run: `zsh`
+
+Zsh will ask you to choose some configuration. We will do this later by installing `oh-my-zsh`. Chose option 0 to create the config file (prevent this message from showing again).
 
 Now, let's move on to getting our development applications installed.
 

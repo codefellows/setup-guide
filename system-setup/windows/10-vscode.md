@@ -2,24 +2,24 @@
 
 Now it's time to install VSCode Text Editor, a sophisticated text editor for code, markup, and prose.
 
-> **Follow the below instructions in order**, paying attention to any notes specific to Windows or Mac, depending on your operating system.
+> **Follow the below instructions in order**, paying attention to any notes specific to your operating system.
+
+---
 
 ## Get Started
 
-- Close any open terminal windows.
+- **_Close any open terminal windows!!!_**
 - Download [VSCode](https://code.visualstudio.com/download) and install.
-
-### Windows Users
-
 - If this window displays during set up, be sure the following boxes are selected
 ![VSCode](../vscode.png)
 
+> _These next instructions have a **very specific** order for Windows Users_. Please read carefully.
+
 - Open VSCode
-- Install the Remote WSL Extension. To do this:
-  - On the bottom left hand side you will see a settings ("gear") icon. 
-  - Click this, then click "Extensions".
-  - A side-bar will slide out and at the top you can search for extensions.
-  - Click "install" on the extension you want.
+- On the bottom left hand side you will see a settings ("gear") icon.
+- Click this, then select "Extensions".
+- A side-bar will slide out and at the top you can search for extensions.
+- Search for "Remote WSL" and click the "Install" button
 - Close VSCode
 - Re-open your terminal
 - Run the following command in your terminal:
@@ -27,11 +27,15 @@ Now it's time to install VSCode Text Editor, a sophisticated text editor for cod
 - Once that is complete, run the following command in your terminal to launch VSCode with Remote WSL:
   - `code .`
 
-### Install Additional VSCode Extensions
+---
 
-We'll now be adding some functionality to your new code editor!
+### Install Additional Required VSCode Extensions
 
-Install the following extensions:
+We'll now be adding some functionality to your new code editor with a few more extensions.
+
+Just as you did before, search for and install the following extensions:
+
+(_You will not need to close VSCode or your terminal in between each one, that step was specific to Remote WSL._)
 
 - liveserver
 - ESLint
