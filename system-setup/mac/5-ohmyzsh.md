@@ -29,13 +29,13 @@ In your terminal, run:
 
 ## Install Oh My Zsh
 
-The following is pulled from [Oh My Zsh.](https://ohmyz.sh/)
+The following instructions are pulled from [Oh My Zsh.](https://ohmyz.sh/)
 
 Run the following command in your terminal:
 
 - `sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
   - **NOTE:** You may get a questions asking if you want to update your terminal to `zsh`.
-  - **Say `yes` to this.** If any warnings or errors occur, be sure to complete what is being suggested or get help.
+  - **Select `yes` for this.** If any warnings or errors occur, be sure to complete what is being suggested or get help.
 
 > _AT THIS POINT YOU **`MUST`** RESTART YOUR TERMINAL_
 >
@@ -90,11 +90,10 @@ Re-open your terminal and run the command to verify everything is still set up c
 
 ## Bookmark
 
-Bookmark these site to reference later through other classes as needed.
+Bookmark these sites to reference later through other classes as needed:
 
-Lots of customization avaliable on their [github repo.](https://github.com/ohmyzsh/ohmyzsh/)
-
-This is a link to a [cheatsheet.](https://github.com/ohmyzsh/ohmyzsh/wiki/Cheatsheet)
+- Lots of customization avaliable on their [github repo.](https://github.com/ohmyzsh/ohmyzsh/)
+- This is a link to a [cheatsheet.](https://github.com/ohmyzsh/ohmyzsh/wiki/Cheatsheet)
 
 ---
 
