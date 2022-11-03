@@ -1,6 +1,6 @@
 # Code 301 Setup
 
-For Code 301, we'll need some additional applications and utilities installed, including the Mongo database and getting your code challenges repository created and operational
+For Code 301, we'll need some additional applications and utilities installed, including the MongoDB database and getting your code challenges repository created and operational
 
 > NOTE: Before continuing on, please [verify](../system-setup/11-verify) that your system has the core developer tools properly configured and installed. **Do not move ahead until verification has been completed.**
 
@@ -8,4 +8,4 @@ For Code 301, we'll need some additional applications and utilities installed, i
 
 ---
 
-### [⇐ Previous](../README.md) | [Next ⇒](./1-heroku.md)
+### [⇐ Previous](./README) | [Next ⇒](./1-database)

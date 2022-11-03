@@ -63,52 +63,28 @@ sudo service mongod start
 Now, let's make sure we can connect to the MongoDB server. Run this command:
 
 ```bash
-mongo
+mongosh
 ```
 
 You should see something similar to the following:
 
 ```bash
-MongoDB shell version v4.4
-connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&gssapiServiceName=mongodb
-Implicit session: session { "id" : UUID("854a9ce2-a75d-499c-bb51-5c6c7f57a4fd") }
-MongoDB server version: 4.4
-Server has startup warnings:
-2020-06-12T15:53:07.715-0700 I  STORAGE  [initandlisten]
-2020-06-12T15:53:07.715-0700 I  STORAGE  [initandlisten] ** WARNING: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine
-2020-06-12T15:53:07.715-0700 I  STORAGE  [initandlisten] **          See http://dochub.mongodb.org/core/prodnotes-filesystem
-2020-06-12T15:53:08.206-0700 I  CONTROL  [initandlisten]
-2020-06-12T15:53:08.206-0700 I  CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
-2020-06-12T15:53:08.206-0700 I  CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
-2020-06-12T15:53:08.206-0700 I  CONTROL  [initandlisten]
-2020-06-12T15:53:08.214-0700 I  CONTROL  [initandlisten]
-2020-06-12T15:53:08.214-0700 I  CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.
-2020-06-12T15:53:08.214-0700 I  CONTROL  [initandlisten] **        We suggest setting it to 'never'
-2020-06-12T15:53:08.214-0700 I  CONTROL  [initandlisten]
+Current Mongosh Log ID: 63604c9f419a468d5c5fd283
+Connecting to:  mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+1.5.4
+Using MongoDB:  6.0.0
+Using Mongosh:  1.5.4
 
----
-
-Enable MongoDB's free cloud-based monitoring service, which will then receive and display
-metrics about your deployment (disk utilization, CPU, operation statistics, etc).
-
-The monitoring data will be available on a MongoDB website with a unique URL accessible to you
-and anyone you share the URL with. MongoDB may use this information to make product
-improvements and to suggest MongoDB products and deployment options to you.
-
-To enable free monitoring, run the following command: db.enableFreeMonitoring()
-To permanently disable this reminder, run the following command: db.disableFreeMonitoring()
-
----
+For mongosh info see: https://docs.mongodb.com/mongodb-shell/
 
 >
 ```
 
-The `>` at the bottom is what you're really looking for. It's a prompt that lets you know you are connected with the **mongo client** to your running **mongo server**
+The `>` at the bottom is what you're really looking for. It's a prompt that lets you know you are connected with the **mongosh client** to your running **MongoDB server**
 
-Take a screen shot of your terminal when you type in `mongo`. You will submit this screen shot along with your other computer set-up screen shots for this assignment.
+Take a screen shot of your terminal when you type in `mongosh`. You will submit this screen shot along with your other computer set-up screen shots for this assignment.
 
 Type `exit` to return to your bash shell. MongoDB is successfully installed.
 
 ---
 
-### [⇐ Previous](./1-heroku) | [Next ⇒](./3-code-challenges)
+### [⇐ Previous](./) | [Next ⇒](./2-code-challenges)
