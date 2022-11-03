@@ -92,7 +92,7 @@ Re-open your terminal and run the command to verify everything is still set up c
 
 Bookmark these sites to reference later through other classes as needed:
 
-- Lots of customization avaliable on their [github repo.](https://github.com/ohmyzsh/ohmyzsh/)
+- Lots of customization available on their [Github repo.](https://github.com/ohmyzsh/ohmyzsh/)
 - This is a link to a [cheatsheet.](https://github.com/ohmyzsh/ohmyzsh/wiki/Cheatsheet)
 
 ---
