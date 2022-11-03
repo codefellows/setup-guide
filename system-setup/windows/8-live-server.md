@@ -6,6 +6,8 @@ This is a simulated website development server with live reload capability. This
 
 ## Verify if live-server is already installed
 
+**_If this is your first time going through the setup guide on your current machine, skip this "Verify" section and move on to the "Install" section below_**
+
 In your terminal, run:
 
 - `live-server --version`
@@ -19,7 +21,6 @@ In your terminal, run:
 > Continue to the [next page](./9-eslint.md)
 >
 > ---
->
 > **else if** the output is not similar to the above:
 >
 > Continue with instructions on this page.
