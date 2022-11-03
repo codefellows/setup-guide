@@ -12,7 +12,7 @@ In your terminal, run:
 
 - `node --version`
 
-> **If** output is this version or higher:
+> **IF** the output is this version or higher:
 >
 > ```text
 > v17.8.0
@@ -21,7 +21,7 @@ In your terminal, run:
 > Continue to [next page](./7-live-server.md)
 >
 > ---
->**Else if** output is not similar to the above:
+>**else if** the output is not similar to the above:
 >
 > Continue with instructions on this page.
 
@@ -40,8 +40,12 @@ It will take a minute for the download and installation process to complete.
 After restarting, verify your Node.js version by running the command:
 
 - `node --version`
-  - Expected output should be this version or higher:
-  - `v17.8.0`
+
+Expected output should be this version or higher:
+
+> ```text
+> v17.8.0
+> ```
 
 Verify that Node.js is working:
 

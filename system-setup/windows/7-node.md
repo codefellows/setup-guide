@@ -40,8 +40,12 @@ It will take a minute for the download and installation process to complete.
 After restarting, verify your Node.js version by running the command:
 
 - `node --version`
-  - Expected output should be this version or higher:
-  - `v17.8.0`
+
+Expected output should be this version or higher:
+
+> ```text
+> v17.8.0
+> ```
 
 Verify that Node.js is working:
 
