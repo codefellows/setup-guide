@@ -1,5 +1,23 @@
 # Git
 
+## Verify if Git & GitHub are already installed:
+
+- In your terminal, run: `git config --list`
+- **Note**: To exit the git config --list screen, type the letter `q` in your terminal
+  - *If the output is similar to:*
+
+    - ```bash
+      user.name=[Your name is here]
+      user.email=[Your email is here]
+      code.editor=code --wait
+      init.defaultbranch=main
+      ```
+
+    - Then move on to [next page](./5-tree.md)
+  - *If output is not similar to the above*, continue with instructions on this page.
+
+---
+
 ## Install and Configure Git and GitHub
 
 Run the following command to ensure that you have the most recent version of `git`:

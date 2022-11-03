@@ -21,3 +21,4 @@ Once the script finishes executing, you'll have a fully updated Ubuntu Linux OS 
 ---
 
 ### [⇐ Previous](./4-git.md) | [Thats all. Back To the Beginning](../README.md)
+

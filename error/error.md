@@ -1,6 +1,9 @@
-# Error
+# Handling Errors
 
 Getting a weird error or something unexpected?
 
-<!-- Point Students to Virtual Lab to get TA assistance -->
-- See course syllabus for to connect to Virtual Lab. Instructions to connect to lab and how to set up ticket queue also in syllabus. Submit a ticket to get TA assistance.
+The frist step is to double-check that you are following the instructions carefully. It's ok to try again. 
+
+If you continue to get an error, check your course syllabus for how to get in touch with your instructor or TAs. 
+
+Don't hesitate to reach out! Many issues can be resolved very quickly by those who have been through this process before. Most people need a little assistance with this process at one point or another. 

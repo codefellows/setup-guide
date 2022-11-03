@@ -102,3 +102,4 @@ EOT
 sudo systemctl restart bind9
 sudo systemctl enable bind9
 sudo ufw allow 53
+

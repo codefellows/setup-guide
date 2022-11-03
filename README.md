@@ -1,27 +1,28 @@
 # Computer Setup Instructions
 
-Whether you are starting class, needing to set up a new system, or re-install proper config on an existing system, these steps will walk you through what is needed.
+Whether you are starting class, needing to set up a new system, or re-install proper config on an existing system, these steps will walk you through how to prepare your computer for technical coursework.
 
 **This setup should be done in a single session.**  Please allow a minimum of **1** hour to complete.
 
-> You do not need to understand what this process is doing. This is a vital step that will allow you to use technologies required throughout the curriculum.
+You do not need to understand what is happening in each step of this process. Getting everything configured correctly is a vital step that will allow you to use the technologies required throughout the curriculum.
 
-*NOTE: During this process, you will be required to download a few files.  For this setup process please **right-click** on links to **open in a new tab** when asked to download and install.  This is so you don't lose your place.*
+*NOTE: During this process, you will be required to download a few files. For this setup process please **right-click** on links to **open in a new tab** when asked to download and install.  This is so you don't lose your place.*
 
-Please follow the correct path below, based on the course that you are registered for:
+Get started by selecting the appropriate starting point below. 
 
-## Path 1 - For students registered in `Code-102`, `Code-201`, `Code-301`, or `Code-401` only
+## Software Development Courses
 
-### Begin by selecting your Operating System
+Begin by selecting your operating system:
 
+- Configure [macOS](./system-setup/mac/README.md)
+- Configure [Ubuntu Linux](./system-setup/linux/README.md)
+- Configure [Windows 10](./system-setup/windows/windows-10.md)
+- Configure [Windows 11](./system-setup/windows/windows-11.md)
 
-[MacOS](./system-setup/README.md) | [Ubuntu Linux](./system-setup/README.md) | [Windows 10](./windows/windows-10.md) | [Windows 11](./windows/windows-11.md)
+## Ops and Cybersecurity Courses 
 
+- Configure [all operating systems](./ops-setup/1-network.md)
 
-## Path 2 - For students registered for `Ops-102`, `Ops-201`, `Ops-301`, or `Ops-401` only 
-
-[Ops setup all operating systems](./ops-setup/1-network.md)
-
-## Errors
+## Errors and Troubleshooting
 
 If ever you encounter an error or unexplained activity, please consult the [error documentation](./error/error.md)

@@ -2,14 +2,26 @@
 
 Homebrew is a tool that simplifies installing applications on your machine. Think of it like an app store for your computer.
 
+---
+
+## Verify if Homebrew is already installed
+
+- In your terminal, run: `brew --version`
+  - _If output is similar to:_ `Homebrew 3.4.11`
+    - Run: `brew update` to get latest updates
+    - Move on to [next page](./4-git.md)
+  - _If output is not similar to the above_, continue with instructions on this page.
+
+---
+
 1. In your terminal, enter the following command:
    - `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
-   - You will be prompted several times along the way. Enter your password when prompted, accept all the defaults, say "Yes" if prompted.
+   - You will be prompted several times along the way. Enter your password when prompted, accept all the defaults, say "Yes" if prompted. (**_Note:_** _You will not have any visual feedback on your screen as you type. It is protecting your password by not displaying ANYTHING at all to the screen, but it is registering your key strokes._)
    - **MAC Users**
      - You will likely be prompted to install XCode command line tools. Say "Yes".
      - When it completes, follow the "Next steps:" instructions, which should be:
-       - ```echo 'eval "$(`which brew` shellenv)"' >> $HOME/.zprofile```
-       - ```eval "$(`which brew` shellenv)"```
+       - `` echo 'eval "$(`which brew` shellenv)"' >> $HOME/.zshrc ``
+       - `` eval "$(`which brew` shellenv)" ``
    - **Linux and Windows Users**
      - Once the main installation finishes (could take up to 30 minutes), enter these commands, one at a time in your terminal:
        - `test -d ~/.linuxbrew && eval $(~/.linuxbrew/bin/brew shellenv)`
@@ -18,7 +30,7 @@ Homebrew is a tool that simplifies installing applications on your machine. Thin
 
 Once the installation has completed, **run:**
 
- `brew doctor`
+`brew doctor`
 
 **if** return output is:
 
@@ -38,15 +50,19 @@ working fine: please don't worry or file an issue; just ignore this. Thanks!
 
 `brew update`
 
-**else if**  return output is:
+**else if** return output is:
 
 ```bash
 brew: command not found
-
-(or any other errors)
 ```
 
-**then** [click here](../error/error.md) do not continue with the following steps until you have Homebrew properly installed
+**then** run these commands (if you're on a Windows or Linux system)
+
+1. `echo 'export BREW_HOME="/home/linuxbrew/.linuxbrew/bin"' >> $HOME/.zshrc`
+1. `echo 'export PATH="$PATH:$BREW_HOME"' >> $HOME/.zshrc`
+1. `reset`
+
+> **If `brew update` still fails to run, [click here](../error/error.md) and do not continue with the following steps until you have Homebrew properly installed**
 
 ## Install "gcc" (Windows Users Only)
 

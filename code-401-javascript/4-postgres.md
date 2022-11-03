@@ -27,8 +27,8 @@ pg_ctl -D /home/linuxbrew/.linuxbrew/var/postgres start
 Note that the postgres server will not automatically re-start after your computer reboots, so you'll need to re-run that command anytime you restart or if your clients are unable to connect. To make that easier, we can create an **alias** so that you can do that with a single command. Run this command to create the alias:
 
 ```bash
-echo 'alias pgstart="pg_ctl -D /home/linuxbrew/.linuxbrew/var/postgres start"' >> ~/.profile
-echo 'alias pgstop="pg_ctl -D /home/linuxbrew/.linuxbrew/var/postgres stop"' >> ~/.profile
+echo 'alias pgstart="pg_ctl -D /home/linuxbrew/.linuxbrew/var/postgres start"' >> ~/.zshrc
+echo 'alias pgstop="pg_ctl -D /home/linuxbrew/.linuxbrew/var/postgres stop"' >> ~/.zshrc
 ```
 
 From this point onward, you can simply run `pgstart` or `pgstop` to start and stop your postgres server
@@ -73,4 +73,4 @@ Type `\q` to exit the postgres client application and return to your bash shell.
 
 ---
 
-### [⇐ Previous](./3-aws.md)  | [Home ⇒](./)
+### [⇐ Previous](./3-aws.md) | [Home ⇒](./)

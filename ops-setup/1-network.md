@@ -1,11 +1,12 @@
 # Ops Setup
 
-## Network Connectivity
+Your first step is ensure that your lab PC is connected to the internet, so you can update the operating system.
 
-First, check that your lab PC is connected to your home network via ethernet or Wi-Fi. Then, use the Ubuntu desktop GUI to update the Ubuntu OS to the latest version.
+## OS Updates
 
-- On the back of the lab kit PC, on its I/O shield, you'll find the ethernet port. If you need an ethernet cable, check the packaging for your SOHO router and use the included cable. Plug the cable into the back of the PC and run it to your home router/modem.
-- Alternatively, try the included wi-fi adapter (antenna with USB).
+Verify that your lab PC is connected to the internet via ethernet or Wi-Fi. Opening a web browser on your PC should let you access usual web pages.
+
+Then, use the Ubuntu desktop GUI to update the OS to the latest version. This may take some time, depending on what updates are available. 
 
 ---
 
