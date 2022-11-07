@@ -5,7 +5,6 @@
 Run the following set of commands:
 
 ```bash
-heroku --version
 mongod --version
 mongo --version
 eslint --version
@@ -14,8 +13,6 @@ eslint --version
 You output should resemble the following, with your version numbers likely being different:
 
 ```bash
-heroku/7.60.2 darwin-x64 node-v14.19.0
-
 db version v4.4.1
 Build Info: {
     "version": "4.4.1",
