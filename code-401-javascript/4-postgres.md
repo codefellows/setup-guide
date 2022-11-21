@@ -11,7 +11,7 @@ Postgres comes in 2 parts, a **client** and a **server** ... the **server** runs
 Open your terminal, and run this command to install the Postgres client and server
 
 ```bash
-brew install postgresql
+brew install postgresql@14
 ```
 
 This will take a short time to complete. Once it does, you'll need to "start" the postgres server so that we can make sure **clients** can connect. How we do this is slightly different for each operating system.
@@ -21,25 +21,21 @@ This will take a short time to complete. Once it does, you'll need to "start" th
 Run this command to start the server
 
 ```bash
-pg_ctl -D /home/linuxbrew/.linuxbrew/var/postgres start
+pg_ctl -D /home/linuxbrew/.linuxbrew/var/postgresql start
 ```
 
 Note that the postgres server will not automatically re-start after your computer reboots, so you'll need to re-run that command anytime you restart or if your clients are unable to connect. To make that easier, we can create an **alias** so that you can do that with a single command. Run this command to create the alias:
 
 ```bash
-echo 'alias pgstart="pg_ctl -D /home/linuxbrew/.linuxbrew/var/postgres start"' >> ~/.zshrc
-echo 'alias pgstop="pg_ctl -D /home/linuxbrew/.linuxbrew/var/postgres stop"' >> ~/.zshrc
+echo 'alias pgstart="pg_ctl -D /home/linuxbrew/.linuxbrew/var/postgresql start"' >> ~/.zshrc
+echo 'alias pgstop="pg_ctl -D /home/linuxbrew/.linuxbrew/var/postgresql stop"' >> ~/.zshrc
 ```
 
 From this point onward, you can simply run `pgstart` or `pgstop` to start and stop your postgres server
 
 ### Mac Users
 
-On Mac, we start the postgres server in such a way as to have it run right away, and also re-start itself whenever you restart your computer.
-
-Run this command to enable postgres:
-
-`brew services start postgres`
+Postgresql 14 automatically starts in the background after installation, and whenever your computer reboots.
 
 ### Linux Users
 
