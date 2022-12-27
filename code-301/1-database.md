@@ -29,6 +29,8 @@ brew services start mongodb-community
 
 ### Windows/WSL Users
 
+> Note: Because of ongoing WSL2 changes, local install may not simply work.  If this is the case, your instructor will have an online option they will share in class. If your MongoDB installation does not work after the first attempt, take a screen shot of the terminal to submit in place of the `mongosh` validation (mentioned below), and *move forward without local MongoDB installation.* 
+
 **Complete the following sections of [Microsoft's directions](https://docs.microsoft.com/en-us/windows/wsl/tutorials/wsl-database#install-mongodb{:target="_blank"}).**
 
 - [Install MongoDB](https://docs.microsoft.com/en-us/windows/wsl/tutorials/wsl-database#install-mongodb){:target="_blank"}
