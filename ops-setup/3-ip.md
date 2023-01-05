@@ -9,4 +9,4 @@ Keep track of your IP address.
 
 ---
 
-### [⇐ Previous](./2-update.md) | [Next ⇒](./4-git.md)
+### [⇐ Previous](./2-rdp.md) | [Next ⇒](./4-git.md)
