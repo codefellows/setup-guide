@@ -17,4 +17,4 @@ Run each of these commands in your terminal:
 
 ---
 
-### [⇐ Previous](./3-ip.md) | [Next ⇒](./6-display.md)
+### [⇐ Previous](./3-ip.md) | [Next ⇒](./5-git.md)
