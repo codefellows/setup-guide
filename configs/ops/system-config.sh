@@ -9,8 +9,10 @@ gsettings set org.gnome.desktop.screensaver lock-enabled false
 gsettings set org.gnome.desktop.interface gtk-theme 'Adwaita-dark'
 
 # Auto-open gnome-terminal upon login
+mkdir ~/.config/autostart/
+touch ~/.config/autostart/gnome-terminal.desktop
 sudo cat <<EOL >> ~/.config/autostart/gnome-terminal.desktop
-"[Desktop Entry]
+[Desktop Entry]
 Type=Application
 Exec=gnome-terminal
 Hidden=false
@@ -19,7 +21,7 @@ X-GNOME-Autostart-enabled=true
 Name[en_NG]=Terminal
 Name=Terminal
 Comment[en_NG]=Start Terminal On Startup
-Comment=Start Terminal On Startup"
+Comment=Start Terminal On Startup
 EOL
 
 # Set Favorite Apps
