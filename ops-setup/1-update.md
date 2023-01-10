@@ -24,4 +24,4 @@ Next we are going to make sure that all of the software packages and the operati
 
 ---
 
-### [⇐ Previous](../README.md) | [Next ⇒](./2-update.md)
+### [⇐ Previous](../README.md) | [Next ⇒](./2-rdp.md)
