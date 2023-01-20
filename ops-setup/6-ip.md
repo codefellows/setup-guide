@@ -10,6 +10,11 @@ Keep track of your IP address.
    - If you wrote down `127.0.0.1` as your IP address, that's not quite right. Re-read the link above and look a little closer.
 > If you're really having trouble identifying the IPv4 address from the output of `ip a`, trying running the `hostname -I` command.
 
+## Optional: Establish Remote Connection
+At this point you should be able to use RDP to connect from your home computer to your lab computer, if you wish. Or feel free to continue working directly on your lab machine.
+
+If you encounter trouble establishing a connection, just continue to the next step.
+
 ---
 
-### [⇐ Previous](./2-rdp.md) | [Next ⇒](./4-virtualbox.md)
+### [⇐ Previous](./5-system.md) | [Next ⇒](./7-wrapup.md)
