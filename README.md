@@ -21,7 +21,7 @@ Begin by selecting your operating system:
 
 ## Ops and Cybersecurity Courses
 
-- Configure [all operating systems](./ops-setup/1-network.md)
+- Configure [all operating systems](./ops-setup/1-update.md)
 
 ## Errors and Troubleshooting
 

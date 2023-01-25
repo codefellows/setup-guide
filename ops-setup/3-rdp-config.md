@@ -1,16 +1,32 @@
 # Ops Setup
 
+## RDP Config
+
 Adjust settings for RDP (Remote Desktop Protocol). These steps will make your remote-connection sessions easier.
 
-## RDP Config
+### Get regular gnome experience over RDP
+Copy and run each of these commands in the terminal:
+
+```bash
+sudo sed -i '4 i\export XDG_CURRENT_DESKTOP=ubuntu:GNOME' /etc/xrdp/startwm.sh
+```
+```bash
+sudo sed -i '4 i\export GNOME_SHELL_SESSION_MODE=ubuntu' /etc/xrdp/startwm.sh
+```
+```bash
+sudo sed -i '4 i\export DESKTOP_SESSION=ubuntu' /etc/xrdp/startwm.sh```
+```
 
 ### Remove "color profile authentication" popup in XRDP
 
-Copy this entire block of commands, and paste it into your terminal to run all at once:
+Run this command:
 
 ```bash
 sudo touch /etc/polkit-1/localauthority/50-local.d/45-allow-colord.pkla
-sudo cat >> /etc/polkit-1/localauthority/50-local.d/45-allow-colord.pkla <<EOL```
+```
+Then copy this entire block of commands, and paste it into your terminal to run all at once:
+```bash
+sudo cat <<EOL | sudo tee /etc/polkit-1/localauthority/50-local.d/45-allow-colord.pkla
 [Allow Colord all Users]
 Identity=unix-user:*
 Action=org.freedesktop.color-manager.create-device;org.freedesktop.color-manager.create-profile;org.freedesktop.color-manager.delete-device;org.freedesktop.color-manager.delete-profile;org.freedesktop.color-manager.modify-device;org.freedesktop.color-manager.modify-profile
@@ -20,14 +36,13 @@ ResultActive=yes
 EOL
 ```
 
-Then run: `sudo rm /var/crash`
 
-## Remove “Authentication required to refresh system repositories” popup on login via XRDP
+### Remove “Authentication required to refresh system repositories” popup on login via XRDP
 
 Copy this entire block of commands, and paste it into your terminal to run all at once:
 
 ```bash
-sudo cat >> /etc/polkit-1/localauthority/50-local.d/46-allow-update-repo.pkla <<EOL
+sudo cat <<EOL | sudo tee /etc/polkit-1/localauthority/50-local.d/46-allow-update-repo.pkla
 [Allow Package Management all Users]
 Identity=unix-user:*
 Action=org.freedesktop.packagekit.system-sources-refresh
@@ -38,4 +53,4 @@ EOL
 ```
 ---
 
-### [⇐ Previous](./7-applications.md) | [Next ⇒](./9-wrapup.md)
+### [⇐ Previous](./2-rdp.md) | [Next ⇒](./4-virtualbox.md)
