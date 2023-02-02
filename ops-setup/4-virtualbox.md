@@ -22,6 +22,8 @@ sudo apt install virtualbox -y
 sudo apt install virtualbox-ext-pack -y
 ```
 
+> N.B. Installing the extension pack will launch a special installer box within the Terminal which will require you to confirm your choice. If you can't use your arrows to navigate this box, try using \<Tab\> to change your selection and \<Space\> to mark or un-mark a selection.
+
 ### Create a shortcut to Virtualbox
 ```bash
 gsettings set org.gnome.shell favorite-apps "$(gsettings get org.gnome.shell favorite-apps | sed s/.$//), 'virtualbox.desktop']"
