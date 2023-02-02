@@ -55,4 +55,4 @@ EOL
 ```
 ---
 
-### [⇐ Previous](./2-rdp.md) | [Next ⇒](./4-virtualbox.md)
+### [⇐ Previous](./2-remote-access.md) | [Next ⇒](./4-virtualbox.md)
