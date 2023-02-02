@@ -4,6 +4,8 @@
 
 Adjust settings for RDP (Remote Desktop Protocol). These steps will make your remote-connection sessions easier.
 
+>  N.B. Some of these commands run silently! If they execute successfully they will not return anything to the screen. If they fail then you should receive an error message.
+
 ### Get regular gnome experience over RDP
 Copy and run each of these commands in the terminal:
 
@@ -14,7 +16,7 @@ sudo sed -i '4 i\export XDG_CURRENT_DESKTOP=ubuntu:GNOME' /etc/xrdp/startwm.sh
 sudo sed -i '4 i\export GNOME_SHELL_SESSION_MODE=ubuntu' /etc/xrdp/startwm.sh
 ```
 ```bash
-sudo sed -i '4 i\export DESKTOP_SESSION=ubuntu' /etc/xrdp/startwm.sh```
+sudo sed -i '4 i\export DESKTOP_SESSION=ubuntu' /etc/xrdp/startwm.sh
 ```
 
 ### Remove "color profile authentication" popup in XRDP
