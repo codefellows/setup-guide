@@ -4,7 +4,7 @@
 
 As part of the 401 Curriculum and beyond, you'll be using various cloud service providers to deploy code. Here, we'll install the AWS command line tools
 
-> Optionally, you may go to <https://aws.amazon.com> and create an account. While you will not be charged, Amazon will want a Credit Card as validation. You will get $200 in free usage credits when you create your account
+> Optionally, you may go to <https://aws.amazon.com> and create an account. While you will not be charged, Amazon will want a Credit Card as validation. You will get $200 in free usage credits when you create your account.  It is highly recommended that you [setup Billing and Cost Alerts](https://www.codefellows.org/blog/aws-without-breaking-the-bank){:target="_blank"} in your AWS account so that you do not incur unexpected charges.
 
 1. Install the AWS CLI tools, by running this command in your terminal:
    - `brew install awscli`
