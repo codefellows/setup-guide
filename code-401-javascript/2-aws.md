@@ -15,6 +15,7 @@ As part of the 401 Curriculum and beyond, you'll be using various cloud service 
    ```bash
    aws-cli/2.0.19 Python/3.8.3 Linux/4.19.104-microsoft-standard botocore/2.0.0dev23
    ```
+
 1. Install the Elastic Beanstalk CLI tools, by running this command in your terminal:
    - `brew install awsebcli`
 1. Confirm proper installation
@@ -27,4 +28,4 @@ As part of the 401 Curriculum and beyond, you'll be using various cloud service 
 
 ---
 
-### [⇐ Previous](./2-netlify.md) | [Next ⇒](./4-postgres.md)
+### [⇐ Previous](./1-httpie.md) | [Next ⇒](./3-postgres.md)
