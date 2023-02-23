@@ -9,8 +9,6 @@ Second, we will install `xrdp`, which uses the Remote Desktop Protocol (often sh
 
 Finally, we will configure the firewall to allow this network traffic.
 
-
-
 ### Install The `ssh` Software Package:
 ```bash
 sudo apt install ssh -y
