@@ -30,4 +30,4 @@ sudo apt upgrade
 
 ---
 
-### [⇐ Previous](../README.md) | [Next ⇒](./2-rdp.md)
+### [⇐ Previous](../README.md) | [Next ⇒](./2-remote-access.md)
