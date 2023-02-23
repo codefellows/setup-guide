@@ -15,7 +15,7 @@ Finally, we will configure the firewall to allow this network traffic.
 ```bash
 sudo apt install ssh -y
 ```
-> N.B. The `-y` option bypasses an "Are you sure?" prompt.
+> Note: The `-y` option bypasses an "Are you sure?" prompt.
 
 ### Install The `xrdp` Software Package:
 ```bash
@@ -27,7 +27,7 @@ This will tell the computer to run `xrdp` whenever the computer boots up, ensuri
 ```bash
 sudo systemctl enable --now xrdp
 ```
-> N.B. `ssh` is enabled and started automatically when it is installed, so we do not need to enable it like this.
+> Note: `ssh` is enabled and started automatically when it is installed, so we do not need to enable it like this.
 
 ### Create Firewall Rules
 This instructs the firewall application to create rules allowing all traffic coming and going over network port 22 (used for SSH connections) and port number 3389 (used for RDP connections).
