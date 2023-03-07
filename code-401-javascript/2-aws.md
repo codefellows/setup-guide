@@ -7,7 +7,7 @@ As part of the 401 Curriculum and beyond, you'll be using various cloud service 
 1. Go to <https://aws.amazon.com> and create an account. While you will not be charged, Amazon will want a Credit Card as validation. You will get $200 in free usage credits when you create your account.  It is highly recommended that you [setup Billing and Cost Alerts](https://www.codefellows.org/blog/aws-without-breaking-the-bank){:target="_blank"} in your AWS account so that you do not incur unexpected charges.
     - You can create a "proxy" credit card at [privacy.com](privacy.com) and set a limit for charges, perhaps $1 for example.  This way you give specific permission for "how much" you might be charged; pairs well with the cost saving methods mentioned above.    
     - We will talk about AWS account security in class.  
-    - If in doubt, you can wait to install and please ensure installation before class 16.  Recommend signing up for privacy.com **now**.
+    - If in doubt, you can wait to create an AWS account. Please ensure account creation before class 16.  Please sign up for privacy.com **now** if you intend to utilize with AWS in class 16.  Privacy.com may take up to 48 hours to activate.
 
 1. Install the AWS CLI tools, by running this command in your terminal:
    - `brew install awscli`
