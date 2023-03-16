@@ -2,7 +2,7 @@
 
 ## Install The Postgres Database Server
 
-Postgres is an SQL (Relational) Database server that we will be using throughout Code 301 and also in some 401 level courses. In this step, we'll be installing Postgres on your system and preparing it for use.
+Postgres is an SQL (Relational) Database server that we will be using in some 401 level courses. In this step, we'll be installing Postgres on your system and preparing it for use.
 
 Postgres comes in 2 parts, a **client** and a **server** ... the **server** runs constantly, waiting for **clients** to connect to it so that they can store and retrieve data. The **server** does the actual management of the data. You'll get much deeper into the inner workings of these during your coursework.
 
@@ -14,7 +14,7 @@ Open your terminal, and run this command to install the Postgres client and serv
 brew install postgresql@14
 ```
 
-This will take a short time to complete. Once it does, you'll need to "start" the postgres server so that we can make sure **clients** can connect. How we do this is slightly different for each operating system.
+This will take a short time to complete. (If prompted to restart your computer, do that now.) Once installation is finished, you'll need to "start" the postgres server so that we can make sure **clients** can connect. How we do this is slightly different for each operating system.
 
 ### Linux and Windows Users
 
