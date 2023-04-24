@@ -1,6 +1,6 @@
 # Install VSCode Text Editor
 
-Now it's time to install VSCode Text Editor, a sophisticated text editor for code, markup, and prose.
+Now it's time to install the Visual Studio Code (VSCode) Text Editor, a sophisticated text editor for code, markup, and prose.
 
 > **Follow the below instructions in order**, paying attention to any notes specific to your operating system.
 
@@ -19,7 +19,7 @@ Now it's time to install VSCode Text Editor, a sophisticated text editor for cod
 - On the bottom left hand side you will see a settings ("gear") icon.
 - Click this, then select "Extensions".
 - A side-bar will slide out and at the top you can search for extensions.
-- Search for "Remote WSL" and click the "Install" button
+- Search for "WSL" and click the "Install" button
 - Close VSCode
 - Re-open your terminal
 - Run the following command in your terminal:
