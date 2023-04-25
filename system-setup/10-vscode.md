@@ -1,6 +1,6 @@
 # Install VSCode Text Editor
 
-Now it's time to install VSCode Text Editor, a sophisticated text editor for code, markup, and prose.
+Now it's time to install the Visual Studio Code (VSCode) Text Editor, a sophisticated text editor for code, markup, and prose.
 
 > **Follow the below instructions in order**, paying attention to any notes specific to Windows or Mac, depending on your operating system.
 
