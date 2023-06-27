@@ -11,10 +11,10 @@ In your terminal, run the following command to install Oh My Zsh:
 - `sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
 
 <details>
-  <summary>> <strong>CLICK HERE</strong> only if you see a message similar to: <img src="../../images/oh-my-zsh-verification.png" />
+  <summary><strong>CLICK HERE</strong> only if you see a message similar to: <img src="../../images/oh-my-zsh-verification.png" />
   </summary>
 
-  Congratulations! If you see this message in your terminal, it means Oh-My-Zsh is already installed. Continue to the <a href="./7-node.md">next page!</a>
+  Congratulations! If you see this message in your terminal, it means Oh-My-Zsh is already installed. Continue to the <a href="./7-node">next page!</a>
 </details>
 
 If you don't see a message in your terminal like the one above, continue with the setup steps.
@@ -29,16 +29,18 @@ Re-open your terminal and run the following command to verify everything is stil
 
 <details>
   <summary>
-  > <strong>CLICK HERE</strong> if the output is <code>Homebrew 3.5</code> or higher
+  <strong>CLICK HERE</strong> if the output is <code>Homebrew 3.5</code> or higher
   </summary>
 
-  You're ready to continue to the <a href="./7-node.md">next page.</a>
+  You're ready to continue to the <a href="./7-node">next page.</a>
 
 </details>
 
 <details>
   <summary>
-  > Otherwise <strong>CLICK HERE</strong> if you get an error such as <code>zsh: command not found: brew</code>
+  Otherwise <strong>CLICK HERE</strong> if you get an error such as:
+  
+  ```zsh: command not found: brew```
   </summary>
   Run the following commands:
 
