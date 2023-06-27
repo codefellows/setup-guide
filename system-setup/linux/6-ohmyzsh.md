@@ -21,10 +21,6 @@ If you don't see a message in your terminal like the one above, continue with th
 
 **NOTE:** You may get a questions asking if you want to update your terminal to `zsh`. **Select `yes` for this.** If any warnings or errors occur, be sure to complete what is being suggested or get help.
 
-> _AT THIS POINT YOU **`MUST`** RESTART YOUR TERMINAL_
-
----
-
 ## Confirming Setup
 
 Re-open your terminal and run the following command to verify everything is still set up correctly:
