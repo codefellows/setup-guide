@@ -11,15 +11,20 @@ In your terminal, run the following command to install Oh My Zsh:
 - `sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
 
 <details>
-  <summary>> <strong>CLICK HERE</strong> only if you see a message similar to: <img src="../../images/oh-my-zsh-verification.png" />
-  </summary>
+<summary>CLICK HERE only if you see a message similar to:
+<img src="../../images/oh-my-zsh-verification.png" />
+</summary>
 
-  Congratulations! If you see this message in your terminal, it means Oh-My-Zsh is already installed. Continue to the <a href="./7-node.md">next page!</a>
+Congratulations! If you see this message in your terminal, it means Oh-My-Zsh is already installed. Continue to the [next page!](./7-node.md)
 </details>
 
 If you don't see a message in your terminal like the one above, continue with the setup steps.
 
 **NOTE:** You may get a questions asking if you want to update your terminal to `zsh`. **Select `yes` for this.** If any warnings or errors occur, be sure to complete what is being suggested or get help.
+
+> _AT THIS POINT YOU **`MUST`** RESTART YOUR TERMINAL_
+
+---
 
 ## Confirming Setup
 
@@ -28,31 +33,32 @@ Re-open your terminal and run the following command to verify everything is stil
 - `brew --version`
 
 <details>
-  <summary>
-  > <strong>CLICK HERE</strong> if the output is <code>Homebrew 3.5</code> or higher
-  </summary>
+<summary>
+CLICK HERE if the output is <code>Homebrew 3.5</code> or higher
+</summary>
 
-  You're ready to continue to the <a href="./7-node.md">next page.</a>
-
+You're ready to continue to the [next page.](./7-node.md)
 </details>
 
+<br>
+
 <details>
-  <summary>
-  > Otherwise <strong>CLICK HERE</strong> if you get an error such as <code>zsh: command not found: brew</code>
-  </summary>
-  Run the following commands:
+<summary>
+Otherwise CLICK HERE if you get an error such as <code>zsh: command not found: brew</code>
+</summary>
+Run the following commands:
 
-- ```echo 'export BREW_HOME="/home/linuxbrew/.linuxbrew/bin"' >> $HOME/.zshrc```
-- ```echo 'export PATH="$PATH:$BREW_HOME"' >> $HOME/.zshrc```
-- ```reset```
+- `echo 'export BREW_HOME="/home/linuxbrew/.linuxbrew/bin"' >> $HOME/.zshrc`
+- `echo 'export PATH="$PATH:$BREW_HOME"' >> $HOME/.zshrc`
+- `reset`
 
-  Check again for confirmation with the command:
+Check again for confirmation with the command:
 
-  - ```brew --version```
+- `brew --version`
 
-  You should see `Homebrew 3.5` or higher
+You should see `Homebrew 3.5` or higher
 
-  **If you are still getting errors at this point, <a href="../../error/error.md">click here</a> and do not continue with the following steps until you have Oh-My-Zsh properly installed**
+**If you are still getting errors at this point, [click here](../../error/error.md) and do not continue with the following steps until you have Oh-My-Zsh properly installed**
 
 </details>
 
