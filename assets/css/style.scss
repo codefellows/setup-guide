@@ -80,3 +80,19 @@ a:hover, a:active {
     text-overflow: initial;
   }
 }
+
+/* Add interaction for <detail><summary> headings */
+summary {
+  cursor: pointer;
+}
+
+summary::before {
+  content: "˃";
+  display: inline-block;
+  margin-right: 0.5rem;
+  transition: transform 100ms ease-in-out;
+}
+
+details[open] summary::before {
+  transform: rotate(90deg);
+}
