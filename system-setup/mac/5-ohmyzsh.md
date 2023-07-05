@@ -11,11 +11,14 @@ In your terminal, run the following command to install Oh My Zsh:
 - `sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
 
 <details>
-  <summary>Click <strong>HERE</strong> only if you see a message similar to this image: <img src="../../images/oh-my-zsh-verification.png" />
+  <summary>Click <strong>HERE</strong> only if you see a message similar to this image:
   </summary>
 
   Congratulations! If you see this message in your terminal, it means Oh My Zsh is already installed. Continue to the <a href="./6-node">next page!</a>
 </details>
+
+ <img src="../../images/oh-my-zsh-verification.png" />
+ 
 
 If you don't see a message in your terminal like the one above, continue with the setup steps.
 
