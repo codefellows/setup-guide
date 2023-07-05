@@ -16,7 +16,7 @@ In your terminal, run the following command to install Oh My Zsh:
 
   Congratulations! If you see this message in your terminal, it means Oh My Zsh is already installed. Continue to the <a href="./7-node">next page!</a>
 </details>
-
+<img src="../../images/oh-my-zsh-verification.png" />
 If you don't see a message in your terminal like the one above, continue with the setup steps.
 
 **NOTE:** You may get a questions asking if you want to update your terminal to `zsh`. **Select `yes` for this.** If any warnings or errors occur, be sure to complete what is being suggested or get help.
