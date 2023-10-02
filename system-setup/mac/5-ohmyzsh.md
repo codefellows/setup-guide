@@ -18,7 +18,7 @@ In your terminal, run the following command to install Oh My Zsh:
 </details>
 
  <img src="../../images/oh-my-zsh-verification.png" />
- 
+
 
 If you don't see a message in your terminal like the one above, continue with the setup steps.
 
@@ -45,7 +45,7 @@ Re-open your terminal and run the following command to verify everything is stil
   Click <strong>HERE</strong> if the output is <code>Homebrew 3.5</code> or higher
   </summary>
 
-  You're ready to continue to the <a href="./6-node">next page.</a>
+  You're ready to continue to the <a href="./6-node.md">next page.</a>
 
 </details>
 
