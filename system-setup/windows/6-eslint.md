@@ -86,4 +86,4 @@ That is where you will clone repositories and do your work for labs in this cour
 
 ---
 
-### [⇐ Previous](./6-tree.md) | | [Next ⇒](../verify.md)
+### [⇐ Previous](./5-tree.md) | | [Next ⇒](../verify.md)

@@ -38,4 +38,4 @@ There are many other extensions to choose from that will make your coding life a
 
 ---
 
-### [⇐ Previous](./3-ohmyzsh.md) | [Next ⇒](./5-node.md)
+### [⇐ Previous](./2-gh.md) | [Next ⇒](./4-node.md)

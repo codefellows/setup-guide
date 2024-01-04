@@ -29,4 +29,4 @@ If not ... [head here](../../error/error.md)
 
 ---
 
-### [⇐ Previous](./6-tree.md) | [Next ⇒](./4-vscode.md)
+### [⇐ Previous](./3-vscode.md) | [Next ⇒](./5-tree.md)

@@ -51,4 +51,4 @@ Expected output should match this version, or higher:
 
 ---
 
-### [⇐ Previous](./5-node.md) | [Next ⇒](./7-eslint.md)
+### [⇐ Previous](./4-node.md) | [Next ⇒](./6-eslint.md)

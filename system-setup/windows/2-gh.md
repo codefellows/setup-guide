@@ -36,4 +36,4 @@ Your terminal should confirm that you have authenticated successfully:
 
 ![GitHub Authentication](./gh-auth.png)
 
-### [⇐ Previous](./1-gitbash.md) | [Next ⇒](./3-ohmyzsh.md)
+### [⇐ Previous](./1-gitbash.md) | [Next ⇒](./3-vscode.md)
