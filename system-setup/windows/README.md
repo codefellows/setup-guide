@@ -2,8 +2,8 @@
 
 The next series of steps will walk you through getting your system setup with the proper applications and settings.
 
-**OPEN YOUR UBUNTU TERMINAL** and let's get started!
+Let's get started!
 
 ---
 
-### [⇐ Previous](../../README.md) | [Next ⇒](./1-environment.md)
+### [⇐ Previous](../../README.md) | [Next ⇒](./1-gitbash.md)

@@ -86,4 +86,4 @@ That is where you will clone repositories and do your work for labs in this cour
 
 ---
 
-### [⇐ Previous](./8-live-server.md) | | [Next ⇒](./10-vscode.md)
+### [⇐ Previous](./5-tree.md) | | [Next ⇒](../verify.md)
