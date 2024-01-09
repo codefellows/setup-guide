@@ -11,7 +11,7 @@ Now it's time to install the Visual Studio Code (VSCode) Text Editor, a sophisti
 - Close any open terminal windows.
 - Download [VSCode](https://code.visualstudio.com/download) and install.
 - If this window displays during set up, be sure the following boxes are selected
-![VSCode](../vscode.png)
+  ![VSCode](../vscode.png)
 
 ---
 
@@ -37,4 +37,4 @@ There are many other extensions to choose from that will make your coding life a
 
 ---
 
-### [⇐ Previous](./9-eslint.md) | [Next ⇒](./11-verify.md)
+### [⇐ Previous](./9-eslint.md) | [Next ⇒](../verify.md)

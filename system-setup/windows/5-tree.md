@@ -20,11 +20,11 @@ In your terminal, run:
 
 > **IF** the output is this version or higher:
 >
-> ``` bash
-> tree v2.0.1 (c) 1996 - 2022 by Steve Baker, Thomas Moore, Francesc Rocher, Florian Sesser, Kyosuke Tokoro
+> ```bash
+> 0.6.7
 > ```
 >
-> Continue to the [next page](./6-ohmyzsh.md)
+> Continue to the [next page](./7-eslint.md)
 >
 > ---
 > **else if** the output is not similar to the above:
@@ -37,7 +37,7 @@ In your terminal, run:
 
 In your terminal, run:
 
-- `brew install tree`
+- `npm install -g tree-cli`
 
 Once it completes, verify `tree` is installed by running the command:
 
@@ -46,9 +46,9 @@ Once it completes, verify `tree` is installed by running the command:
 Expected output should match this version, or higher:
 
 > ```bash
-> tree v2.0.1 (c) 1996 - 2022 by Steve Baker, Thomas Moore, Francesc Rocher, Florian Sesser, Kyosuke Tokoro
+> 0.6.7
 > ```
 
 ---
 
-### [⇐ Previous](./4-git.md) | [Next ⇒](./6-ohmyzsh.md)
+### [⇐ Previous](./4-node.md) | [Next ⇒](./6-eslint.md)

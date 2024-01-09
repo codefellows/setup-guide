@@ -11,9 +11,9 @@ Now it's time to install the Visual Studio Code (VSCode) text editor, a sophisti
 - Close any open terminal windows.
 - Download [VSCode](https://code.visualstudio.com/download) and install.
 - If this window displays during set up, be sure the following boxes are selected.
-![VSCode](../vscode.png)
+  ![VSCode](../vscode.png)
 - Before launching the application, **move VSCode from your downloads folder to your applications folder**.
-- Launch The VS Code Application  .
+- Launch The VS Code Application .
 - Open the **Command Palette** (press ⌘+shift+p keys) and type 'shell command'.
 - Select the option that says: **Shell Command: Install 'code' command in PATH**.
 - Close VS Code and close your terminal.
@@ -42,4 +42,4 @@ There are many other extensions to choose from that will make your coding life a
 
 ---
 
-### [⇐ Previous](./8-eslint.md) | [Next ⇒](./10-verify.md)
+### [⇐ Previous](./8-eslint.md) | [Next ⇒](../verify.md)

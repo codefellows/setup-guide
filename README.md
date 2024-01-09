@@ -6,7 +6,7 @@ Whether you are starting class, needing to set up a new system, or re-install pr
 
 You do not need to understand what is happening in each step of this process. Getting everything configured correctly is a vital step that will allow you to use the technologies required throughout the curriculum.
 
-*NOTE: During this process, you will be required to download a few files. For this setup process please **right-click** on links to **open in a new tab** when asked to download and install.  This is so you don't lose your place.*
+*NOTE: During this process, you will be required to download a few files. For this setup process please **right-click** on links to **open in a new tab** when asked to download and install. This is so you don't lose your place.*
 
 Get started by selecting the appropriate starting point below.
 
@@ -16,8 +16,7 @@ Begin by selecting your operating system:
 
 - Configure [macOS](./system-setup/mac/README.md)
 - Configure [Ubuntu Linux](./system-setup/linux/README.md)
-- Configure [Windows 10](./system-setup/windows/windows-10.md)
-- Configure [Windows 11](./system-setup/windows/windows-11.md)
+- Configure [Windows](./system-setup/windows/README.md)
 
 ## Ops and Cybersecurity Courses
 

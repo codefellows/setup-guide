@@ -46,12 +46,6 @@ gsettings set org.gnome.shell favorite-apps "$(gsettings get org.gnome.shell fav
 ```bash
 gsettings set org.gnome.shell favorite-apps "$(gsettings get org.gnome.shell favorite-apps | sed s/.$//), 'files.desktop']"
 ```
-```bash
-gsettings set org.gnome.shell favorite-apps "$(gsettings get org.gnome.shell favorite-apps | sed s/.$//), 'virtualbox.desktop']"
-```
-```bash
-gsettings set org.gnome.shell favorite-apps "$(gsettings get org.gnome.shell favorite-apps | sed s/.$//), 'code.desktop']"
-```
 
 ### Set Gnome Terminal's Colors
 You may configure your terminal colors however you like. Start with this configuration as a default.
