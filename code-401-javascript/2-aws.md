@@ -4,7 +4,7 @@
 
 As part of the 401 Curriculum and beyond, you'll be using various cloud service providers to deploy code. Here, we'll sign up for AWS services and install the AWS command line tools
 
-1. Go to <https://aws.amazon.com> and create an account. While you will not be charged, Amazon will want a Credit Card as validation. You will get $200 in free usage credits when you create your account.  It is highly recommended that you take the necessary precautions so that you do not experience charges to your account.
+1. Go to <https://aws.amazon.com> and create an account. While you will not be charged, Amazon will want a Credit Card as validation. You will get $200 in free usage credits when you create your account. It is highly recommended that you take the necessary precautions so that you do not experience charges to your account.
    - [Understanding the "Free Tier" at AWS](https://aws.amazon.com/getting-started/hands-on/control-your-costs-free-tier-budgets){:target="_blank"}
    - [Setup Billing and Cost Alerts](https://www.codefellows.org/blog/aws-without-breaking-the-bank){:target="_blank"}
    - You can optionally create a "proxy" credit card at [privacy.com](https://privacy.com) and set a limit for charges, perhaps $1 for example.  This way you give specific permission for "how much" you might be charged; pairs well with the cost saving methods mentioned above.    
