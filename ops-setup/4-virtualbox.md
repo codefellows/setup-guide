@@ -9,7 +9,7 @@ Configure your lab PC as a host for virtual machines.
 
 Run each of these commands in your terminal:
 
-This command will add the repositor to allow for automatic updates.
+This command will add the repository to allow for automatic updates.
 ```bash
 sudo add-apt-repository "deb [arch=amd64] http://download.virtualbox.org/virtualbox/debian $(lsb_release -cs) contrib"
 ```
