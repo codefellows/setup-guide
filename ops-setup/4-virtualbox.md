@@ -5,15 +5,25 @@
 
 Configure your lab PC as a host for virtual machines.
 
-### Install Virtalbox using Apt 
+### Install Virtualbox
 
 Run each of these commands in your terminal:
 
+This command will add the repository to allow for automatic updates.
+```bash
+sudo add-apt-repository "deb [arch=amd64] http://download.virtualbox.org/virtualbox/debian $(lsb_release -cs) contrib"
+```
+
+This command will update the list of packages avaliable to you.
 ```bash
 sudo apt update
 ```
+
+NOTE: A good idea would be to type sudo apt install virtualbox– and hit tab to see the various VirtualBox versions available for installation – then select one of them by typing it completely.
+
+Installs VirtualBox 7.0
 ```bash
-sudo apt install virtualbox -y
+sudo apt install virtualbox-7.0 -y
 ```
 
 ### Add the Virtualbox Extension Pack
