@@ -5,7 +5,7 @@
 
 Configure your lab PC as a host for virtual machines.
 
-### Install Virtalbox
+### Install Virtualbox
 
 Run each of these commands in your terminal:
 
