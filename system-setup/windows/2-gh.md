@@ -5,7 +5,7 @@ Install the `gh` command line tool from GitHub
 ---
 
 1. Close any open **GitBash** windows you may have open.
-1. Navigate to the [GitHub CLI] download page.
+1. Navigate to the [GitHub CLI](https://cli.github.com/) download page.
 1. Click to download button.
 1. Once the installer downloads, open the file and follow the on-screen instructions.
 
