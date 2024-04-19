@@ -26,7 +26,7 @@ Run these commands and compare them with the expected output.
 - `code .`
   - Should open VS Code with your current folder contents
 
-If any of the above commands do not give you the expected output, get [assistance](../../error/error.md).
+If any of the above commands do not give you the expected output, get [assistance](../error/error.md).
 
 ---
 
@@ -38,8 +38,8 @@ Run the following command
 curl -Ls https://bit.ly/3qMWhbE | bash
 ```
 
-You should get a successful message. If instead you see `Something went wrong!`, look at the output carefully, and retry the steps in part 1 to begin troubleshooting. Get [assistance](../../error/error.md) as necessary.
+You should get a successful message. If instead you see `Something went wrong!`, look at the output carefully, and retry the steps in part 1 to begin troubleshooting. Get [assistance](../error/error.md) as necessary.
 
 ---
 
-### That's It! [Back To the Beginning](../../README.md)
+### That's It! [Back To the Beginning](../README.md)
