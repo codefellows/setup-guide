@@ -5,13 +5,13 @@ Install the `gh` command line tool from GitHub
 ---
 
 1. Close any open **GitBash** windows you may have open.
-1. Navigate to the [GitHub CLI](https://cli.github.com/) download page.
+1. Navigate to the [GitHub CLI](https://cli.github.com/){:target="_blank"} download page.
 1. Click to download button.
 1. Once the installer downloads, open the file and follow the on-screen instructions.
 
 ## Setup GitHub for "Authentication"
 
-In order to use Git locally in a secure manner, we need to connect our computer with github.com. (_For further information about this process, visit [GitHub Instructions: Caching GitHub credentials](https://docs.github.com/en/get-started/getting-started-with-git/caching-your-github-credentials-in-git)_)
+In order to use Git locally in a secure manner, we need to connect our computer with github.com. (_For further information about this process, visit [GitHub Instructions: Caching GitHub credentials](https://docs.github.com/en/get-started/getting-started-with-git/caching-your-github-credentials-in-git){:target="_blank"}_)
 
 Open the **GitBash** application.
 
